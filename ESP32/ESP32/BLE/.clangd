@@ -1,0 +1,5 @@
+Diagnostics:
+  Suppress:
+    - pp_file_not_found
+    - unused-includes
+    - misc-include-cleaner

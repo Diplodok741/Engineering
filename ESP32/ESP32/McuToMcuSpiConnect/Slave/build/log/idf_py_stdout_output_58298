@@ -1,0 +1,29 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/bin/python3.12 -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig '/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/sdkconfig'
+-- Found Git: /nix/store/m6zld27lmw422ca5zywhkq8kmlaf8inh-git-2.50.1/bin/git (found version "2.50.1")
+-- Minimal build - OFF
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /nix/store/y7qcrqigrbxivnm7lzav8fqy0mx44918-xtensa-esp-elf-esp-idf-v5.5.1/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /nix/store/y7qcrqigrbxivnm7lzav8fqy0mx44918-xtensa-esp-elf-esp-idf-v5.5.1/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /nix/store/y7qcrqigrbxivnm7lzav8fqy0mx44918-xtensa-esp-elf-esp-idf-v5.5.1/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+NOTICE: Manifest files have changed, solving dependencies.
+........HINT: Failed to solve dependencies. Here are some possible reasons:
+Component "t4v4res/st7735_driver" (requires in /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/idf_component.yml) has suitable versions for other targets:
+- 0.1.2: esp32c6
+Is your current target esp32 set correctly?
+Component "t4v4res/st7735_driver" (requires in /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/idf_component.yml) has suitable versions for other targets:
+- 0.1.2: esp32c6
+Is your current target esp32 set correctly?
+HINT: Please check manifest file of the following component(s): main
+-- Configuring incomplete, errors occurred!

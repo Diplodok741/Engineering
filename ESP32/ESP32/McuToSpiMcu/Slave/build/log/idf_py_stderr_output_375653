@@ -1,0 +1,48 @@
+Command: /nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf_monitor.py -p /dev/ttyUSB1 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/build/Slave.elf /home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/build/bootloader/bootloader.elf -m '/nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python' '/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf.py' '-p' '/dev/ttyUSB1'
+[0;33m--- esp-idf-monitor 1.7.0 on /dev/ttyUSB1 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x400da1a2: [0;33mget_prop_core[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_style.c[0m[0m:[1;31m810[0m
+[0m--- 0x4000c2e0: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x4000c2f6: [0;33mmemcpy[0m[0m in [0;32mROM[0m
+[0m--- 0x400da19f: [0;33mget_prop_core[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_style.c[0m[0m:[1;31m810[0m
+[0m--- 0x400da211: [0;33mget_selector_style_prop[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_style.c[0m[0m:[1;31m1161[0m
+[0m--- 0x400da5f6: [0;33mlv_obj_get_style_prop[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_style.c[0m[0m:[1;31m359[0m
+[0m--- 0x400d9169: [0;33mlv_obj_get_style_margin_bottom[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_style_gen.h[0m[0m:[1;31m204[0m
+[0m--- (inlined by) [0;33mlv_obj_get_scroll_bottom[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_scroll.c[0m[0m:[1;31m147[0m
+[0m--- 0x400d9946: [0;33mlv_obj_get_scrollbar_area[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_scroll.c[0m[0m:[1;31m482[0m
+[0m--- 0x400da048: [0;33mlv_obj_scrollbar_invalidate[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_scroll.c[0m[0m:[1;31m641[0m
+[0m--- 0x400d854b: [0;33mlv_obj_refr_size[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c[0m[0m:[1;31m218[0m
+[0m--- 0x400d8965: [0;33mlayout_update_core[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c[0m[0m:[1;31m1247[0m
+[0m--- 0x400d894a: [0;33mlayout_update_core[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c[0m[0m:[1;31m1242[0m
+[0m--- 0x400d89c4: [0;33mlv_obj_update_layout[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_pos.c[0m[0m:[1;31m321[0m
+[0m--- 0x400dcdc2: [0;33mlv_display_refr_timer[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m396[0m
+[0m--- 0x400e6995: [0;33mlv_timer_exec[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/misc/lv_timer.c[0m[0m:[1;31m327[0m
+[0m--- 0x400e6a3d: [0;33mlv_timer_handler[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/misc/lv_timer.c[0m[0m:[1;31m107[0m
+[0m--- 0x400d6c3c: [0;33mlvgl_port_task[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/espressif__esp_lvgl_port/src/lvgl9/esp_lvgl_port.c[0m[0m:[1;31m235[0m
+[0m--- 0x40087d85: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x40111a32: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111e48: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f1d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400dd81b: [0;33mlv_draw_add_task[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/draw/lv_draw.c[0m[0m:[1;31m105[0m
+[0m--- 0x400df5c9: [0;33mlv_draw_rect[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/draw/lv_draw_rect.c[0m[0m:[1;31m218[0m
+[0m--- 0x400f8525: [0;33mlv_obj_draw[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj.c[0m[0m:[1;31m710[0m
+[0m--- 0x400f8d7a: [0;33mlv_obj_event[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj.c[0m[0m:[1;31m965[0m
+[0m--- 0x4011cbad: [0;33mlv_obj_event_base[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_event.c[0m[0m:[1;31m92[0m
+[0m--- 0x400f9d09: [0;33mevent_send_core[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_event.c[0m[0m:[1;31m373[0m
+[0m--- 0x400f9e06: [0;33mlv_obj_send_event[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_obj_event.c[0m[0m:[1;31m69[0m
+[0m--- 0x400dc554: [0;33mlv_obj_redraw[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m125[0m
+[0m--- 0x400dc261: [0;33mlv_obj_refr[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m511[0m
+[0m--- 0x400dc840: [0;33mrefr_obj_and_children[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m1097[0m
+[0m--- 0x400dc996: [0;33mrefr_configured_layer[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m1061[0m
+[0m--- 0x400dcac4: [0;33mrefr_area[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m896[0m
+[0m--- 0x400dccd0: [0;33mrefr_invalid_areas[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m799[0m
+[0m--- 0x400dcdff: [0;33mlv_display_refr_timer[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/core/lv_refr.c[0m[0m:[1;31m413[0m
+[0m--- 0x400e6995: [0;33mlv_timer_exec[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/misc/lv_timer.c[0m[0m:[1;31m327[0m
+[0m--- 0x400e6a3d: [0;33mlv_timer_handler[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/lvgl__lvgl/src/misc/lv_timer.c[0m[0m:[1;31m107[0m
+[0m--- 0x400d6c3c: [0;33mlvgl_port_task[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/managed_components/espressif__esp_lvgl_port/src/lvgl9/esp_lvgl_port.c[0m[0m:[1;31m235[0m
+[0m--- 0x40087d85: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m

@@ -1,0 +1,325 @@
+Command: /nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf_monitor.py -p /dev/ttyUSB1 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/build/Slave.elf /home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Slave/build/bootloader/bootloader.elf -m '/nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python' '/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf.py' '-p' '/dev/ttyUSB1'
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6384
+load:0x40078000,len:15916
+load:0x40080400,len:3920
+entry 0x40080644
+[0;32mI (27) boot: ESP-IDF v5.5.2 2nd stage bootloader[0m
+[0;32mI (27) boot: compile time Jan  1 1980 00:00:00[0m
+[0;32mI (28) boot: Multicore bootloader[0m
+[0;32mI (29) boot: chip revision: v3.1[0m
+[0;32mI (32) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (35) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (42) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (49) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (75) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=12284h ( 74372) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=000222ac vaddr=3ffb0000 size=0276ch ( 10092) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=00024a20 vaddr=40080000 size=0b5f8h ( 46584) load[0m
+[0;32mI (134) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=4f9bch (326076) map[0m
+[0;32mI (246) esp_image: segment 4: paddr=0007f9e4 vaddr=4008b5f8 size=052c4h ( 21188) load[0m
+[0;32mI (254) esp_image: segment 5: paddr=00084cb0 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (262) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (263) boot: Disabling RNG early entropy source...[0m
+[0;32mI (274) cpu_start: Multicore app[0m
+[0;32mI (282) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (282) cpu_start: Pro cpu start user code[0m
+[0;32mI (282) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (284) app_init: Application information:[0m
+[0;32mI (288) app_init: Project name:     Slave[0m
+[0;32mI (292) app_init: App version:      b85bdf76-dirty[0m
+[0;32mI (296) app_init: Compile time:     Jan  1 1980 00:00:00[0m
+[0;32mI (301) app_init: ELF file SHA256:  f8ed55ca3...[0m
+[0;32mI (306) app_init: ESP-IDF:          v5.5.2[0m
+[0;32mI (309) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (313) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (317) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (321) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (327) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (332) heap_init: At 3FFC33F8 len 0001CC08 (115 KiB): DRAM[0m
+[0;32mI (338) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (343) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (349) heap_init: At 400908BC len 0000F744 (61 KiB): IRAM[0m
+[0;32mI (355) spi_flash: detected chip: generic[0m
+[0;32mI (357) spi_flash: flash io: dio[0m
+[0;33mW (360) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (373) main_task: Started on CPU0[0m
+[0;32mI (383) main_task: Calling app_main()[0m
+[0;32mI (383) SPI Slave: Инициализация SPI Slave...[0m
+[0;32mI (383) SPI Slave: Инициализация устройства SPI...[0m
+[0;32mI (383) SPI Slave: УСПЕШНА[0m
+[0;32mI (393) SPI Slave: Инициализация SPI Slave проша УСПЕШНО[0m
+[0;32mI (393) ST7735: Инициализация Дисплея[0m
+[0;32mI (403) st7735: LCD panel create success[0m
+[0;32mI (403) ST7735: УСПЕШНА[0m
+[0;32mI (423) st7735: init st7735 panel @0x3ffc7540[0m
+[0;32mI (523) st7735: Command Count == 18[0m
+[0;32mI (523) st7735: cmd 01[0m
+[0;32mI (673) st7735: cmd 11[0m
+[0;32mI (923) st7735: cmd b1[0m
+[0;32mI (923) st7735: cmd b2[0m
+[0;32mI (923) st7735: cmd b3[0m
+[0;32mI (923) st7735: cmd b4[0m
+[0;32mI (923) st7735: cmd c0[0m
+[0;32mI (923) st7735: cmd c1[0m
+[0;32mI (923) st7735: cmd c2[0m
+[0;32mI (923) st7735: cmd c3[0m
+[0;32mI (923) st7735: cmd c4[0m
+[0;32mI (923) st7735: cmd c5[0m
+[0;32mI (923) st7735: cmd 20[0m
+[0;32mI (933) st7735: cmd 3a[0m
+[0;33mW (933) st7735: The 3Ah command has been used and will be overwritten by external initialization sequence[0m
+[0;32mI (943) st7735: cmd e0[0m
+[0;32mI (943) st7735: cmd e1[0m
+[0;32mI (943) st7735: cmd 13[0m
+[0;32mI (943) st7735: cmd 29[0m
+[0;32mI (953) st7735: send init commands success[0m
+[0;32mI (953) ST7735: Инициализация LVGL...[0m
+[0;32mI (963) LVGL: Starting LVGL task[0m
+[0;32mI (983) ST7735: УСПЕШНА[0m
+[0;32mI (1773) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (2793) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (3813) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (4833) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (5853) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (6873) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (7893) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (8913) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (9933) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (10953) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (11973) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (12993) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (14013) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (15033) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (16053) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (17073) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (18093) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (19113) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (20133) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (21153) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (22173) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (23193) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (24213) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (25233) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (26253) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (27273) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (28293) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (29313) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (30333) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (31353) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (32373) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (33393) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (34413) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (35433) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (36453) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (37473) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (38493) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (39513) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (40533) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (41553) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (42573) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (43593) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (44613) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (45633) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (46653) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (47673) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (48693) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (49713) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (50733) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (51753) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (52773) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (53793) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (54813) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (55833) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (56853) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (57873) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (58893) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (59913) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c
+[0;32mI (60933) SPI Slave: Получены данные: [0m
+50, 
+2, 
+0x3f40372c

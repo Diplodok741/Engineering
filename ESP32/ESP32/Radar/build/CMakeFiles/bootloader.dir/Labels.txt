@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/blank/MCU/ESP32/ESP32/Radar/build/CMakeFiles/bootloader
+/home/blank/MCU/ESP32/ESP32/Radar/build/CMakeFiles/bootloader.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/CMakeFiles/bootloader-complete.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/blank/MCU/ESP32/ESP32/Radar/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

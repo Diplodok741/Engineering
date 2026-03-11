@@ -1,0 +1,2 @@
+source /home/blank/MCU/ESP32/ESP32/Taks/build/gdbinit/symbols
+source /home/blank/MCU/ESP32/ESP32/Taks/build/gdbinit/connect

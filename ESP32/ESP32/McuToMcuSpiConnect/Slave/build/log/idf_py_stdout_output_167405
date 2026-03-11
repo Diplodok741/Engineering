@@ -1,0 +1,115 @@
+Command: /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/bin/python3.12 /nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/build/Slave.elf /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/build/bootloader/bootloader.elf -m '/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/bin/python3.12' '/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/tools/idf.py'
+[0;32mI (253) esp_image: segment 4: paddr=000837d0 vaddets Jul 29 2019 12:21:46[0m
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6380
+ho 0 tail 12 room 4
+load:0x40078000,len:15916
+load:0x40080400,len:3860
+entry 0x40080638
+[0;32mI (29) boot: ESP-IDF v5.5.1 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Jan  1 1980 00:00:00[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (31) boot: chip revision: v3.1[0m
+[0;32mI (33) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (37) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (41) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (44) boot: Enabling RNG early entropy source...[0m
+[0;32mI (49) boot: Partition Table:[0m
+[0;32mI (51) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (58) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (64) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (71) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (77) boot: End of partition table[0m
+[0;32mI (81) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=11058h ( 69720) map[0m
+[0;32mI (112) esp_image: segment 1: paddr=00021080 vaddr=3ffb0000 size=0276ch ( 10092) load[0m
+[0;32mI (116) esp_image: segment 2: paddr=000237f4 vaddr=40080000 size=0c824h ( 51236) load[0m
+[0;32mI (136) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=537a8h (341928) map[0m
+[0;32mI (253) esp_image: segment 4: paddr=000837d0 vaddr=4008c824 size=03b7ch ( 15228) load[0m
+[0;32mI (259) esp_image: segment 5: paddr=00087354 vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (267) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (268) boot: Disabling RNG early entropy source...[0m
+[0;32mI (279) cpu_start: Multicore app[0m
+[0;32mI (287) cpu_start: Pro cpu start user code[0m
+[0;32mI (287) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (287) app_init: Application information:[0m
+[0;32mI (288) app_init: Project name:     Slave[0m
+[0;32mI (291) app_init: App version:      eb013d3-dirty[0m
+[0;32mI (296) app_init: Compile time:     Jan  1 1980 00:00:00[0m
+[0;32mI (301) app_init: ELF file SHA256:  5738de84d...[0m
+[0;32mI (305) app_init: ESP-IDF:          v5.5.1[0m
+[0;32mI (309) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (313) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (317) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (321) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (327) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (332) heap_init: At 3FFC3430 len 0001CBD0 (114 KiB): DRAM[0m
+[0;32mI (337) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (343) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (348) heap_init: At 400903A0 len 0000FC60 (63 KiB): IRAM[0m
+[0;32mI (355) spi_flash: detected chip: generic[0m
+[0;32mI (357) spi_flash: flash io: dio[0m
+[0;33mW (360) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (373) main_task: Started on CPU0[0m
+[0;32mI (383) main_task: Calling app_main()[0m
+[0;32mI (383) ST7735: Инициализация Дисплея[0m
+[0;32mI (383) st7735: LCD panel create success[0m
+[0;32mI (383) ST7735: УСПЕШНА[0m
+[0;32mI (403) st7735: init st7735 panel @0x3ffc72fc[0m
+[0;32mI (503) st7735: Command Count == 18[0m
+[0;32mI (503) st7735: cmd 01[0m
+[0;32mI (653) st7735: cmd 11[0m
+[0;32mI (903) st7735: cmd b1[0m
+[0;32mI (903) st7735: cmd b2[0m
+[0;32mI (903) st7735: cmd b3[0m
+[0;32mI (903) st7735: cmd b4[0m
+[0;32mI (903) st7735: cmd c0[0m
+[0;32mI (903) st7735: cmd c1[0m
+[0;32mI (903) st7735: cmd c2[0m
+[0;32mI (903) st7735: cmd c3[0m
+[0;32mI (903) st7735: cmd c4[0m
+[0;32mI (903) st7735: cmd c5[0m
+[0;32mI (903) st7735: cmd 20[0m
+[0;32mI (913) st7735: cmd 3a[0m
+[0;33mW (913) st7735: The 3Ah command has been used and will be overwritten by external initialization sequence[0m
+[0;32mI (923) st7735: cmd e0[0m
+[0;32mI (923) st7735: cmd e1[0m
+[0;32mI (923) st7735: cmd 13[0m
+[0;32mI (923) st7735: cmd 29[0m
+[0;32mI (933) st7735: send init commands success[0m
+[0;32mI (933) ST7735: Инициализация LVGL...[0m
+[0;32mI (943) LVGL: Starting LVGL task[0m
+[0;32mI (953) ST7735: УСПЕШНА[0m
+[1;31mE (5893) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (5893) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (5893) task_wdt: Tasks currently running:[0m
+[1;31mE (5893) task_wdt: CPU 0: main[0m
+[1;31mE (5893) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (5893) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x401117F2:0x3FFB1300 0x40111C08:0x3FFB1320 0x40082F0D:0x3FFB1350 0x40084071:0x3FFC5680 0x40089F8A:0x3FFC56A0 0x400D6275:0x3FFC56C0 0x40122D94:0x3FFC56E0 0x40087B0D:0x3FFC5710
+
+[1;31mE (10893) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (10893) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (10893) task_wdt: Tasks currently running:[0m
+[1;31mE (10893) task_wdt: CPU 0: main[0m
+[1;31mE (10893) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (10893) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x401117F2:0x3FFB1300 0x40111C08:0x3FFB1320 0x40082F0D:0x3FFB1350 0x40084071:0x3FFC5680 0x40089F8A:0x3FFC56A0 0x400D6275:0x3FFC56C0 0x40122D94:0x3FFC56E0 0x40087B0D:0x3FFC5710
+
+[1;31mE (15893) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (15893) task_wdt:  - IDLE0 (CPU 0)[0m
+[1;31mE (15893) task_wdt: Tasks currently running:[0m
+[1;31mE (15893) task_wdt: CPU 0: main[0m
+[1;31mE (15893) task_wdt: CPU 1: IDLE1[0m
+[1;31mE (15893) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x401117F2:0x3FFB1300 0x40111C08:0x3FFB1320 0x40082F0D:0x3FFB1350 0x40084071:0x3FFC5680 0x40089F8A:0x3FFC56A0 0x400D6275:0x3FFC56C0 0x40122D94:0x3FFC56E0 0x40087B0D:0x3FFC5710
+

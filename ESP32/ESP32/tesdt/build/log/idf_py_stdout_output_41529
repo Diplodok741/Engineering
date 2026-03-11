@@ -1,0 +1,67 @@
+Command: ninja flash
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/blank/MCU/ESP32/ESP32/tesdt/build/bootloader/esp-idf/esptool_py && /nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/blank/MCU/ESP32/ESP32/tesdt/build/bootloader/bootloader.bin
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[2/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+In file included from /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:63,
+                 from /home/blank/MCU/ESP32/ESP32/tesdt/main/main.c:4:
+/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/config/include/freertos/FreeRTOSConfig.h:272:9: warning: "configUSE_LIST_DATA_INTEGRITY_CHECK_BYTES" redefined
+  272 | #define configUSE_LIST_DATA_INTEGRITY_CHECK_BYTES    CONFIG_FREERTOS_USE_LIST_DATA_INTEGRITY_CHECK_BYTES
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/blank/MCU/ESP32/ESP32/tesdt/main/main.c:1:
+/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/FreeRTOS-Kernel/include/freertos/projdefs.h:73:13: note: this is the location of the previous definition
+   73 |     #define configUSE_LIST_DATA_INTEGRITY_CHECK_BYTES    0
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3/10] No install step for 'bootloader'
+[4/10] Linking C static library esp-idf/main/libmain.a
+[5/10] Completed 'bootloader'
+[6/10] Generating esp-idf/esp_system/ld/sections.ld
+[7/10] Linking CXX executable tesdt.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/blank/MCU/ESP32/ESP32/tesdt/build/tesdt.bin
+[9/10] cd /home/blank/MCU/ESP32/ESP32/tesdt/build/esp-idf/esptool_py && /nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/blank/MCU/ESP32/ESP32/tesdt/build/partition_table/partition-table.bin /home/blank/MCU/ESP32/ESP32/tesdt/build/tesdt.bin
+tesdt.bin binary size 0x29430 bytes. Smallest app partition is 0x100000 bytes. 0xd6bd0 bytes (84%) free.
+[9/10] cd /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esptool_py && /nix/store/w9jm660dykns6hzrdhxmqfywnc9ail8g-cmake-4.1.2/bin/cmake -D IDF_PATH=/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2 -D "SERIAL_TOOL=/nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python;;/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/blank/MCU/ESP32/ESP32/tesdt/build -P /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 tesdt.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.9.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 78:1c:3c:e1:11:70
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00039fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26304 bytes to 16550...
+Writing at 0x00001000... (50 %)
+Writing at 0x000075e8... (100 %)
+Wrote 26304 bytes (16550 compressed) at 0x00001000 in 0.5 seconds (effective 394.0 kbit/s)...
+Hash of data verified.
+Compressed 169008 bytes to 94413...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c996... (33 %)
+Writing at 0x000223c6... (50 %)
+Writing at 0x000283b5... (66 %)
+Writing at 0x0002e6e9... (83 %)
+Writing at 0x000346c1... (100 %)
+Wrote 169008 bytes (94413 compressed) at 0x00010000 in 2.3 seconds (effective 598.5 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 1109.6 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

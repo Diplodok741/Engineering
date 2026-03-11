@@ -1,0 +1,44 @@
+# justfile
+
+set shell := ["bash", "-c"]
+
+CC := "riscv32-none-elf-gcc"
+CFLAGS := "-march=rv32imac -mabi=ilp32 -mcmodel=medany -Os -g -Wall -Wextra -ffunction-sections -fdata-sections -I."
+LDFLAGS := "-T linker.ld -nostartfiles -Wl,--gc-sections,--cref -Wl,--relax"
+
+SOURCES := `find src -name '*.c'`
+OBJECTS := $(SOURCES:.c=.o)
+
+TARGET := firmware.elf
+HEX    := firmware.hex
+
+default: build size
+
+build: $(TARGET) size
+
+$(TARGET): $(OBJECTS)
+	{{CC}} {{OBJECTS}} {{LDFLAGS}} -o $@
+
+%.o: %.c
+	{{CC}} {{CFLAGS}} -c $< -o $@
+
+size:
+	@echo ""
+	riscv32-none-elf-size {{TARGET}}
+
+hex: $(TARGET)
+	riscv32-none-elf-objcopy -O ihex {{TARGET}} {{HEX}}
+
+flash: hex
+	openocd -f interface/wchlink.cfg \
+	        -f target/ch32v203.cfg \
+	        -c "program {{HEX}} verify reset exit 0x00000000"
+
+clean:
+	rm -f src/*.o {{TARGET}} {{HEX}} compile_commands.json
+
+bear:
+	bear -- just build
+
+help:
+	just --list

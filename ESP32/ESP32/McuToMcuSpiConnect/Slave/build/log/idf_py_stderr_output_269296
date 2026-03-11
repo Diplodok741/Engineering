@@ -1,0 +1,255 @@
+Command: /nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/bin/python3.12 /nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/build/Slave.elf /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/build/bootloader/bootloader.elf -m '/nix/store/x6sc9qfsz5ki13s9faaiblwg3js78ma8-python3-3.12.11-env/bin/python3.12' '/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.7.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080638: [0;33mcall_start_cpu0[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d4199: [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m188[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d41a6: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/hal/esp32/include/hal/uart_ll.h[0m[0m:[1;31m439[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d41a3: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/hal/esp32/include/hal/uart_ll.h[0m[0m:[1;31m439[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d41a1: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/hal/esp32/include/hal/uart_ll.h[0m[0m:[1;31m439[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d41a6: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/hal/esp32/include/hal/uart_ll.h[0m[0m:[1;31m439[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d41a6: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/hal/esp32/include/hal/uart_ll.h[0m[0m:[1;31m439[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d4199: [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m188[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d41ab: [0;33muart_ll_get_txfifo_len[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/hal/esp32/include/hal/uart_ll.h[0m[0m:[1;31m439[0m
+[0m--- (inlined by) [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m190[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m--- 0x401118d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x40111ce8: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082f0d: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400d4199: [0;33muart_tx_char[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m188[0m
+[0m--- 0x400d48b0: [0;33muart_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_uart/src/uart_vfs.c[0m[0m:[1;31m245[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000182a: [0;33mwrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400d5229: [0;33mconsole_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_vfs_console/vfs_console.c[0m[0m:[1;31m83[0m
+[0m--- 0x400d5806: [0;33mesp_vfs_write[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/vfs/vfs.c[0m[0m:[1;31m982[0m
+[0m--- 0x4000bd83: [0;33m_write_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4000117d: [0;33m__swrite[0m[0m in [0;32mROM[0m
+[0m--- 0x400592fe: [0;33m__sflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x4005937a: [0;33m_fflush_r[0m[0m in [0;32mROM[0m
+[0m--- 0x40114dcd: [0;33m__sfvwrite_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/fvwrite.c[0m[0m:[1;31m251[0m
+[0m--- 0x401189b3: [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m429[0m
+[0m--- (inlined by) [0;33m__sprint_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m399[0m
+[0m--- 0x401183ca: [0;33m_vfprintf_r[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c[0m[0m:[1;31m1774[0m
+[0m--- 0x40114e75: [0;33mvprintf[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vprintf.c[0m[0m:[1;31m34[0m
+[0m--- 0x4008e443: [0;33mesp_log_va[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m43[0m
+[0m--- (inlined by) [0;33mesp_log[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/log/src/log.c[0m[0m:[1;31m88[0m
+[0m--- 0x40113fd9: [0;33mspi_slave_queue_trans[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m470[0m
+[0m--- 0x401141e1: [0;33mspi_slave_transmit[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/esp_driver_spi/src/gpspi/spi_slave.c[0m[0m:[1;31m618[0m
+[0m--- 0x400d6725: [0;33mSpiTransaction[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Spi.c[0m[0m:[1;31m43[0m
+[0m--- 0x400d627e: [0;33mapp_main[0m[0m at [0;32m/home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/main/Slave.c[0m[0m:[1;31m33[0m
+[0m--- 0x40123134: [0;33mmain_task[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40087b21: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/3kwgdiamcz3g9z6889bir2lqp0sd6paz-esp-idf-v5.5.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+[0m

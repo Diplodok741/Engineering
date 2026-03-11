@@ -1,0 +1,132 @@
+Command: /nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf_monitor.py -p /dev/ttyUSB1 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/blank/MCU/ESP32/ESP32/bomb/build/bomb.elf /home/blank/MCU/ESP32/ESP32/bomb/build/bootloader/bootloader.elf -m '/nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python' '/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf.py'
+: Initializing. RAM available for dynamic allocation:
+[0;32mI (224) heap_init: �I (13) boot: ESP-IDF v5.5.2 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Jan  1 1980 00:00:00[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (14) boot: chip revision: v3.1[0m
+[0;32mI (16) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (20) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (24) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (27) boot: Enabling RNG early entropy source...[0m
+[0;32mI (32) boot: Partition Table:[0m
+[0;32mI (34) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (41) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (47) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (54) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (60) boot: End of partition table[0m
+[0;32mI (64) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0c1ach ( 49580) map[0m
+[0;32mI (88) esp_image: segment 1: paddr=0001c1d4 vaddr=3ffb0000 size=02450h (  9296) load[0m
+[0;32mI (92) esp_image: segment 2: paddr=0001e62c vaddr=40080000 size=019ech (  6636) load[0m
+[0;32mI (95) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=17f7ch ( 98172) map[0m
+[0;32mI (133) esp_image: segment 4: paddr=00037fa4 vaddr=400819ec size=0bdd0h ( 48592) load[0m
+[0;32mI (152) esp_image: segment 5: paddr=00043d7c vaddr=50000000 size=00020h (    32) load[0m
+[0;32mI (159) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (159) boot: Disabling RNG early entropy source...[0m
+[0;32mI (170) cpu_start: Multicore app[0m
+[0;32mI (178) cpu_start: GPIO 3 and 1 are used as console UART I/O pins[0m
+[0;32mI (178) cpu_start: Pro cpu start user code[0m
+[0;32mI (179) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (180) app_init: Application information:[0m
+[0;32mI (184) app_init: Project name:     bomb[0m
+[0;32mI (188) app_init: App version:      145def54-dirty[0m
+[0;32mI (192) app_init: Compile time:     Jan  1 1980 00:00:00[0m
+[0;32mI (197) app_init: ELF file SHA256:  dc5f33188...[0m
+[0;32mI (202) app_init: ESP-IDF:          v5.5.2[0m
+[0;32mI (205) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (209) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (213) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (217) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (224) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (229) heap_init: At 3FFB2D48 len 0002D2B8 (180 KiB): DRAM[0m
+[0;32mI (234) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (239) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (245) heap_init: At 4008D7BC len 00012844 (74 KiB): IRAM[0m
+[0;32mI (251) spi_flash: detected chip: generic[0m
+[0;32mI (254) spi_flash: flash io: dio[0m
+[0;32mI (257) main_task: Started on CPU0[0m
+[0;32mI (267) main_task: Calling app_main()[0m
+[1;31mE (267) gpio: gpio_pulldown_en(116): GPIO number error (input-only pad has no internal PD)[0m
+[0;32mI (267) I2C DISPLAY: Инициализация шины i2c[0m
+[1;31mE (1577) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (2617) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (3657) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (4697) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (5707) SENSOR: Расстояние: 199.5 cm[0m
+[0;32mI (6717) SENSOR: Расстояние: 200.0 cm[0m
+[0;32mI (7727) SENSOR: Расстояние: 200.4 cm[0m
+[1;31mE (8767) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (9807) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (10817) SENSOR: Расстояние: 199.7 cm[0m
+[0;32mI (11827) SENSOR: Расстояние: 200.1 cm[0m
+[0;32mI (12837) SENSOR: Расстояние: 200.1 cm[0m
+[0;32mI (13847) SENSOR: Расстояние: 199.7 cm[0m
+[0;32mI (14857) SENSOR: Расстояние: 200.1 cm[0m
+[0;32mI (15867) SENSOR: Расстояние: 199.7 cm[0m
+[0;32mI (16877) SENSOR: Расстояние: 200.1 cm[0m
+[0;32mI (17887) SENSOR: Расстояние: 199.7 cm[0m
+[0;32mI (18897) SENSOR: Расстояние: 200.6 cm[0m
+[0;32mI (19907) SENSOR: Расстояние: 199.7 cm[0m
+[0;32mI (20917) SENSOR: Расстояние: 200.1 cm[0m
+[0;32mI (21927) SENSOR: Расстояние: 201.0 cm[0m
+[1;31mE (22967) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (23977) SENSOR: Расстояние: 200.5 cm[0m
+[0;32mI (24987) SENSOR: Расстояние: 200.1 cm[0m
+[1;31mE (26027) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (27037) SENSOR: Расстояние: 201.0 cm[0m
+[1;31mE (28077) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (29087) SENSOR: Расстояние: 200.2 cm[0m
+[1;31mE (30127) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (31167) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (32177) SENSOR: Расстояние: 200.6 cm[0m
+[0;32mI (33187) SENSOR: Расстояние: 199.7 cm[0m
+[1;31mE (34227) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (35237) SENSOR: Расстояние: 200.6 cm[0m
+[0;32mI (36247) SENSOR: Расстояние: 199.8 cm[0m
+[1;31mE (37287) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (38327) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (39367) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (40407) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (41447) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (42487) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (43527) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (44567) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (45607) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (46647) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (47657) SENSOR: Расстояние: 200.2 cm[0m
+[1;31mE (48697) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (49737) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (50747) SENSOR: Расстояние: 200.2 cm[0m
+[1;31mE (51787) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (52827) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (53867) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[1;31mE (54907) SENSOR: Нет сигнала или объект слишком далеко[0m
+
+[0;32mI (55917) SENSOR: Расстояние: 199.8 cm[0m
+[1;31mE (569

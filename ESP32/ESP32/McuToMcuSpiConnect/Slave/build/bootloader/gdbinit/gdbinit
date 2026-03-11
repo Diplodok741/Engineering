@@ -1,0 +1,2 @@
+source /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/build/bootloader/gdbinit/symbols
+source /home/blank/MCU/ESP32/ESP32/McuToMcuSpiConnect/Slave/build/bootloader/gdbinit/connect
