@@ -1,5 +1,5 @@
 {
-  description = "Python DSP / communications simulation environment";
+  description = "DSP Python environment on NixOS";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -9,29 +9,26 @@
   let
     system = "x86_64-linux";
     pkgs = import nixpkgs { inherit system; };
+
+    python = pkgs.python3.withPackages (ps: with ps; [
+      numpy
+      scipy
+      matplotlib
+      sympy
+      ipython
+      jax
+      jaxlib
+    ]);
   in
   {
     devShells.${system}.default = pkgs.mkShell {
-
-      packages = with pkgs; [
-        fish
-
-        (python3.withPackages (ps: with ps; [
-          numpy
-          scipy
-          matplotlib
-          jupyter
-          ipython
-          sympy
-          scikit-dsp-comm
-        ]))
+      packages = [
+        pkgs.fish
+        python
       ];
 
       shellHook = ''
-        echo "DSP / Communications environment loaded"
-        echo "Python tools ready for channel simulations"
-        echo "Starting fish shell..."
-
+        echo "Специальное окружение с Python для дипломной работы готово"
         exec fish
       '';
     };
