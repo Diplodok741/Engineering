@@ -14,6 +14,7 @@
       numpy
       scipy
       matplotlib
+      pandas
       sympy
       ipython
       jax
@@ -29,7 +30,6 @@
 
       shellHook = ''
         echo "Специальное окружение с Python для дипломной работы готово"
-        exec fish
       '';
     };
   };

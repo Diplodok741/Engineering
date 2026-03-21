@@ -22,4 +22,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file /home/blank/MCU/ESP32/ESP32/bomb/build/bootloader/bootloader.elf
+file /home/blank/Engineering/MCU/ESP32/ESP32/bomb/build/bootloader/bootloader.elf

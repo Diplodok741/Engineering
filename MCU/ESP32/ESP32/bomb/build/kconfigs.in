@@ -77,4 +77,4 @@ source "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/us
 source "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/vfs/Kconfig"
 source "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/wear_levelling/Kconfig"
 source "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/wifi_provisioning/Kconfig"
-source "/home/blank/MCU/ESP32/ESP32/bomb/managed_components/vgerwen__lcd1602/Kconfig"
+source "/home/blank/Engineering/MCU/ESP32/ESP32/bomb/managed_components/vgerwen__lcd1602/Kconfig"

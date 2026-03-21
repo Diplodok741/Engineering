@@ -1,4 +1,4 @@
-# Install script for directory: /home/blank/MCU/ESP32/ESP32/bomb/managed_components/k0i05__esp_type_utils
+# Install script for directory: /home/blank/Engineering/MCU/ESP32/ESP32/bomb/managed_components/k0i05__esp_type_utils
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/blank/MCU/ESP32/ESP32/bomb/build/esp-idf/k0i05__esp_type_utils/install_local_manifest.txt"
+  file(WRITE "/home/blank/Engineering/MCU/ESP32/ESP32/bomb/build/esp-idf/k0i05__esp_type_utils/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -18,8 +18,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file /home/blank/MCU/ESP32/ESP32/Tank/build/bootloader/bootloader.elf
+    add-symbol-file /home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file /home/blank/MCU/ESP32/ESP32/Tank/build/Tank.elf
+file /home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/Tank.elf
