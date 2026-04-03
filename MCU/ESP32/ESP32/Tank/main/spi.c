@@ -8,10 +8,10 @@
 #include <esp_log.h>
 #include <string.h>
 
-#define mosiPin
-#define misoPin
-#define sclkPin
-#define csPin
+#define mosiPin 12
+#define misoPin 1
+#define sclkPin 14
+#define csPin   23
 
 static const char *tag = "SPI";
 esp_err_t err;

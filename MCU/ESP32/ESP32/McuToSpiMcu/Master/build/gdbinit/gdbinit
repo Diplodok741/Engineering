@@ -1,2 +1,2 @@
-source /home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Master/build/gdbinit/symbols
-source /home/blank/MCU/ESP32/ESP32/McuToSpiMcu/Master/build/gdbinit/connect
+source /home/blank/Engineering/MCU/ESP32/ESP32/McuToSpiMcu/Master/build/gdbinit/symbols
+source /home/blank/Engineering/MCU/ESP32/ESP32/McuToSpiMcu/Master/build/gdbinit/connect
