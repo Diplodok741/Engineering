@@ -1,5 +1,14 @@
+CompileFlags:
+  Remove:
+    - -mdisable-hardware-atomics
+    - -mfix-esp32-psram-cache-issue
+    - -mfix-esp32-psram-cache-strategy=memw
+    - -mfix-esp32-psram-cache-strategy
+    # можно добавить другие -m* флаги по мере появления
+
 Diagnostics:
- Suppress:
- - pp_file_not_found
- - unused-includes
- - misc-include-cleaner
+  Suppress:
+    - pp_file_not_found
+    - unused-includes
+    - misc-include-cleaner
+    - drv_unknown_argument

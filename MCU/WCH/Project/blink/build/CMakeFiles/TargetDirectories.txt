@@ -1,0 +1,4 @@
+/home/blank/ch/Project/blink/build/CMakeFiles/ch32v203_firmware.elf.dir
+/home/blank/ch/Project/blink/build/CMakeFiles/flash.dir
+/home/blank/ch/Project/blink/build/CMakeFiles/edit_cache.dir
+/home/blank/ch/Project/blink/build/CMakeFiles/rebuild_cache.dir

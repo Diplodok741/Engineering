@@ -120,3 +120,7 @@
 1590	1743	1775209572034059830	/home/blank/Engineering/MCU/ESP32/bomb/build/bootloader/.bin_timestamp	25ac0d7f119a7f71
 1743	1793	1775209572036058771	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	e5833651e070418e
 1743	1793	1775209572036058771	/home/blank/Engineering/MCU/ESP32/bomb/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	e5833651e070418e
+5	55	1775225518699250650	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	e5833651e070418e
+5	55	1775225518699250650	/home/blank/Engineering/MCU/ESP32/bomb/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	e5833651e070418e
+9	67	1775338268548532902	esp-idf/esptool_py/CMakeFiles/bootloader_check_size	e5833651e070418e
+9	67	1775338268548532902	/home/blank/Engineering/MCU/ESP32/bomb/build/bootloader/esp-idf/esptool_py/CMakeFiles/bootloader_check_size	e5833651e070418e

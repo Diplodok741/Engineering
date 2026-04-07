@@ -10,18 +10,18 @@ if(NOT EXISTS "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/compon
   file(MAKE_DIRECTORY "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader"
-  "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix"
-  "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/tmp"
-  "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp"
-  "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src"
-  "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader"
+  "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix"
+  "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/tmp"
+  "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp"
+  "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src"
+  "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

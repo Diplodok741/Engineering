@@ -1,0 +1,27 @@
+CompileFlags:
+  Add:
+    - -std=c11
+
+    # 📦 Core
+    - -Ivendor/Core
+
+    # 📦 Peripheral headers (тут ch32v20x.h)
+    - -Ivendor/Peripheral/inc
+
+    # 📦 Peripheral sources (если нужно для анализа)
+    - -Ivendor/Peripheral/src
+
+    # 📦 Startup
+    - -Ivendor/Startup
+
+    # 📦 твой код
+    - -Isrc
+
+Index:
+  Background: true
+
+Diagnostics:
+  UnusedIncludes: Strict
+
+Hover:
+  ShowAKA: true

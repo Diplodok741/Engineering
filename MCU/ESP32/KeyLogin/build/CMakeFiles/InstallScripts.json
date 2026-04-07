@@ -90,7 +90,6 @@
 		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_driver_isp/cmake_install.cmake",
 		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_driver_cam/cmake_install.cmake",
 		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_psram/cmake_install.cmake",
-		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_psram/device/cmake_install.cmake",
 		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_driver_jpeg/cmake_install.cmake",
 		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_driver_ppa/cmake_install.cmake",
 		"/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_driver_touch_sens/cmake_install.cmake",

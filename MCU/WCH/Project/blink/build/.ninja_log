@@ -1,0 +1,27 @@
+# ninja log v7
+1	115	1775559517375952457	CMakeFiles/ch32v203_firmware.elf.dir/main.c.obj	b9edd57e5d840b90
+10	130	1775559517384952467	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_it.c.obj	3965bfc3a43ffc2b
+4	142	1775559517378952460	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_dbgmcu.c.obj	d6b7cf528b826c84
+2	169	1775559517376952458	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_bkp.c.obj	ec9ef9bfa242e72
+16	172	1775559517390952474	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_misc.c.obj	44ba1bc8e4f1983a
+10	214	1775559517384952467	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_iwdg.c.obj	361ba60bd0b3d6a
+5	243	1775559517379952461	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_dma.c.obj	475c1a6fb84469ee
+3	252	1775559517377952459	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_crc.c.obj	e61ee3b4ee1eedc7
+8	270	1775559517382952465	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_gpio.c.obj	53733535b77ddc01
+115	294	1775559517489952592	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_opa.c.obj	b5205ee7f78ba71a
+5	299	1775559517379952461	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_exti.c.obj	ba9b07c64fc045af
+130	359	1775559517504952610	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_pwr.c.obj	fc486a1b1ec9c016
+2	368	1775559517376952458	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_adc.c.obj	59e48000dc92d4ac
+9	368	1775559517383952466	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_i2c.c.obj	5e48da0b502fd53c
+169	384	1775559517543952656	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_rtc.c.obj	5e1dbffdf4fbb419
+6	385	1775559517380952462	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_flash.c.obj	ade161aa602d3ab2
+3	407	1775559517377952459	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_can.c.obj	6ace1f6601a9a9de
+270	413	1775559517644952776	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/core_riscv.c.obj	a084e5aa38678f54
+359	422	1775559517733952882	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Inc/startup_ch32v20x_D6.S.obj	58e40dc3ccf1c423
+253	436	1775559517627952756	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_wwdg.c.obj	d064debedd27fa9f
+172	443	1775559517546952660	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_spi.c.obj	583d50b022e82c14
+294	453	1775559517668952805	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/system_ch32v20x.c.obj	a921b0ae43e0dbf6
+142	462	1775559517516952624	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_rcc.c.obj	215404e5b55ce5e3
+299	474	1775559517673952811	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/debug.c.obj	d3ad3ae21bafda99
+243	496	1775559517618952745	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_usart.c.obj	8a90697bd19232cc
+214	641	1775559517588952710	CMakeFiles/ch32v203_firmware.elf.dir/home/blank/ch/Src/ch32v20x_tim.c.obj	8750b64bf4b166fd

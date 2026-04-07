@@ -53,5 +53,5 @@ void SpiInit(){
 
 
 void SpiTransaction(){
+        spi_transaction_t transaction;
 }
-

@@ -1,13 +1,13 @@
 # Target labels
  bootloader
 # Source files and their labels
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/CMakeFiles/bootloader
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/CMakeFiles/bootloader.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/CMakeFiles/bootloader-complete.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
-/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/CMakeFiles/bootloader
+/home/blank/Engineering/MCU/ESP32/Tank/build/CMakeFiles/bootloader.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/CMakeFiles/bootloader-complete.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

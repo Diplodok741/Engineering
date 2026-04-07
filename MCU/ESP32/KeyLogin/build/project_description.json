@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "KeyLogin",
-    "project_version":    "d45a2327-dirty",
+    "project_version":    "c9330d79-dirty",
     "project_path":       "/home/blank/Engineering/MCU/ESP32/KeyLogin",
     "idf_path":           "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2",
     "build_dir":          "/home/blank/Engineering/MCU/ESP32/KeyLogin/build",
@@ -918,14 +918,14 @@
             "target": "___idf_esp_psram",
             "prefix": "idf",
             "dir": "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_psram",
-            "type": "LIBRARY",
+            "type": "CONFIG_ONLY",
             "lib": "__idf_esp_psram",
             "reqs": [],
             "priv_reqs": [ "heap", "spi_flash", "esp_mm", "bootloader_support", "esp_driver_spi", "esp_driver_gpio" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/esp_psram/libesp_psram.a",
-            "sources": [ "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_psram/system_layer/esp_psram.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_psram/esp32/esp_psram_extram_cache.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_psram/esp32/esp_himem.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_psram/esp32/esp_psram_impl_quad.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_psram/device" ],
+            "file": "",
+            "sources": [],
             "include_dirs": [ "include" ]
         },
         "esp_ringbuf": {
@@ -1225,7 +1225,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/blank/Engineering/MCU/ESP32/KeyLogin/main/main.c" ],
+            "sources": [ "/home/blank/Engineering/MCU/ESP32/KeyLogin/main/main.c", "/home/blank/Engineering/MCU/ESP32/KeyLogin/main/nfc.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {
@@ -1270,7 +1270,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/blank/Engineering/MCU/ESP32/KeyLogin/build/esp-idf/newlib/libnewlib.a",
-            "sources": [ "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/init.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/abort.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/assert.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/heap.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/locks.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/poll.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/pthread.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/random.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/getentropy.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/termios.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/stdatomic.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/time.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/sysconf.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/realpath.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/scandir.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/syscalls.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/reent_syscalls.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/port/esp_time_impl.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/port/xtensa/stdatomic_s32c1i.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/flockfile.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/reent_init.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/newlib_init.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/port/esp_time_impl.c" ],
+            "sources": [ "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/init.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/abort.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/assert.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/heap.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/locks.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/poll.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/pthread.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/random.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/getentropy.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/termios.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/stdatomic.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/time.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/sysconf.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/realpath.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/scandir.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/syscalls.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/reent_syscalls.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/port/esp_time_impl.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/flockfile.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/reent_init.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/newlib_init.c", "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/newlib/src/port/esp_time_impl.c" ],
             "include_dirs": [ "platform_include" ]
         },
         "nvs_flash": {

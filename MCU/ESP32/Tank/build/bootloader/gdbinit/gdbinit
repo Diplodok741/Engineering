@@ -1,2 +1,2 @@
-source /home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader/gdbinit/symbols
-source /home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/bootloader/gdbinit/connect
+source /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/gdbinit/symbols
+source /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/gdbinit/connect

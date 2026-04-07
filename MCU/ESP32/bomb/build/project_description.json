@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "bomb",
-    "project_version":    "d45a2327-dirty",
+    "project_version":    "c9330d79-dirty",
     "project_path":       "/home/blank/Engineering/MCU/ESP32/bomb",
     "idf_path":           "/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2",
     "build_dir":          "/home/blank/Engineering/MCU/ESP32/bomb/build",

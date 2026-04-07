@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/blank/Engineering/MCU/ESP32/ESP32/Tank/build/esp-idf/esp_driver_i2s/install_local_manifest.txt"
+  file(WRITE "/home/blank/Engineering/MCU/ESP32/Tank/build/esp-idf/esp_driver_i2s/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

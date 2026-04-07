@@ -1,0 +1,15 @@
+Command: /nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python /nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf_monitor.py -p /dev/ttyUSB0 -b 115200 --toolchain-prefix xtensa-esp32-elf- --target esp32 --revision 0 /home/blank/Engineering/MCU/ESP32/bomb/build/bomb.elf /home/blank/Engineering/MCU/ESP32/bomb/build/bootloader/bootloader.elf -m '/nix/store/yxn8caq88x7ncmsbvqn51wk7pwqmvivc-python3-3.13.9-env/bin/python' '/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/tools/idf.py'
+[0;33m--- esp-idf-monitor 1.7.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x40080400: [0;33m_invalid_pc_placeholder[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m2235[0m
+[0m--- 0x40080644: [0;33mcall_start_cpu0[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/bootloader/subproject/main/bootloader_start.c[0m[0m:[1;31m25[0m
+[0m--- 0x400d96d2: [0;33mtask_wdt_timeout_handling[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m436[0m
+[0m--- 0x400d9a94: [0;33mtask_wdt_isr[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_system/task_wdt/task_wdt.c[0m[0m:[1;31m509[0m
+[0m--- 0x40082945: [0;33m_xt_lowint1[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/xtensa/xtensa_vectors.S[0m[0m:[1;31m1240[0m
+[0m--- 0x400825af: [0;33mesp_timer_impl_get_counter_reg[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_timer/src/esp_timer_impl_lac.c[0m[0m:[1;31m115[0m
+[0m--- 0x400825c7: [0;33mesp_timer_impl_get_time[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/esp_timer/src/esp_timer_impl_lac.c[0m[0m:[1;31m128[0m
+[0m--- 0x400d6710: [0;33mSensorGetDistance[0m[0m at [0;32m/home/blank/Engineering/MCU/ESP32/bomb/main/main.c[0m[0m:[1;31m51[0m
+[0m--- 0x400d6830: [0;33mapp_main[0m[0m at [0;32m/home/blank/Engineering/MCU/ESP32/bomb/main/main.c[0m[0m:[1;31m94[0m
+[0m--- 0x400e7671: [0;33mmain_task[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/app_startup.c[0m[0m:[1;31m208[0m
+[0m--- 0x40086201: [0;33mvPortTaskWrapper[0m[0m at [0;32m/nix/store/516xlp8n62j0jwj47gjyy6w120zi3rd8-esp-idf-v5.5.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c[0m[0m:[1;31m139[0m
+E
