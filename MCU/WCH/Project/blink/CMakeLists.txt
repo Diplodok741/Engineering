@@ -3,21 +3,26 @@ cmake_minimum_required(VERSION 3.20)
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_TRY_COMPILE_TARGET_TYPE STATIC_LIBRARY)
 
+# ==================== Компилятор ====================
 set(CMAKE_C_COMPILER   riscv32-none-elf-gcc)
 set(CMAKE_ASM_COMPILER riscv32-none-elf-gcc)
 
 project(ch32v203_firmware C ASM)
 
-# Отключаем тесты CMake
 set(CMAKE_C_COMPILER_WORKS 1)
 
-# ==================== Флаги ====================
-add_compile_options(
+# ==================== Архитектура ====================
+set(MCU_FLAGS
     -march=rv32imac_zicsr
     -mabi=ilp32
     -mcmodel=medany
     -msmall-data-limit=8
     -mno-save-restore
+)
+
+# ==================== Оптимизация ====================
+set(COMMON_FLAGS
+    ${MCU_FLAGS}
     -ffunction-sections
     -fdata-sections
     -fno-common
@@ -29,7 +34,6 @@ add_compile_options(
 set(SOURCES
     main.c
 
-    # WCH Peripheral Library
     ../../Src/ch32v20x_adc.c
     ../../Src/ch32v20x_bkp.c
     ../../Src/ch32v20x_can.c
@@ -52,43 +56,50 @@ set(SOURCES
     ../../Src/ch32v20x_usart.c
     ../../Src/ch32v20x_wwdg.c
 
-    # Core + system + debug
     ../../Src/core_riscv.c
     ../../Src/system_ch32v20x.c
     ../../Src/debug.c
 
-    # Только этот startup — он предоставляет _start
-    ../../Inc/startup_ch32v20x_D6.S
+    ../../Inc/startup_ch32v20x_D8W.S
 )
 
+# ==================== Таргет ====================
 add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
-# ==================== Линкер ====================
+target_include_directories(${PROJECT_NAME}.elf PRIVATE
+    ../../Inc
+)
+
+target_compile_options(${PROJECT_NAME}.elf PRIVATE ${COMMON_FLAGS})
+
+# ==================== Линковка ====================
 set(LINKER_SCRIPT "${CMAKE_SOURCE_DIR}/../../Src/Link.ld")
 
-add_link_options(
+target_link_options(${PROJECT_NAME}.elf PRIVATE
+    ${MCU_FLAGS}
+
     -T${LINKER_SCRIPT}
-    -nostartfiles
+
     -nostdlib
+    -nostartfiles
+
     -Wl,--gc-sections
     -Wl,--print-memory-usage
-    --specs=nano.specs
-    --specs=nosys.specs
-    -mabi=ilp32                  # ← важно для линковки
+
+    -lgcc   # только это оставить можно
 )
 
 # ==================== Пост-обработка ====================
 add_custom_command(TARGET ${PROJECT_NAME}.elf POST_BUILD
-    COMMAND ${CMAKE_OBJCOPY} -Oihex   $<TARGET_FILE:${PROJECT_NAME}.elf> ${PROJECT_NAME}.hex
-    COMMAND ${CMAKE_OBJCOPY} -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${PROJECT_NAME}.bin
-    COMMAND ${CMAKE_OBJDUMP} -S -d    $<TARGET_FILE:${PROJECT_NAME}.elf> > ${PROJECT_NAME}.lst
-    COMMAND ${CMAKE_SIZE} --format=berkeley $<TARGET_FILE:${PROJECT_NAME}.elf>
-    COMMENT "Generating .hex / .bin / .lst"
+    COMMAND riscv32-none-elf-objcopy -Oihex   $<TARGET_FILE:${PROJECT_NAME}.elf> ${PROJECT_NAME}.hex
+    COMMAND riscv32-none-elf-objcopy -Obinary $<TARGET_FILE:${PROJECT_NAME}.elf> ${PROJECT_NAME}.bin
+    COMMAND riscv32-none-elf-objdump -S -d    $<TARGET_FILE:${PROJECT_NAME}.elf> > ${PROJECT_NAME}.lst
+    COMMAND riscv32-none-elf-size --format=berkeley $<TARGET_FILE:${PROJECT_NAME}.elf>
+    COMMENT "Generating HEX / BIN / LST"
 )
 
+# ==================== Прошивка ====================
 add_custom_target(flash
     COMMAND openocd -f interface/wlink.cfg -f target/ch32v20x.cfg -c "program ${PROJECT_NAME}.elf verify reset exit"
     DEPENDS ${PROJECT_NAME}.elf
-    COMMENT "Flashing firmware"
-    VERBATIM
 )

@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/blank/ch/Project/blink/build/cmake_install.cmake"
+		"/home/blank/Engineering/MCU/WCH/Project/blink/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
