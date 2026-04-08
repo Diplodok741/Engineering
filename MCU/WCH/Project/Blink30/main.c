@@ -17,9 +17,6 @@ int main(void)
     while(1)
     {
         GPIO_SetBits(GPIOC, GPIO_Pin_15);     // LED выкл (если анод к VCC)
-        Delay_Ms(500);
-
         GPIO_ResetBits(GPIOC, GPIO_Pin_15);   // LED вкл
-        Delay_Ms(500);
     }
 }
