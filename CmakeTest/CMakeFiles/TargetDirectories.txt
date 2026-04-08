@@ -1,3 +1,0 @@
-/home/blank/Engineering/CmakeTest/CMakeFiles/main.dir
-/home/blank/Engineering/CmakeTest/CMakeFiles/edit_cache.dir
-/home/blank/Engineering/CmakeTest/CMakeFiles/rebuild_cache.dir

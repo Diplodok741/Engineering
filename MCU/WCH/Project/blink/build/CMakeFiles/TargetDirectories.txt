@@ -1,4 +1,5 @@
-/home/blank/Engineering/MCU/WCH/Project/blink/build/CMakeFiles/ch32v203_firmware.elf.dir
+/home/blank/Engineering/MCU/WCH/Project/blink/build/CMakeFiles/ch32v20x_firmware.elf.dir
+/home/blank/Engineering/MCU/WCH/Project/blink/build/CMakeFiles/size.dir
 /home/blank/Engineering/MCU/WCH/Project/blink/build/CMakeFiles/flash.dir
 /home/blank/Engineering/MCU/WCH/Project/blink/build/CMakeFiles/edit_cache.dir
 /home/blank/Engineering/MCU/WCH/Project/blink/build/CMakeFiles/rebuild_cache.dir

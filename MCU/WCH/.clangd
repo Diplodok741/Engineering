@@ -1,27 +1,27 @@
 CompileFlags:
-  Add:
-    - -std=c11
+  Add: [
+    "--target=riscv32",
+    "-nostdlib",
+    "-nostdinc",
+  ]
 
-    # 📦 Core
-    - -Ivendor/Core
 
-    # 📦 Peripheral headers (тут ch32v20x.h)
-    - -Ivendor/Peripheral/inc
-
-    # 📦 Peripheral sources (если нужно для анализа)
-    - -Ivendor/Peripheral/src
-
-    # 📦 Startup
-    - -Ivendor/Startup
-
-    # 📦 твой код
-    - -Isrc
-
-Index:
-  Background: true
-
-Diagnostics:
-  UnusedIncludes: Strict
-
-Hover:
-  ShowAKA: true
+# CompileFlags:
+#   Add:
+#     - -std=c11
+#
+#     # 📦 Peripheral headers (тут ch32v20x.h)
+#     - -IInc/V20X
+#     - -IInc/V30X
+#
+#     - -ISrc/V20X
+#     - -ISrc/V30X
+#
+# Index:
+#   Background: true
+#
+# Diagnostics:
+#   UnusedIncludes: Strict
+#
+# Hover:
+#   ShowAKA: true

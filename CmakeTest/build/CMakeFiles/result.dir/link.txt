@@ -1,0 +1,1 @@
+/run/current-system/sw/bin/cc -Wl,--dependency-file=CMakeFiles/result.dir/link.d CMakeFiles/result.dir/main.c.o -o result

@@ -11,6 +11,9 @@
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/size.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/size-files.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/size-components.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/dfu.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/dfu-list.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/dfu-flash.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/uf2.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/uf2-app.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/CMakeFiles/edit_cache.dir
@@ -60,8 +63,10 @@
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/__idf_esp_hw_support.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/edit_cache.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/CMakeFiles/rebuild_cache.dir
-/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/port/esp32/CMakeFiles/edit_cache.dir
-/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/port/esp32/CMakeFiles/rebuild_cache.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/edit_cache.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/port/esp32s3/CMakeFiles/rebuild_cache.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/mspi_timing_tuning/port/esp32s3/CMakeFiles/edit_cache.dir
+/home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/mspi_timing_tuning/port/esp32s3/CMakeFiles/rebuild_cache.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles/edit_cache.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_hw_support/lowpower/CMakeFiles/rebuild_cache.dir
 /home/blank/Engineering/MCU/ESP32/Tank/build/bootloader/esp-idf/esp_common/CMakeFiles/__idf_esp_common.dir

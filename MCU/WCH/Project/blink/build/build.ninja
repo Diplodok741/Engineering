@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: ch32v203_firmware
+# Project: ch32v20x_firmware
 # Configurations: 
 # =============================================================================
 
@@ -36,243 +36,276 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/blank/Engineering/MCU/WCH/Project/blink/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target ch32v203_firmware.elf
+# Object build statements for EXECUTABLE target ch32v20x_firmware.elf
 
 
 #############################################
-# Order-only phony target for ch32v203_firmware.elf
+# Order-only phony target for ch32v20x_firmware.elf
 
-build cmake_object_order_depends_target_ch32v203_firmware.elf: phony || .
+build cmake_object_order_depends_target_ch32v20x_firmware.elf: phony || .
 
-build CMakeFiles/ch32v203_firmware.elf.dir/main.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Project/blink/main.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/main.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/main.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Project/blink/main.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/main.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_adc.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_adc.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_adc.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_adc.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_adc.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_adc.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_bkp.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_bkp.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_bkp.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_bkp.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_bkp.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_bkp.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_can.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_can.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_can.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_can.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_can.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_can.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_crc.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_crc.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_crc.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_crc.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_crc.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_crc.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_dbgmcu.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_dbgmcu.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_dbgmcu.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dbgmcu.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dbgmcu.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dbgmcu.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_dma.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_dma.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_dma.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dma.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dma.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dma.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_exti.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_exti.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_exti.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_exti.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_exti.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_exti.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_flash.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_flash.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_flash.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_flash.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_flash.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_flash.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_gpio.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_gpio.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_gpio.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_gpio.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_gpio.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_gpio.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_i2c.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_i2c.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_i2c.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_i2c.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_i2c.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_i2c.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_it.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_it.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_it.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_it.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_it.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_it.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_iwdg.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_iwdg.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_iwdg.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_iwdg.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_iwdg.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_iwdg.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_misc.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_misc.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_misc.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_misc.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_misc.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_misc.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_opa.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_opa.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_opa.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_opa.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_opa.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_opa.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_pwr.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_pwr.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_pwr.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_pwr.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_pwr.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_pwr.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_rcc.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_rcc.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_rcc.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rcc.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rcc.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rcc.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_rtc.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_rtc.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_rtc.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rtc.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rtc.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rtc.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_spi.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_spi.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_spi.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_spi.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_spi.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_spi.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_tim.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_tim.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_tim.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_tim.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_tim.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_tim.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_usart.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_usart.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_usart.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_usart.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_usart.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_usart.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_wwdg.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/ch32v20x_wwdg.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_wwdg.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_wwdg.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_wwdg.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_wwdg.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/core_riscv.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/core_riscv.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/core_riscv.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/core_riscv.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/core_riscv.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/core_riscv.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/system_ch32v20x.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/system_ch32v20x.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/system_ch32v20x.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/system_ch32v20x.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/system_ch32v20x.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/system_ch32v20x.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/debug.c.obj: C_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/debug.c || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/debug.c.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/debug.c.obj: C_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V20X/debug.c || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/debug.c.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
-build CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/startup_ch32v20x_D8.S.obj: ASM_COMPILER__ch32v203_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Inc/startup_ch32v20x_D8.S || cmake_object_order_depends_target_ch32v203_firmware.elf
-  DEP_FILE = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/startup_ch32v20x_D8.S.obj.d
+build CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V20X/startup_ch32v20x_D8W.S.obj: ASM_COMPILER__ch32v20x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Inc/V20X/startup_ch32v20x_D8W.S || cmake_object_order_depends_target_ch32v20x_firmware.elf
+  DEP_FILE = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V20X/startup_ch32v20x_D8W.S.obj.d
   FLAGS = -march=rv32imac_zicsr -mabi=ilp32 -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Os
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  OBJECT_FILE_DIR = CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Inc/V20X -I/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  OBJECT_FILE_DIR = CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V20X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ch32v203_firmware.elf
+# Link build statements for EXECUTABLE target ch32v20x_firmware.elf
 
 
 #############################################
-# Link the executable ch32v203_firmware.elf
+# Link the executable ch32v20x_firmware.elf
 
-build ch32v203_firmware.elf: C_EXECUTABLE_LINKER__ch32v203_firmware.2eelf_ CMakeFiles/ch32v203_firmware.elf.dir/main.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_adc.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_bkp.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_can.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_crc.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_dbgmcu.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_dma.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_exti.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_flash.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_gpio.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_i2c.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_it.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_iwdg.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_misc.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_opa.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_pwr.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_rcc.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_rtc.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_spi.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_tim.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_usart.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/ch32v20x_wwdg.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/core_riscv.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/system_ch32v20x.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/debug.c.obj CMakeFiles/ch32v203_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/startup_ch32v20x_D8.S.obj
-  OBJECT_DIR = CMakeFiles/ch32v203_firmware.elf.dir
-  POST_BUILD = cd /home/blank/Engineering/MCU/WCH/Project/blink/build && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Oihex /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v203_firmware.elf ch32v203_firmware.hex && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Obinary /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v203_firmware.elf ch32v203_firmware.bin && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objdump -S -d /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v203_firmware.elf > ch32v203_firmware.lst && --format=berkeley /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v203_firmware.elf
+build ch32v20x_firmware.elf: C_EXECUTABLE_LINKER__ch32v20x_firmware.2eelf_ CMakeFiles/ch32v20x_firmware.elf.dir/main.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_adc.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_bkp.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_can.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_crc.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dbgmcu.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_dma.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_exti.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_flash.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_gpio.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_i2c.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_it.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_iwdg.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_misc.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_opa.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_pwr.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rcc.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_rtc.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_spi.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_tim.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_usart.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/ch32v20x_wwdg.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/core_riscv.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/system_ch32v20x.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V20X/debug.c.obj CMakeFiles/ch32v20x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V20X/startup_ch32v20x_D8W.S.obj
+  LINK_FLAGS = -T/home/blank/Engineering/MCU/WCH/Project/blink/../../Src/V20X/Link.ld -nostartfiles -nostdlib -Wl,--gc-sections -Wl,--print-memory-usage --specs=nano.specs --specs=nosys.specs -mabi=ilp32
+  OBJECT_DIR = CMakeFiles/ch32v20x_firmware.elf.dir
+  POST_BUILD = cd /home/blank/Engineering/MCU/WCH/Project/blink/build && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Oihex /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v20x_firmware.elf ch32v20x_firmware.hex && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Obinary /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v20x_firmware.elf ch32v20x_firmware.bin && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objdump -S -d /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v20x_firmware.elf > ch32v20x_firmware.lst
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ch32v203_firmware.elf.dir/
-  TARGET_FILE = ch32v203_firmware.elf
-  TARGET_PDB = ch32v203_firmware.elf.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v20x_firmware.elf.dir/
+  TARGET_FILE = ch32v20x_firmware.elf
+  TARGET_PDB = ch32v20x_firmware.elf.pdb
+
+
+#############################################
+# Utility command for size
+
+build size: phony CMakeFiles/size ch32v20x_firmware.elf
 
 
 #############################################
 # Utility command for flash
 
-build flash: phony CMakeFiles/flash ch32v203_firmware.elf
+build flash: phony CMakeFiles/flash ch32v20x_firmware.elf
 
 
 #############################################
@@ -299,11 +332,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
+# Custom command for CMakeFiles/size
+
+build CMakeFiles/size | ${cmake_ninja_workdir}CMakeFiles/size: CUSTOM_COMMAND ch32v20x_firmware.elf || ch32v20x_firmware.elf
+  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/blink/build && riscv32-none-elf-size --format=berkeley /home/blank/Engineering/MCU/WCH/Project/blink/build/ch32v20x_firmware.elf
+
+
+#############################################
 # Custom command for CMakeFiles/flash
 
-build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND ch32v203_firmware.elf || ch32v203_firmware.elf
-  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/blink/build && openocd -f interface/wlink.cfg -f target/ch32v20x.cfg -c "program ch32v203_firmware.elf verify reset exit"
-  DESC = Flashing firmware
+build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND ch32v20x_firmware.elf || ch32v20x_firmware.elf
+  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/blink/build && openocd -f interface/wlink.cfg -f target/ch32v20x.cfg -c "program ch32v20x_firmware.elf verify reset exit"
 
 # =============================================================================
 # Target aliases.
@@ -316,7 +355,7 @@ build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND 
 #############################################
 # Folder: /home/blank/Engineering/MCU/WCH/Project/blink/build
 
-build all: phony ch32v203_firmware.elf
+build all: phony ch32v20x_firmware.elf
 
 # =============================================================================
 # Built-in targets

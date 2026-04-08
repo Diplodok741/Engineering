@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/blank/Engineering/CmakeTest/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

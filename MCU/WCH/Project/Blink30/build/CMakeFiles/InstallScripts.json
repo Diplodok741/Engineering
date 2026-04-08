@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/blank/Engineering/MCU/WCH/Project/Blink30/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

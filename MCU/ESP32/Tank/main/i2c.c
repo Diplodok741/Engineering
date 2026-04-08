@@ -13,7 +13,7 @@
 #define sdaPin 23
 #define sclPin 21
 #define frequency 400000
-#define address 
+#define address 0x3a
 
 
 static const char *tag = "I2C";
