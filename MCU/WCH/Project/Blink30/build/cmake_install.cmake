@@ -34,7 +34,7 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objdump")
+  set(CMAKE_OBJDUMP "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objdump")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

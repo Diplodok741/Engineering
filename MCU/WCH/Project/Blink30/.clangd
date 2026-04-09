@@ -1,0 +1,8 @@
+CompileFlags:
+  Add: [-w]        # отключаем все предупреждения clangd
+  Remove: [-W*]    # убираем все -W флаги
+
+# Полностью отключаем clangd для этого проекта
+If:
+  PathMatch: .*
+  Root: true

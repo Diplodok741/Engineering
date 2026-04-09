@@ -45,212 +45,264 @@ cmake_ninja_workdir = /home/blank/Engineering/MCU/WCH/Project/Blink30/build/
 build cmake_object_order_depends_target_ch32v30x_firmware.elf: phony || .
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/main.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Project/Blink30/main.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/main.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_adc.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_adc.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_adc.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_bkp.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_bkp.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_bkp.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_can.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_can.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_can.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_crc.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_crc.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_crc.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dbgmcu.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dbgmcu.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dbgmcu.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dma.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dma.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dma.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_exti.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_exti.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_exti.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_flash.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_flash.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_flash.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_gpio.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_gpio.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_gpio.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_i2c.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_i2c.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_i2c.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_it.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_it.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_it.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_iwdg.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_iwdg.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_iwdg.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_misc.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_misc.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_misc.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_opa.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_opa.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_opa.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_pwr.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_pwr.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_pwr.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rcc.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rcc.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rcc.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rtc.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rtc.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rtc.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_spi.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_spi.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_spi.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_tim.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_tim.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_tim.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_usart.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_usart.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_usart.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_wwdg.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_wwdg.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_wwdg.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/core_riscv.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/core_riscv.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/core_riscv.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/system_ch32v30x.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/system_ch32v30x.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/system_ch32v30x.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/debug.c.obj: C_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Src/V30X/debug.c || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
   DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/debug.c.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
-build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8.S.obj: ASM_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8.S || cmake_object_order_depends_target_ch32v30x_firmware.elf
-  DEFINES = -DCH32V30X
-  DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8.S.obj.d
+build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8C.S.obj: ASM_COMPILER__ch32v30x_firmware.2eelf_unscanned_ /home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8C.S || cmake_object_order_depends_target_ch32v30x_firmware.elf
+  DEFINES = -DCH32V30X -DHSE_VALUE=8000000 -DSYSCLK_FREQ_144MHz_HSE
+  DEP_FILE = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8C.S.obj.d
   FLAGS = -march=rv32imafdc_zicsr_zifencei -mabi=ilp32d -mcmodel=medany -msmall-data-limit=8 -mno-save-restore -ffunction-sections -fdata-sections -fno-common -Wall -Wextra -Os -g
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Inc/V30X -I/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 
 # =============================================================================
@@ -260,19 +312,14 @@ build CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V3
 #############################################
 # Link the executable ch32v30x_firmware.elf
 
-build ch32v30x_firmware.elf: C_EXECUTABLE_LINKER__ch32v30x_firmware.2eelf_ CMakeFiles/ch32v30x_firmware.elf.dir/main.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_adc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_bkp.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_can.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_crc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dbgmcu.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dma.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_exti.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_flash.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_gpio.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_i2c.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_it.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_iwdg.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_misc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_opa.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_pwr.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rcc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rtc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_spi.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_tim.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_usart.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_wwdg.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/core_riscv.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/system_ch32v30x.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/debug.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8.S.obj
-  LINK_FLAGS = -T/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X/Link.ld -nostartfiles --specs=nano.specs --specs=nosys.specs -mabi=ilp32d -lc -lnosys -Wl,--gc-sections -Wl,--print-memory-usage
+build ch32v30x_firmware.elf: C_EXECUTABLE_LINKER__ch32v30x_firmware.2eelf_ CMakeFiles/ch32v30x_firmware.elf.dir/main.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_adc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_bkp.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_can.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_crc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dbgmcu.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_dma.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_exti.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_flash.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_gpio.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_i2c.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_it.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_iwdg.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_misc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_opa.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_pwr.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rcc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_rtc.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_spi.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_tim.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_usart.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/ch32v30x_wwdg.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/core_riscv.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/system_ch32v30x.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Src/V30X/debug.c.obj CMakeFiles/ch32v30x_firmware.elf.dir/home/blank/Engineering/MCU/WCH/Inc/V30X/startup_ch32v30x_D8C.S.obj
+  LINK_FLAGS = -T/home/blank/Engineering/MCU/WCH/Project/Blink30/../../Src/V30X/Link.ld -nostartfiles --specs=nosys.specs -mabi=ilp32d -lc -lnosys -Wl,--gc-sections -Wl,--print-memory-usage
   OBJECT_DIR = CMakeFiles/ch32v30x_firmware.elf.dir
-  POST_BUILD = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Oihex /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf ch32v30x_firmware.hex && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Obinary /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf ch32v30x_firmware.bin && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objdump -S -d /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf > ch32v30x_firmware.lst
+  POST_BUILD = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Oihex /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf ch32v30x_firmware.hex && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objcopy -Obinary /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf ch32v30x_firmware.bin && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-objdump -S -d /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf > ch32v30x_firmware.lst
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/ch32v30x_firmware.elf.dir/
   TARGET_FILE = ch32v30x_firmware.elf
-  TARGET_PDB = ch32v30x_firmware.elf.dbg
-
-
-#############################################
-# Utility command for size
-
-build size: phony CMakeFiles/size ch32v30x_firmware.elf
+  TARGET_PDB = ch32v30x_firmware.elf.pdb
 
 
 #############################################
@@ -282,10 +329,22 @@ build flash: phony CMakeFiles/flash ch32v30x_firmware.elf
 
 
 #############################################
+# Utility command for erase
+
+build erase: phony CMakeFiles/erase
+
+
+#############################################
+# Utility command for size
+
+build size: phony CMakeFiles/size ch32v30x_firmware.elf
+
+
+#############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -296,7 +355,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake --regenerate-during-build -S/home/blank/Engineering/MCU/WCH/Project/Blink30 -B/home/blank/Engineering/MCU/WCH/Project/Blink30/build
+  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/bin/cmake --regenerate-during-build -S/home/blank/Engineering/MCU/WCH/Project/Blink30 -B/home/blank/Engineering/MCU/WCH/Project/Blink30/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -305,19 +364,27 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 
 #############################################
-# Custom command for CMakeFiles/size
-
-build CMakeFiles/size | ${cmake_ninja_workdir}CMakeFiles/size: CUSTOM_COMMAND ch32v30x_firmware.elf || ch32v30x_firmware.elf
-  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && riscv32-none-elf-size --format=berkeley /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf
-  DESC = Firmware size
-
-
-#############################################
 # Custom command for CMakeFiles/flash
 
 build CMakeFiles/flash | ${cmake_ninja_workdir}CMakeFiles/flash: CUSTOM_COMMAND ch32v30x_firmware.elf || ch32v30x_firmware.elf
   COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && wlink flash ch32v30x_firmware.bin
-  DESC = Flashing with wlink...
+  DESC = Прошивка через wlink...
+
+
+#############################################
+# Custom command for CMakeFiles/erase
+
+build CMakeFiles/erase | ${cmake_ninja_workdir}CMakeFiles/erase: CUSTOM_COMMAND
+  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && wlink erase
+  DESC = Полное стирание чипа
+
+
+#############################################
+# Custom command for CMakeFiles/size
+
+build CMakeFiles/size | ${cmake_ninja_workdir}CMakeFiles/size: CUSTOM_COMMAND ch32v30x_firmware.elf || ch32v30x_firmware.elf
+  COMMAND = cd /home/blank/Engineering/MCU/WCH/Project/Blink30/build && riscv32-none-elf-size --format=berkeley /home/blank/Engineering/MCU/WCH/Project/Blink30/build/ch32v30x_firmware.elf
+  DESC = Размер прошивки
 
 # =============================================================================
 # Target aliases.
@@ -339,14 +406,14 @@ build all: phony ch32v30x_firmware.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/blank/Engineering/MCU/WCH/Project/Blink30/build/cmake_install.cmake: RERUN_CMAKE | /home/blank/Engineering/MCU/WCH/Project/Blink30/CMakeLists.txt /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
+build build.ninja /home/blank/Engineering/MCU/WCH/Project/Blink30/build/cmake_install.cmake: RERUN_CMAKE | /home/blank/Engineering/MCU/WCH/Project/Blink30/CMakeLists.txt /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMCompiler.cmake.in /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystem.cmake.in /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestASMCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectASMLinker.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/blank/Engineering/MCU/WCH/Project/Blink30/CMakeLists.txt /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
+build /home/blank/Engineering/MCU/WCH/Project/Blink30/CMakeLists.txt /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMCompiler.cmake.in /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystem.cmake.in /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestASMCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectASMLinker.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake /nix/store/fx11rh3sihxf226frjrpc9hipbnafaj4-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
 
 
 #############################################

@@ -1,5 +1,53 @@
+# {
+#   description = "CH32V devShell (V20X + V30X)";
+#
+#   inputs = {
+#     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+#     flake-utils.url = "github:numtide/flake-utils";
+#   };
+#
+#   outputs = { self, nixpkgs, flake-utils }:
+#     flake-utils.lib.eachDefaultSystem (system:
+#       let
+#         pkgs = nixpkgs.legacyPackages.${system};
+#         riscv = pkgs.pkgsCross.riscv32-embedded;
+#
+#         # Жёсткая обёртка для clangd — отключает host glibc полностью
+#         clangd-wrapped = pkgs.writeShellScriptBin "clangd" ''
+#           exec ${pkgs.clang-tools}/bin/clangd \
+#             --query-driver="${riscv.stdenv.cc}/bin/riscv32-none-elf-gcc" \
+#             --background-index \
+#             --header-insertion=never \
+#             "$@"
+#         '';
+#       in
+#       {
+#         devShells.default = pkgs.mkShell {
+#           packages = [
+#             pkgs.cmake
+#             pkgs.ninja
+#             pkgs.gdb
+#             pkgs.openocd
+#             pkgs.wlink
+#             riscv.buildPackages.gcc
+#             riscv.buildPackages.binutils
+#             clangd-wrapped   # ← используем нашу обёртку
+#           ];
+#
+#           shellHook = ''
+#             echo "========================================="
+#             echo "CH32V devShell запущен (clangd с query-driver)"
+#             echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
+#             echo "========================================="
+#
+#             # export CPATH="$PWD/Inc/V30X:$PWD/Inc/V20X:$PWD/Src/V30X:$PWD/Src/V20X:$CPATH"
+#           '';
+#         };
+#       });
+# }
+
 {
-  description = "CH32 devShell";
+  description = "CH32V30x devShell";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -11,46 +59,26 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
-        # Полноценный cross-toolchain с soft-float newlib-nano
-        riscvToolchain = import nixpkgs {
-          inherit system;
-          crossSystem = {
-            config = "riscv32-none-elf";
-            libc = "newlib-nano";
-            abi = "ilp32";          # ← это ключ
-          };
-        };
+        riscvToolchain = pkgs.pkgsCross.riscv32-embedded;
       in
       {
         devShells.default = pkgs.mkShell {
           packages = [
-            pkgs.cmake
-            pkgs.ninja
             pkgs.gdb
             pkgs.openocd
             pkgs.wlink
-            pkgs.wchisp
-            pkgs.libusb1
             pkgs.fish
-
-            riscvToolchain.buildPackages.gcc   # главный пакет
+            riscvToolchain.buildPackages.gcc
             riscvToolchain.buildPackages.binutils
+            riscvToolchain.buildPackages.gdb
           ];
 
           shellHook = ''
             echo "========================================"
-            echo "CH32 devShell"
+            echo "CH32V30x devShell"
             echo "Shell: Fish"
+            echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
             echo "========================================"
-
-            ROOT_DIR="$(pwd)"
-            while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
-              ROOT_DIR="$(dirname "$ROOT_DIR")"
-            done
-
-            if [[ -f "$ROOT_DIR/flake.nix" ]]; then
-              export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
-            fi
           '';
         };
       });

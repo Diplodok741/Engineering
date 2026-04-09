@@ -30,7 +30,7 @@ set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
 set(CMAKE_LINKER "/run/current-system/sw/bin/ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_C_COMPILER_LINKER "/nix/store/rinxh4y0akcin90l05j0zr1r3wahl34d-binutils-wrapper-2.44/bin/ld")
+set(CMAKE_C_COMPILER_LINKER "/nix/store/hnan7l0v68sahyxbazz5y358prz253d1-binutils-wrapper-2.44/bin/ld")
 set(CMAKE_C_COMPILER_LINKER_ID "GNU")
 set(CMAKE_C_COMPILER_LINKER_VERSION 2.44)
 set(CMAKE_C_COMPILER_LINKER_FRONTEND_VARIANT GNU)
@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/k3qc3y1f6i8g2dgz5z0cf00dj4xc5rrv-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include;/nix/store/k3qc3y1f6i8g2dgz5z0cf00dj4xc5rrv-gcc-14.3.0/include;/nix/store/k3qc3y1f6i8g2dgz5z0cf00dj4xc5rrv-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include-fixed;/nix/store/radp574lyk1l05lccg0i4hj4z1p3ig0m-glibc-2.40-218-dev/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/06409a3d2d3b1113zdk9rm5a3ns4rizz-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include;/nix/store/06409a3d2d3b1113zdk9rm5a3ns4rizz-gcc-14.3.0/include;/nix/store/06409a3d2d3b1113zdk9rm5a3ns4rizz-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0/include-fixed;/nix/store/903kx9pwhyzswmx1caf7rc8idram9vdq-glibc-2.40-218-dev/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;gcc_s;c;gcc;gcc_s")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/nix/store/km4g87jxsqxvcq344ncyb8h1i6f3cqxh-glibc-2.40-218/lib;/nix/store/k3qc3y1f6i8g2dgz5z0cf00dj4xc5rrv-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0;/nix/store/alrbhz7im0w0jdwcfdgcfk7pxhkl1fzj-gcc-14.3.0-lib/lib;/nix/store/k3qc3y1f6i8g2dgz5z0cf00dj4xc5rrv-gcc-14.3.0/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/nix/store/pdwlyjkmc6icc0wb5gaw08m9ynqrg683-glibc-2.40-218/lib;/nix/store/06409a3d2d3b1113zdk9rm5a3ns4rizz-gcc-14.3.0/lib/gcc/x86_64-unknown-linux-gnu/14.3.0;/nix/store/1xw5xccqqh1xw3mvd70hyil6x418wxcm-gcc-14.3.0-lib/lib;/nix/store/06409a3d2d3b1113zdk9rm5a3ns4rizz-gcc-14.3.0/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
