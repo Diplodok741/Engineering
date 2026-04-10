@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/blank/Engineering/MCU/WCH/Inc;/home/blank/Engineering/MCU/WCH/Src;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/3zd9g1mx13zgv04ann5r5dja4flxx3jj-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/blank/Engineering/MCU/WCH/CH32V20x/Inc;/home/blank/Engineering/MCU/WCH/CH32V20x/Src;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/3zd9g1mx13zgv04ann5r5dja4flxx3jj-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

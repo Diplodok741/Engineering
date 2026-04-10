@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc")
+set(CMAKE_C_COMPILER "/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "15.2.0")
@@ -23,11 +23,11 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID "riscv32")
 
 
 
-set(CMAKE_AR "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ar")
-set(CMAKE_C_COMPILER_AR "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ar")
-set(CMAKE_RANLIB "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ranlib")
-set(CMAKE_LINKER "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ld")
+set(CMAKE_AR "/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ar")
+set(CMAKE_C_COMPILER_AR "/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ar")
+set(CMAKE_RANLIB "/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ranlib")
+set(CMAKE_LINKER "/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/5fj1a3adkwdx8l8da0qn3lfhk0jr31yz-riscv32-none-elf-gdb-17.1/include;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/45npani18v2m7sbkrzrv2xyilyghrny9-gnumake-4.4.1/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/blank/Engineering/MCU/WCH/CH32V30x/Inc;/home/blank/Engineering/MCU/WCH/CH32V30x/Src;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/xnhn1nhs0w3fr9984ahmgkz94nxv02rz-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/3zd9g1mx13zgv04ann5r5dja4flxx3jj-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

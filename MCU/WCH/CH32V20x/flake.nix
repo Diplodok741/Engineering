@@ -1,5 +1,5 @@
 {
-  description = "CH32V30x devShell (riscv32-none-elf)";
+  description = "CH32V20x devShell";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -14,79 +14,42 @@
         riscvToolchain = import nixpkgs {
           inherit system;
           crossSystem = {
-            config = "riscv32-none-elf";     
-            libc = "newlib";                 
-            abi = "ilp32";                
+            config = "riscv32-none-elf";
+            libc = "newlib-nano";
+            abi = "ilp32";          # ← это ключ
           };
         };
       in
       {
         devShells.default = pkgs.mkShell {
-          name = "ch32v30x-riscv32-none-elf";
-
           packages = [
-            riscvToolchain.gcc
-            riscvToolchain.binutils
-            riscvToolchain.gdb
-            pkgs.gdb
-            pkgs.openocd
-            pkgs.wlink
-            pkgs.fish
-            pkgs.gnumake
             pkgs.cmake
             pkgs.ninja
-            pkgs.clang-tools
+            pkgs.gdb
+            pkgs.openocd
+            pkgs.minicom
+            pkgs.picocom
+            pkgs.fish
+
+            riscvToolchain.buildPackages.gcc   # главный пакет
+            riscvToolchain.buildPackages.binutils
           ];
 
           shellHook = ''
             echo "========================================"
-            echo "CH32V30x devShell"
-            echo "GCC:      $(riscv32-none-elf-gcc --version | head -n1)"
-            echo "Binutils: $(riscv32-none-elf-ld --version | head -n1)"
-            echo "GDB:      $(riscv32-none-elf-gdb --version | head -n1)"
-            echo "Shell:    Fish"
+            echo "CH32V20x devShell"
+            echo "Shell: Fish"
             echo "========================================"
+
+            ROOT_DIR="$(pwd)"
+            while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
+              ROOT_DIR="$(dirname "$ROOT_DIR")"
+            done
+
+            if [[ -f "$ROOT_DIR/flake.nix" ]]; then
+              export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
+            fi
           '';
         };
       });
 }
-
-
-
-# {
-#   description = "CH32V30x devShell";
-#
-#   inputs = {
-#     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-#     flake-utils.url = "github:numtide/flake-utils";
-#   };
-#
-#   outputs = { self, nixpkgs, flake-utils }:
-#     flake-utils.lib.eachDefaultSystem (system:
-#       let
-#         pkgs = nixpkgs.legacyPackages.${system};
-#
-#         riscvToolchain = pkgs.pkgsCross.riscv32-embedded;
-#       in
-#       {
-#         devShells.default = pkgs.mkShell {
-#           packages = [
-#             pkgs.gdb
-#             pkgs.openocd
-#             pkgs.wlink
-#             pkgs.fish
-#             riscvToolchain.gcc
-#             riscvToolchain.binutils
-#             riscvToolchain.gdb
-#           ];
-#
-#           shellHook = ''
-#             echo "========================================"
-#             echo "CH32V30x devShell"
-#             echo "Shell: Fish"
-#             echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
-#             echo "========================================"
-#           '';
-#         };
-#       });
-# }
