@@ -1,0 +1,6 @@
+/home/blank/Engineering/MCU/WCH/Project/Programmator/build/CMakeFiles/ch32v30x_firmware.elf.dir
+/home/blank/Engineering/MCU/WCH/Project/Programmator/build/CMakeFiles/flash.dir
+/home/blank/Engineering/MCU/WCH/Project/Programmator/build/CMakeFiles/erase.dir
+/home/blank/Engineering/MCU/WCH/Project/Programmator/build/CMakeFiles/size.dir
+/home/blank/Engineering/MCU/WCH/Project/Programmator/build/CMakeFiles/edit_cache.dir
+/home/blank/Engineering/MCU/WCH/Project/Programmator/build/CMakeFiles/rebuild_cache.dir
