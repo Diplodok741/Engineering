@@ -1,5 +1,5 @@
 {
-  description = "CH32V30x devShell";
+  description = "CH32V20x / WCH devShell";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -11,14 +11,20 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
-        riscvToolchain = import nixpkgs {
+        # Специальный cross-пакет с явным soft-float
+        crossPkgs = import nixpkgs {
           inherit system;
           crossSystem = {
             config = "riscv32-none-elf";
-            libc = "newlib-nano";
-            abi = "ilp32";          
+            libc = "newlib";
+            abi = "ilp32";
+            # Эти параметры заставляют nixpkgs собрать newlib и libgcc правильно (soft-float)
+            fpu = null;
+            float-abi = "soft";
           };
         };
+
+        riscvGcc = crossPkgs.buildPackages.gcc;
       in
       {
         devShells.default = pkgs.mkShell {
@@ -31,25 +37,24 @@
             pkgs.picocom
             pkgs.fish
             pkgs.wlink
-            riscvToolchain.buildPackages.gcc   
-            riscvToolchain.buildPackages.binutils
+            riscvGcc
             pkgs.python3Packages.pyserial
-            pkgs.python3Packages.rich     
-            pkgs.python3Packages.typer   
+            pkgs.python3Packages.rich
+            pkgs.python3Packages.typer
           ];
 
           shellHook = ''
+            echo "========================================"
+            echo "CH32V20x devShell — soft-float (ilp32)"
+            echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
+            echo "========================================"
+
             export PATH="$PWD:$PATH"
-            echo "========================================"
-            echo "CH32V30x devShell"
-            echo "Shell: Fish"
-            echo "========================================"
 
             ROOT_DIR="$(pwd)"
             while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
               ROOT_DIR="$(dirname "$ROOT_DIR")"
             done
-
             if [[ -f "$ROOT_DIR/flake.nix" ]]; then
               export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
             fi

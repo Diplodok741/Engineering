@@ -11,14 +11,18 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
-        riscvToolchain = import nixpkgs {
+        crossPkgs = import nixpkgs {
           inherit system;
           crossSystem = {
             config = "riscv32-none-elf";
-            libc = "newlib-nano";
-            abi = "ilp32";          
+            libc = "newlib";
+            abi = "ilp32f";           # ← важно для FPU
+            fpu = "single";           # или "none" если хочешь отключить
+            float-abi = "softfp";     # softfp — лучший компромисс
           };
         };
+
+        riscvGcc = crossPkgs.buildPackages.gcc;
       in
       {
         devShells.default = pkgs.mkShell {
@@ -31,18 +35,16 @@
             pkgs.picocom
             pkgs.fish
             pkgs.wlink
-            riscvToolchain.buildPackages.gcc   
-            riscvToolchain.buildPackages.binutils
+            riscvGcc
             pkgs.python3Packages.pyserial
-            pkgs.python3Packages.rich     
-            pkgs.python3Packages.typer   
+            pkgs.python3Packages.rich
+            pkgs.python3Packages.typer
           ];
 
           shellHook = ''
             echo "========================================"
-            echo "CH32V30x devShell"
-            echo "Shell: Fish"
-            echo "Закос под ESP-IDF"
+            echo "CH32V30x devShell (ilp32f + FPU)"
+            echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
             echo "========================================"
 
             export PATH="$PWD:$PATH"
@@ -51,7 +53,6 @@
             while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
               ROOT_DIR="$(dirname "$ROOT_DIR")"
             done
-
             if [[ -f "$ROOT_DIR/flake.nix" ]]; then
               export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
             fi

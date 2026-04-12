@@ -17,7 +17,7 @@
 rule ASM_COMPILER__ch32_sdk_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building ASM object $out
 
 
@@ -27,7 +27,7 @@ rule ASM_COMPILER__ch32_sdk_unscanned_Release
 rule C_COMPILER__ch32_sdk_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -35,7 +35,7 @@ rule C_COMPILER__ch32_sdk_unscanned_Release
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__ch32_sdk_Release
-  command = $PRE_LINK && /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ranlib $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E rm -f $TARGET_FILE && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ar qc $TARGET_FILE $LINK_FLAGS $in && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ranlib $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -46,7 +46,7 @@ rule C_STATIC_LIBRARY_LINKER__ch32_sdk_Release
 rule C_COMPILER__TEest.2eelf_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
-  command = ${LAUNCHER}${CODE_CHECK}/nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = ${LAUNCHER}${CODE_CHECK}/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -54,7 +54,7 @@ rule C_COMPILER__TEest.2eelf_unscanned_Release
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__TEest.2eelf_Release
-  command = $PRE_LINK && /nix/store/jyw0sd05y9ridscx9hps9xy9hkkm00r8-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = $PRE_LINK && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -71,7 +71,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake --regenerate-during-build -S/home/blank/Engineering/MCU/WCH/CH32V20x -B/home/blank/Engineering/MCU/WCH/CH32V20x/Project/TEest/build
+  command = /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake --regenerate-during-build -S/home/blank/Engineering/MCU/WCH_1/CH32V20x -B/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build
   description = Re-running CMake...
   generator = 1
 
