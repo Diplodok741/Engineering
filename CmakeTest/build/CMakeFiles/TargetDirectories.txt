@@ -1,4 +1,0 @@
-/home/blank/Engineering/CmakeTest/build/CMakeFiles/result.dir
-/home/blank/Engineering/CmakeTest/build/CMakeFiles/ap.dir
-/home/blank/Engineering/CmakeTest/build/CMakeFiles/edit_cache.dir
-/home/blank/Engineering/CmakeTest/build/CMakeFiles/rebuild_cache.dir

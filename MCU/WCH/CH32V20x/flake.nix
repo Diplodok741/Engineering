@@ -1,5 +1,5 @@
 {
-  description = "CH32V20x devShell";
+  description = "CH32V30x devShell";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -16,7 +16,7 @@
           crossSystem = {
             config = "riscv32-none-elf";
             libc = "newlib-nano";
-            abi = "ilp32";          # ← это ключ
+            abi = "ilp32";          
           };
         };
       in
@@ -30,14 +30,18 @@
             pkgs.minicom
             pkgs.picocom
             pkgs.fish
-
-            riscvToolchain.buildPackages.gcc   # главный пакет
+            pkgs.wlink
+            riscvToolchain.buildPackages.gcc   
             riscvToolchain.buildPackages.binutils
+            pkgs.python3Packages.pyserial
+            pkgs.python3Packages.rich     
+            pkgs.python3Packages.typer   
           ];
 
           shellHook = ''
+            export PATH="$PWD:$PATH"
             echo "========================================"
-            echo "CH32V20x devShell"
+            echo "CH32V30x devShell"
             echo "Shell: Fish"
             echo "========================================"
 
