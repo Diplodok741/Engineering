@@ -4,13 +4,6 @@ cmake_minimum_required(VERSION 3.20)
 # ====================== TOOLCHAIN ======================
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR riscv32)
-
-set(CMAKE_C_COMPILER riscv32-wch-elf-gcc)      # ← ИЗМЕНИТЬ
-set(CMAKE_ASM_COMPILER riscv32-wch-elf-gcc)    # ← ИЗМЕНИТЬ
-set(CMAKE_OBJCOPY riscv32-wch-elf-objcopy)     # ← ИЗМЕНИТЬ
-set(CMAKE_OBJDUMP riscv32-wch-elf-objdump)     # ← ИЗМЕНИТЬ
-set(CMAKE_SIZE riscv32-wch-elf-size)           # ← ИЗМЕНИТЬ
-
 set(CMAKE_C_COMPILER_WORKS 1)
 set(CMAKE_ASM_COMPILER_WORKS 1)
 
