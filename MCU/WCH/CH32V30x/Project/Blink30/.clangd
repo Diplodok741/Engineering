@@ -1,4 +1,0 @@
-CompileFlags:
-  Remove: [-m32, -march=.*, -mabi=.*]  # иногда помогает
-  Add:
-    - --sysroot=/path/to/your/toolchain   # редко нужно

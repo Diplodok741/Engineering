@@ -80,7 +80,7 @@ set(SDK_SOURCES
     Src/core_riscv.c
     Src/system_ch32v30x.c
     Src/debug.c
-    Inc/startup_ch32v30x_D8.S
+    Inc/startup_ch32v30x_D8C.S
 )
 
 add_library(ch32_sdk STATIC ${SDK_SOURCES})

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

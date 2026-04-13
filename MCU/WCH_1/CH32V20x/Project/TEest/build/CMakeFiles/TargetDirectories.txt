@@ -1,0 +1,7 @@
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/ch32_sdk.dir
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/TEest.elf.dir
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/size.dir
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/flash.dir
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/erase.dir
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/edit_cache.dir
+/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/TEest/build/CMakeFiles/rebuild_cache.dir

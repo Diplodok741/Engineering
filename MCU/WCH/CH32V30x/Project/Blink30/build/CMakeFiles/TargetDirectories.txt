@@ -1,7 +1,0 @@
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/ch32_sdk.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/Blink30.elf.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/size.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/flash.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/erase.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/edit_cache.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Blink30/build/CMakeFiles/rebuild_cache.dir

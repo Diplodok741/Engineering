@@ -43,8 +43,9 @@
 
           shellHook = ''
             echo "========================================"
-            echo "CH32V30x devShell (ilp32f + FPU)"
+            echo "CH32V30x devShell (Закос под ESP-IDF)"
             echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
+            echo "Shell: Fish"
             echo "========================================"
 
             export PATH="$PWD:$PATH"

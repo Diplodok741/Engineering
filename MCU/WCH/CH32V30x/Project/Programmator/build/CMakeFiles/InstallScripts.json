@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Programmator/build/cmake_install.cmake"
+		"/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

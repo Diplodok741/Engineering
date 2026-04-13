@@ -20,7 +20,7 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -60,7 +60,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -72,7 +72,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/"
       - "/run/current-system/sw/bin/"
     searched_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/uname"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/uname"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/uname"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/uname"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/uname"
@@ -83,7 +83,7 @@ events:
     found: "/nix/store/74sind1d6vf2bfwd7yklg8chsvzqxmmq-coreutils-9.10/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -126,7 +126,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -166,7 +166,7 @@ events:
       - "ninja"
       - "samu"
     candidate_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -206,7 +206,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -218,9 +218,9 @@ events:
       - "/nix/var/nix/profiles/default/bin/"
       - "/run/current-system/sw/bin/"
     searched_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/ninja-build"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/ninja"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/samu"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/ninja-build"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/ninja"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/samu"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/ninja-build"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/ninja"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/samu"
@@ -228,7 +228,7 @@ events:
     found: "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/ninja"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -271,7 +271,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -302,7 +302,7 @@ events:
     names:
       - "riscv32-none-elf-gcc"
     candidate_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -342,7 +342,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -354,7 +354,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/"
       - "/run/current-system/sw/bin/"
     searched_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc"
@@ -371,7 +371,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -414,7 +414,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -456,7 +456,7 @@ events:
         - "/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include"
         - "/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include"
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -499,7 +499,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -532,7 +532,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Programmator/build/CMakeFiles/4.1.2/CompilerIdC/a.out
+        /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/CMakeFiles/4.1.2/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -556,7 +556,7 @@ events:
       - "ar"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -595,7 +595,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -609,7 +609,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ar"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -652,7 +652,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -685,7 +685,7 @@ events:
       - "ranlib"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -724,7 +724,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -738,7 +738,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -781,7 +781,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -814,7 +814,7 @@ events:
       - "strip"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -853,7 +853,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -867,7 +867,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-strip"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -910,7 +910,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -943,7 +943,7 @@ events:
       - "ld"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -982,7 +982,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -996,7 +996,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ld"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -1039,7 +1039,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -1072,7 +1072,7 @@ events:
       - "nm"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -1111,7 +1111,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -1125,7 +1125,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-nm"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -1168,7 +1168,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -1201,7 +1201,7 @@ events:
       - "readelf"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -1240,7 +1240,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -1254,7 +1254,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-readelf"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -1297,7 +1297,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -1330,7 +1330,7 @@ events:
       - "dlltool"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -1369,7 +1369,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -1382,7 +1382,7 @@ events:
       - "/run/current-system/sw/bin/"
     searched_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-dlltool"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-dlltool"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-dlltool"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-dlltool"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-dlltool"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-dlltool"
@@ -1421,7 +1421,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-dlltool"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-dlltool"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-dlltool"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-dlltool"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-dlltool"
       - "/home/blank/.local/bin/riscv32-none-elf-dlltool"
       - "/run/wrappers/bin/riscv32-none-elf-dlltool"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-dlltool"
@@ -1433,7 +1433,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-dlltool"
       - "/run/current-system/sw/bin/riscv32-none-elf-dlltool"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/dlltool"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/dlltool"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/dlltool"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/dlltool"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/dlltool"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/dlltool"
@@ -1472,7 +1472,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/dlltool"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/dlltool"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/dlltool"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/dlltool"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/dlltool"
       - "/home/blank/.local/bin/dlltool"
       - "/run/wrappers/bin/dlltool"
       - "/home/blank/.local/share/flatpak/exports/bin/dlltool"
@@ -1486,7 +1486,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -1529,7 +1529,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -1562,7 +1562,7 @@ events:
       - "addr2line"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -1601,7 +1601,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -1615,7 +1615,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -1658,7 +1658,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -1691,7 +1691,7 @@ events:
       - "tapi"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -1730,7 +1730,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -1743,7 +1743,7 @@ events:
       - "/run/current-system/sw/bin/"
     searched_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-tapi"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-tapi"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-tapi"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-tapi"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-tapi"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-tapi"
@@ -1782,7 +1782,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-tapi"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-tapi"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-tapi"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-tapi"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-tapi"
       - "/home/blank/.local/bin/riscv32-none-elf-tapi"
       - "/run/wrappers/bin/riscv32-none-elf-tapi"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-tapi"
@@ -1794,7 +1794,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-tapi"
       - "/run/current-system/sw/bin/riscv32-none-elf-tapi"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/tapi"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/tapi"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/tapi"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/tapi"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/tapi"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/tapi"
@@ -1833,7 +1833,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/tapi"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/tapi"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/tapi"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/tapi"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/tapi"
       - "/home/blank/.local/bin/tapi"
       - "/run/wrappers/bin/tapi"
       - "/home/blank/.local/share/flatpak/exports/bin/tapi"
@@ -1847,7 +1847,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -1890,7 +1890,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -1925,7 +1925,7 @@ events:
       - "riscv32-none-elf-gcc-ar"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -1964,7 +1964,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -1977,7 +1977,7 @@ events:
       - "/run/current-system/sw/bin/"
     searched_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar-15.2"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar-15.2"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar-15.2"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar-15.2"
@@ -2016,7 +2016,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ar-15.2"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-15.2"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ar-15.2"
@@ -2028,7 +2028,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ar-15.2"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar-15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar-15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar-15"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar-15"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar-15"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar-15"
@@ -2067,7 +2067,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ar-15"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ar-15"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ar-15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-15"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ar-15"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ar-15"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ar-15"
@@ -2079,7 +2079,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ar-15"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ar-15"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar15"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar15"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar15"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar15"
@@ -2118,7 +2118,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ar15"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ar15"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ar15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar15"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ar15"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ar15"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ar15"
@@ -2130,7 +2130,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ar15"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ar15"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar"
@@ -2147,7 +2147,7 @@ events:
     found: "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -2190,7 +2190,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -2225,7 +2225,7 @@ events:
       - "riscv32-none-elf-gcc-ranlib"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -2264,7 +2264,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -2277,7 +2277,7 @@ events:
       - "/run/current-system/sw/bin/"
     searched_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib-15.2"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib-15.2"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib-15.2"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib-15.2"
@@ -2316,7 +2316,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ranlib-15.2"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-15.2"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ranlib-15.2"
@@ -2328,7 +2328,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ranlib-15.2"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib-15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib-15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib-15"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib-15"
@@ -2367,7 +2367,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ranlib-15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ranlib-15"
@@ -2379,7 +2379,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ranlib-15"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib15"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib15"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib15"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib15"
@@ -2418,7 +2418,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ranlib15"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ranlib15"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ranlib15"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib15"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib15"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ranlib15"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ranlib15"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ranlib15"
@@ -2430,7 +2430,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ranlib15"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ranlib15"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib"
@@ -2447,7 +2447,7 @@ events:
     found: "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -2490,7 +2490,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -2521,7 +2521,7 @@ events:
     names:
       - "riscv32-none-elf-gcc"
     candidate_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -2561,7 +2561,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -2573,7 +2573,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/"
       - "/run/current-system/sw/bin/"
     searched_directories:
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc"
@@ -2590,7 +2590,7 @@ events:
     found: "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -2633,7 +2633,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -2681,7 +2681,7 @@ events:
       - "riscv32-none-elf-gcc-ar"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -2720,7 +2720,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -2733,7 +2733,7 @@ events:
       - "/run/current-system/sw/bin/"
     searched_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar-"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar-"
@@ -2772,7 +2772,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ar-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ar-"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ar-"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ar-"
@@ -2784,7 +2784,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ar-"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar-"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar-"
@@ -2823,7 +2823,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ar-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ar-"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ar-"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ar-"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ar-"
@@ -2835,7 +2835,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ar-"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ar-"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ar"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ar"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ar"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ar"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ar"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ar"
@@ -2852,7 +2852,7 @@ events:
     found: "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -2895,7 +2895,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -2930,7 +2930,7 @@ events:
       - "riscv32-none-elf-gcc-ranlib"
     candidate_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/"
@@ -2969,7 +2969,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/"
       - "/home/blank/.local/bin/"
       - "/run/wrappers/bin/"
       - "/home/blank/.local/share/flatpak/exports/bin/"
@@ -2982,7 +2982,7 @@ events:
       - "/run/current-system/sw/bin/"
     searched_directories:
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib-"
@@ -3021,7 +3021,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ranlib-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ranlib-"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ranlib-"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ranlib-"
@@ -3033,7 +3033,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ranlib-"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib-"
@@ -3072,7 +3072,7 @@ events:
       - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin/riscv32-none-elf-gcc-ranlib-"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin/riscv32-none-elf-gcc-ranlib-"
       - "/home/blank/.local/bin/riscv32-none-elf-gcc-ranlib-"
       - "/run/wrappers/bin/riscv32-none-elf-gcc-ranlib-"
       - "/home/blank/.local/share/flatpak/exports/bin/riscv32-none-elf-gcc-ranlib-"
@@ -3084,7 +3084,7 @@ events:
       - "/nix/var/nix/profiles/default/bin/riscv32-none-elf-gcc-ranlib-"
       - "/run/current-system/sw/bin/riscv32-none-elf-gcc-ranlib-"
       - "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc-ranlib"
-      - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/riscv32-none-elf-gcc-ranlib"
+      - "/home/blank/Engineering/MCU/WCH/CH32V30x/riscv32-none-elf-gcc-ranlib"
       - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/riscv32-none-elf-gcc-ranlib"
       - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/riscv32-none-elf-gcc-ranlib"
       - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin/riscv32-none-elf-gcc-ranlib"
@@ -3101,7 +3101,7 @@ events:
     found: "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x"
         - "/nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin"
         - "/nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin"
         - "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/bin"
@@ -3144,7 +3144,7 @@ events:
         - "/nix/store/ca84rbhb0bhwdcci7q51dad20nkbn9xc-patch-2.8/bin"
         - "/nix/store/g6mlwdvpg92rchq352ll7jbi0pz7h43r-xz-5.8.2-bin/bin"
         - "/nix/store/kjg8z2k0zvsczaij78803g7imlfm1vfb-file-5.45/bin"
-        - "/home/blank/Engineering/MCU/WCH_1/CH32V30x/.direnv/bin"
+        - "/home/blank/Engineering/MCU/WCH/CH32V30x/.direnv/bin"
         - "/home/blank/.local/bin"
         - "/run/wrappers/bin"
         - "/home/blank/.local/share/flatpak/exports/bin"
@@ -3164,8 +3164,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-J5mDGZ"
-      binary: "/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-J5mDGZ"
+      source: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-7BzQWJ"
+      binary: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-7BzQWJ"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -3174,10 +3174,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-J5mDGZ'
+        Change Dir: '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-7BzQWJ'
         
-        Run Build Command(s): /nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/ninja -v cmTC_b1726
-        [1/2] /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc   -v -o CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj -c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/ninja -v cmTC_b9d9b
+        [1/2] /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc   -v -o CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj -c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc
         Target: riscv32-none-elf
@@ -3185,8 +3185,8 @@ events:
         Thread model: single
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b1726.dir/'
-         /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/cc1 -quiet -v -imultilib . -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -idirafter /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include -idirafter /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b1726.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -march=rv32gc -mabi=ilp32d -misa-spec=20191213 -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-clash-protection -fzero-call-used-regs=used-gpr -fstrict-flex-arrays=1 -fno-strict-overflow -fno-omit-frame-pointer -frandom-seed=g8sns738zi -o /tmp/cctaVKjO.s
+        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b9d9b.dir/'
+         /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/cc1 -quiet -v -imultilib . -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -idirafter /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include -idirafter /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b9d9b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -march=rv32gc -mabi=ilp32d -misa-spec=20191213 -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-clash-protection -fzero-call-used-regs=used-gpr -fstrict-flex-arrays=1 -fno-strict-overflow -fno-omit-frame-pointer -frandom-seed=g8sns738zi -o /tmp/ccvR4YaI.s
         GNU C23 (GCC) version 15.2.0 (riscv32-none-elf)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.20-GMP
         
@@ -3204,8 +3204,8 @@ events:
         ignoring duplicate directory "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed"
         #include "..." search starts here:
         #include <...> search starts here:
-         /home/blank/Engineering/MCU/WCH_1/CH32V30x/Inc
-         /home/blank/Engineering/MCU/WCH_1/CH32V30x/Src
+         /home/blank/Engineering/MCU/WCH/CH32V30x/Inc
+         /home/blank/Engineering/MCU/WCH/CH32V30x/Src
          .
          /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include
          /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include
@@ -3216,13 +3216,13 @@ events:
          /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include
         End of search list.
         Compiler executable checksum: 576e48b135aeaa790be10997587c8002
-        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b1726.dir/'
-         /nix/store/cw70qfc0vf10pa81bfm2zzyc2i8qq8jh-riscv32-none-elf-binutils-wrapper-2.44/bin/riscv32-none-elf-as -v --traditional-format -march=rv32gc -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -mabi=ilp32d -misa-spec=20191213 -o CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj /tmp/cctaVKjO.s
+        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b9d9b.dir/'
+         /nix/store/cw70qfc0vf10pa81bfm2zzyc2i8qq8jh-riscv32-none-elf-binutils-wrapper-2.44/bin/riscv32-none-elf-as -v --traditional-format -march=rv32gc -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -mabi=ilp32d -misa-spec=20191213 -o CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj /tmp/ccvR4YaI.s
         GNU assembler version 2.44 (riscv32-none-elf) using BFD version (GNU Binutils) 2.44
         COMPILER_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/
         LIBRARY_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib/
-        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.'
-        [2/2] : && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc  -v CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj -o cmTC_b1726   && :
+        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc  -v CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj -o cmTC_b9d9b   && :
         Using built-in specs.
         COLLECT_GCC=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc
         COLLECT_LTO_WRAPPER=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper
@@ -3233,11 +3233,11 @@ events:
         gcc version 15.2.0 (GCC) 
         COMPILER_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/
         LIBRARY_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib/
-        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b1726' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b1726.'
-         /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/collect2 -plugin /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGXGrw0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc -melf32lriscv -X -o cmTC_b1726 /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/crt0.o /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtbegin.o -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0 -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj -rpath /home/blank/Engineering/MCU/WCH/CH32V30x/outputs/out/lib -lgcc --start-group -lc -lgloss --end-group -lgcc /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b9d9b' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b9d9b.'
+         /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/collect2 -plugin /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq2kFPO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc -melf32lriscv -X -o cmTC_b9d9b /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/crt0.o /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtbegin.o -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0 -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj -rpath /home/blank/Engineering/MCU/WCH/CH32V30x/outputs/out/lib -lgcc --start-group -lc -lgloss --end-group -lgcc /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtend.o
         /nix/store/kswd159zzdbynrqqy793npmzs0y6inpr-riscv32-none-elf-binutils-2.44/bin/riscv32-none-elf-ld: warning: -z relro ignored
         /nix/store/kswd159zzdbynrqqy793npmzs0y6inpr-riscv32-none-elf-binutils-2.44/bin/riscv32-none-elf-ld: warning: -z now ignored
-        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b1726' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b1726.'
+        COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b9d9b' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b9d9b.'
         
       exitCode: 0
   -
@@ -3250,8 +3250,8 @@ events:
       Parsed C implicit include dir info: rv=done
         found start of include info
         found start of implicit include info
-          add: [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Inc]
-          add: [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Src]
+          add: [/home/blank/Engineering/MCU/WCH/CH32V30x/Inc]
+          add: [/home/blank/Engineering/MCU/WCH/CH32V30x/Src]
           add: [.]
           add: [/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include]
           add: [/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include]
@@ -3261,8 +3261,8 @@ events:
           add: [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/sys-include]
           add: [/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include]
         end of search list found
-        collapse include dir [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Inc] ==> [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Inc]
-        collapse include dir [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Src] ==> [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Src]
+        collapse include dir [/home/blank/Engineering/MCU/WCH/CH32V30x/Inc] ==> [/home/blank/Engineering/MCU/WCH/CH32V30x/Inc]
+        collapse include dir [/home/blank/Engineering/MCU/WCH/CH32V30x/Src] ==> [/home/blank/Engineering/MCU/WCH/CH32V30x/Src]
         skipping relative include dir [.]
         collapse include dir [/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include] ==> [/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include]
         collapse include dir [/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include] ==> [/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include]
@@ -3271,7 +3271,7 @@ events:
         collapse include dir [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed] ==> [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed]
         collapse include dir [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/sys-include] ==> [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include]
         collapse include dir [/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include] ==> [/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include]
-        implicit include dirs: [/home/blank/Engineering/MCU/WCH_1/CH32V30x/Inc;/home/blank/Engineering/MCU/WCH_1/CH32V30x/Src;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include]
+        implicit include dirs: [/home/blank/Engineering/MCU/WCH/CH32V30x/Inc;/home/blank/Engineering/MCU/WCH/CH32V30x/Src;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include]
       
       
   -
@@ -3284,10 +3284,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/blank/Engineering/MCU/WCH_1/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-J5mDGZ']
+        ignore line: [Change Dir: '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/CMakeFiles/CMakeScratch/TryCompile-7BzQWJ']
         ignore line: []
-        ignore line: [Run Build Command(s): /nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/ninja -v cmTC_b1726]
-        ignore line: [[1/2] /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc   -v -o CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj -c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /nix/store/dfcn9xjmbsf8hlj2l2vfrl67d84ylczf-ninja-1.13.2/bin/ninja -v cmTC_b9d9b]
+        ignore line: [[1/2] /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc   -v -o CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj -c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc]
         ignore line: [Target: riscv32-none-elf]
@@ -3295,8 +3295,8 @@ events:
         ignore line: [Thread model: single]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 15.2.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b1726.dir/']
-        ignore line: [ /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/cc1 -quiet -v -imultilib . -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -idirafter /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include -idirafter /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b1726.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -march=rv32gc -mabi=ilp32d -misa-spec=20191213 -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-clash-protection -fzero-call-used-regs=used-gpr -fstrict-flex-arrays=1 -fno-strict-overflow -fno-omit-frame-pointer -frandom-seed=g8sns738zi -o /tmp/cctaVKjO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b9d9b.dir/']
+        ignore line: [ /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/cc1 -quiet -v -imultilib . -D _LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST -idirafter /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include -idirafter /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_b9d9b.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mno-omit-leaf-frame-pointer -march=rv32gc -mabi=ilp32d -misa-spec=20191213 -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-clash-protection -fzero-call-used-regs=used-gpr -fstrict-flex-arrays=1 -fno-strict-overflow -fno-omit-frame-pointer -frandom-seed=g8sns738zi -o /tmp/ccvR4YaI.s]
         ignore line: [GNU C23 (GCC) version 15.2.0 (riscv32-none-elf)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.20-GMP]
         ignore line: []
@@ -3314,8 +3314,8 @@ events:
         ignore line: [ignoring duplicate directory "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed"]
         ignore line: [#include "..." search starts here:]
         ignore line: [#include <...> search starts here:]
-        ignore line: [ /home/blank/Engineering/MCU/WCH_1/CH32V30x/Inc]
-        ignore line: [ /home/blank/Engineering/MCU/WCH_1/CH32V30x/Src]
+        ignore line: [ /home/blank/Engineering/MCU/WCH/CH32V30x/Inc]
+        ignore line: [ /home/blank/Engineering/MCU/WCH/CH32V30x/Src]
         ignore line: [ .]
         ignore line: [ /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include]
         ignore line: [ /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include]
@@ -3326,13 +3326,13 @@ events:
         ignore line: [ /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 576e48b135aeaa790be10997587c8002]
-        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b1726.dir/']
-        ignore line: [ /nix/store/cw70qfc0vf10pa81bfm2zzyc2i8qq8jh-riscv32-none-elf-binutils-wrapper-2.44/bin/riscv32-none-elf-as -v --traditional-format -march=rv32gc -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -mabi=ilp32d -misa-spec=20191213 -o CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj /tmp/cctaVKjO.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b9d9b.dir/']
+        ignore line: [ /nix/store/cw70qfc0vf10pa81bfm2zzyc2i8qq8jh-riscv32-none-elf-binutils-wrapper-2.44/bin/riscv32-none-elf-as -v --traditional-format -march=rv32gc -march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf -mabi=ilp32d -misa-spec=20191213 -o CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj /tmp/ccvR4YaI.s]
         ignore line: [GNU assembler version 2.44 (riscv32-none-elf) using BFD version (GNU Binutils) 2.44]
         ignore line: [COMPILER_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/]
         ignore line: [LIBRARY_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.']
-        ignore line: [[2/2] : && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc  -v CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj -o cmTC_b1726   && :]
+        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj' '-c' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc  -v CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj -o cmTC_b9d9b   && :]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc]
         ignore line: [COLLECT_LTO_WRAPPER=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper]
@@ -3343,13 +3343,13 @@ events:
         ignore line: [gcc version 15.2.0 (GCC) ]
         ignore line: [COMPILER_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/]
         ignore line: [LIBRARY_PATH=/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/:/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/:/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b1726' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b1726.']
-        link line: [ /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/collect2 -plugin /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGXGrw0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc -melf32lriscv -X -o cmTC_b1726 /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/crt0.o /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtbegin.o -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0 -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj -rpath /home/blank/Engineering/MCU/WCH/CH32V30x/outputs/out/lib -lgcc --start-group -lc -lgloss --end-group -lgcc /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b9d9b' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b9d9b.']
+        link line: [ /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/collect2 -plugin /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/liblto_plugin.so -plugin-opt=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccq2kFPO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc -melf32lriscv -X -o cmTC_b9d9b /nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/crt0.o /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtbegin.o -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib -L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0 -L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj -rpath /home/blank/Engineering/MCU/WCH/CH32V30x/outputs/out/lib -lgcc --start-group -lc -lgloss --end-group -lgcc /nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtend.o]
           arg [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/libexec/gcc/riscv32-none-elf/15.2.0/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccGXGrw0.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccq2kFPO.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
@@ -3357,7 +3357,7 @@ events:
           arg [-melf32lriscv] ==> ignore
           arg [-X] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_b1726] ==> ignore
+          arg [cmTC_b9d9b] ==> ignore
           arg [/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/crt0.o] ==> obj [/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib/crt0.o]
           arg [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtbegin.o] ==> obj [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtbegin.o]
           arg [-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib] ==> dir [/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib]
@@ -3378,7 +3378,7 @@ events:
           arg [-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib] ==> dir [/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib]
           arg [-L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0] ==> dir [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0]
           arg [-L/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib] ==> dir [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/../../../../riscv32-none-elf/lib]
-          arg [CMakeFiles/cmTC_b1726.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_b9d9b.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [-rpath] ==> ignore
           arg [/home/blank/Engineering/MCU/WCH/CH32V30x/outputs/out/lib] ==> ignore
           arg [-lgcc] ==> lib [gcc]
@@ -3390,7 +3390,7 @@ events:
           arg [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtend.o] ==> obj [/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/crtend.o]
         ignore line: [/nix/store/kswd159zzdbynrqqy793npmzs0y6inpr-riscv32-none-elf-binutils-2.44/bin/riscv32-none-elf-ld: warning: -z relro ignored]
         ignore line: [/nix/store/kswd159zzdbynrqqy793npmzs0y6inpr-riscv32-none-elf-binutils-2.44/bin/riscv32-none-elf-ld: warning: -z now ignored]
-        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b1726' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b1726.']
+        ignore line: [COLLECT_GCC_OPTIONS='-fstack-clash-protection' '-D' '_LIBCPP_HARDENING_MODE=_LIBCPP_HARDENING_MODE_FAST' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-fzero-call-used-regs=used-gpr' '-fstrict-flex-arrays=1' '-fno-strict-overflow' '-fno-omit-frame-pointer' '-mno-omit-leaf-frame-pointer' '-v' '-o' 'cmTC_b9d9b' '-B' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-idirafter' '/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include' '-idirafter' '/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed' '-B' '/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-frandom-seed=g8sns738zi' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-isystem' '/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib' '-L/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib' '-L/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib' '-march=rv32gc' '-mabi=ilp32d' '-misa-spec=20191213' '-march=rv32imafdc_zicsr_zifencei_zmmul_zaamo_zalrsc_zca_zcd_zcf' '-dumpdir' 'cmTC_b9d9b.']
         ignore line: []
         ignore line: []
         collapse library dir [/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib] ==> [/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib]
