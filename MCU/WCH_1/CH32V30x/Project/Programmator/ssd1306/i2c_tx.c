@@ -1,85 +1,47 @@
+// ===================================================================================
+// Basic I2C Master Functions (write only) for CH32V003                       * v1.1 *
+// ===================================================================================
+// 2023 by Stefan Wagner:   https://github.com/wagiminator
+
 #include "i2c_tx.h"
 #include "ch32v30x.h"
 #include "ch32v30x_gpio.h"
-#include "ch32v30x_i2c.h"
 
+// Set system clock frequency
 #ifndef F_CPU
   #define F_CPU           24000000  // 24Mhz if not otherwise defined
 #endif
 
+// I2C event flag definitions
 #define I2C_START_GENERATED     0x00010003    // BUSY, MSL, SB
 #define I2C_ADDR_TRANSMITTED    0x00820003    // BUSY, MSL, ADDR, TXE
 #define I2C_BYTE_TRANSMITTED    0x00840003    // BUSY, MSL, BTF, TXE
 #define I2C_checkEvent(n)       (((((uint32_t)I2C1->STAR1<<16) | I2C1->STAR2) & n) == n)
 
+// Init I2C
 void I2C_init(void) {
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB | RCC_APB2Periph_AFIO, ENABLE);
-    GPIO_PinRemapConfig(GPIO_Remap_I2C1, ENABLE);
-    RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
-    GPIO_SetBits(GPIOB,GPIO_Pin_8|GPIO_Pin_9);
+  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB|RCC_APB2Periph_AFIO, ENABLE);
+  GPIO_PinRemapConfig(GPIO_Remap_I2C1, ENABLE);
+  RCC_APB1PeriphClockCmd(RCC_APB1Periph_I2C1, ENABLE);
+  GPIO_SetBits(GPIOB, GPIO_Pin_9|GPIO_Pin_8);
 
-    I2C_InitTypeDef i2c = {
-            .I2C_ClockSpeed = 100000,
-            .I2C_Mode = I2C_Mode_I2C,
-            .I2C_DutyCycle = I2C_DutyCycle_16_9,
-            .I2C_OwnAddress1 = 0x74,
-            .I2C_Ack = I2C_Ack_Enable,
-            .I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit,
-    };
-    I2C_Init(I2C1, &i2c);   
-    I2C_Cmd(I2C1, ENABLE);
+  I2C_InitTypeDef i2c = {
+    .I2C_ClockSpeed = 80000,
+    .I2C_DutyCycle = I2C_DutyCycle_16_9,
+    .I2C_Ack = I2C_Ack_Enable,
+    .I2C_OwnAddress1 = 0x08,
+    .I2C_Mode = I2C_Mode_I2C,
+    .I2C_AcknowledgedAddress = I2C_AcknowledgedAddress_7bit,
+  };
+  I2C_Init(I2C1, &i2c);
+  I2C_Cmd(I2C1, ENABLE);
 
-    GPIO_InitTypeDef gpio = {
-            .GPIO_Pin = GPIO_Pin_8 | GPIO_Pin_9,
-            .GPIO_Mode = GPIO_Mode_AF_OD,
-            .GPIO_Speed = GPIO_Speed_50MHz,
-    };
-    GPIO_Init(GPIOB, &gpio);
-  // #if I2C_MAP == 0
-  // RCC->APB2PCENR |= RCC_IOPBEN | RCC_AFIOEN;
-  // RCC->APB1PCENR |= RCC_I2C1EN;
-  //
-  // GPIO_InitTypeDef gpioI2cInit = {0};
-  //
-  // gpioI2cInit.GPIO_Mode = GPIO_Mode_AF_OD;
-  // gpioI2cInit.GPIO_Pin = GPIO_Pin_6;
-  // gpioI2cInit.GPIO_Speed = GPIO_Speed_50MHz;
-  // GPIO_Init(GPIOB, &gpioI2cInit);
-  //
-  // gpioI2cInit.GPIO_Mode = GPIO_Mode_AF_OD;
-  // gpioI2cInit.GPIO_Pin = GPIO_Pin_7;
-  // gpioI2cInit.GPIO_Speed = GPIO_Speed_50MHz;
-  // GPIO_Init(GPIOB, &gpioI2cInit);
-  //
-  // #elif I2C_MAP == 1
-  // // Remap I2C pins, enable GPIO port D and I2C module
-  // RCC->APB2PCENR |= RCC_AFIOEN | RCC_IOPDEN;
-  // RCC->APB1PCENR |= RCC_I2C1EN;
-  // AFIO->PCFR1    |= 1<<1;
-  //
-  // // Set pin PD0 (SDA) and PD1 (SCL) to output, open-drain, 10MHz, multiplex
-  // GPIOD->CFGLR = (GPIOD->CFGLR & ~(((uint32_t)0b1111<<(0<<2)) | ((uint32_t)0b1111<<(1<<2))))
-  //                              |  (((uint32_t)0b1101<<(0<<2)) | ((uint32_t)0b1101<<(1<<2)));
-  // #elif I2C_MAP == 2
-  // // Remap I2C pins, enable GPIO port C and I2C module
-  // RCC->APB2PCENR |= RCC_AFIOEN | RCC_IOPCEN;
-  // RCC->APB1PCENR |= RCC_I2C1EN;
-  // AFIO->PCFR1    |= 1<<22;
-  //
-  // // Set pin PC6 (SDA) and PC5 (SCL) to output, open-drain, 10MHz, multiplex
-  // GPIOC->CFGLR = (GPIOC->CFGLR & ~(((uint32_t)0b1111<<(6<<2)) | ((uint32_t)0b1111<<(5<<2))))
-  //                              |  (((uint32_t)0b1101<<(6<<2)) | ((uint32_t)0b1101<<(5<<2)));
-  // #else
-  //   #warning Wrong I2C REMAP
-  // #endif
-  //
-  // // Set I2C module clock frequency (in MHz)
-  // I2C1->CTLR2 = 4;
-  //
-  // // Set bus clock configuration
-  // I2C1->CKCFGR = (F_CPU / (3 * I2C_CLKRATE)) | I2C_CKCFGR_FS;
-  //
-  // I2C1->CTLR1 |= (1<<1);
+  GPIO_InitTypeDef gpio = {
+    .GPIO_Mode = GPIO_Mode_AF_OD,
+    .GPIO_Pin = GPIO_Pin_8|GPIO_Pin_9,
+    .GPIO_Speed = GPIO_Speed_50MHz,
+  };
+  GPIO_Init(GPIOB, &gpio);
 }
 
 // Start I2C transmission (addr must contain R/W bit)

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-wch.py — аналог idf.py для CH32 (V20x / V30x)
+wch.py — аналог idf.py для CH32 (V30x) с официальным MounRiver toolchain
 """
 
 import typer
@@ -21,22 +21,9 @@ app = typer.Typer(
     no_args_is_help=True,
 )
 
-# ====================== TOOLCHAIN CONFIG ======================
-# Путь к MRS Toolchain GCC15 (можно менять)
-MRS_TOOLCHAIN_BIN = Path.home() / "Engineering/MCU/WCH_1/CH32V30x/MRS_toolchain/RISC-V Embedded GCC15/bin"
+TOOLCHAIN_BIN = "/home/blank/Engineering/MCU/WCH_1/toolchain/riscv32/bin"
 
-def get_cmake_toolchain_prefix() -> str:
-    """Возвращает префикс toolchain для CMake"""
-    gcc_path = MRS_TOOLCHAIN_BIN / "riscv32-wch-elf-gcc"
-    if gcc_path.exists() and gcc_path.is_file():
-        return "riscv32-wch-elf-"
-    else:
-        console.print("[yellow]Предупреждение: WCH GCC15 не найден, используем системный toolchain[/]")
-        return "riscv-none-elf-"   # fallback
-
-# ====================== PROJECT HELPERS ======================
 def find_project_root() -> Path:
-    """Находит корень репозитория (где лежит CMakeLists.txt и wch.py)"""
     current = Path.cwd().resolve()
     while current != current.parent:
         if (current / "CMakeLists.txt").exists() and (current / "wch.py").exists():
@@ -46,12 +33,10 @@ def find_project_root() -> Path:
     raise typer.Exit(1)
 
 def get_current_project_dir() -> Path:
-    """Определяет папку текущего проекта"""
     cwd = Path.cwd().resolve()
     root = find_project_root()
     if cwd.is_relative_to(root / "Project"):
         return cwd
-    # fallback на blink или выдаём ошибку
     default = root / "Project" / "blink"
     if default.exists():
         console.print(f"[yellow]Предупреждение: Запущено из корня. Используется проект по умолчанию: blink[/]")
@@ -64,16 +49,19 @@ def ensure_build_dir(project_dir: Path) -> Path:
     build_dir.mkdir(exist_ok=True)
     return build_dir
 
-# ====================== CMAKE ======================
-def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
-    """Конфигурация CMake с передачей toolchain"""
-    build_dir = ensure_build_dir(project_dir)
-    
-    prefix = get_cmake_toolchain_prefix()
+def check_toolchain():
+    """Проверка официального тулчейна"""
+    gcc = Path(TOOLCHAIN_BIN) / "riscv32-wch-elf-gcc"
+    if not gcc.exists():
+        console.print("[bold red]✗ Официальный тулчейн не найден![/]")
+        console.print(f"   Ожидаемый путь: {gcc}")
+        raise typer.Exit(1)
+    console.print(f"[green]✓ Toolchain: {gcc.name} 15.2.0[/]")
 
+def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
+    build_dir = ensure_build_dir(project_dir)
     console.print(Panel.fit(
-        f"[cyan]Конфигурация CMake для проекта: [bold]{project_dir.name}[/]\n"
-        f"Toolchain: [bold]{prefix}gcc[/]",
+        f"[cyan]Конфигурация CMake для проекта: [bold]{project_dir.name}[/][/]",
         border_style="cyan"
     ))
 
@@ -84,12 +72,13 @@ def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
         "-G", "Ninja",
         f"-DPROJECT_DIR={project_dir}",
         "-DCMAKE_BUILD_TYPE=Release",
-        f"-DCMAKE_C_COMPILER={prefix}gcc",
-        f"-DCMAKE_ASM_COMPILER={prefix}gcc",
-        f"-DCMAKE_OBJCOPY={prefix}objcopy",
-        f"-DCMAKE_OBJDUMP={prefix}objdump",
-        f"-DCMAKE_SIZE={prefix}size",
+        f"-DCMAKE_C_COMPILER={TOOLCHAIN_BIN}/riscv32-wch-elf-gcc",
+        f"-DCMAKE_ASM_COMPILER={TOOLCHAIN_BIN}/riscv32-wch-elf-gcc",
+        f"-DCMAKE_OBJCOPY={TOOLCHAIN_BIN}/riscv32-wch-elf-objcopy",
+        f"-DCMAKE_OBJDUMP={TOOLCHAIN_BIN}/riscv32-wch-elf-objdump",
+        f"-DCMAKE_SIZE={TOOLCHAIN_BIN}/riscv32-wch-elf-size",
     ]
+
     if verbose:
         cmd.append("-DCMAKE_VERBOSE_MAKEFILE=ON")
 
@@ -99,15 +88,18 @@ def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
         console.print("[bold red]❌ Ошибка конфигурации CMake[/]")
         raise typer.Exit(1) from e
 
-# ====================== OSTALNOE (без изменений) ======================
 def build_firmware(root: Path, verbose: bool = False):
+    check_toolchain()
     project_dir = get_current_project_dir()
     run_cmake_configure(project_dir, root, verbose)
+
     build_dir = project_dir / "build"
     console.print(Panel.fit("[cyan]Выполняется сборка...[/]", border_style="cyan"))
+
     cmd = ["cmake", "--build", str(build_dir)]
     if verbose:
         cmd.append("--verbose")
+
     try:
         subprocess.run(cmd, cwd=root, check=True)
         console.print("[bold green]✅ Сборка завершена успешно![/]")
@@ -160,7 +152,6 @@ def clean():
     else:
         console.print("[yellow]build уже отсутствует[/]")
 
-
 @app.command()
 def size():
     """Показать размер прошивки"""
@@ -171,7 +162,6 @@ def size():
         console.print("[red]Сначала выполните сборку (build)[/]")
         raise typer.Exit(1)
     show_size(build_dir, root)
-
 
 @app.command()
 def erase():
@@ -186,7 +176,6 @@ def erase():
         check=True,
     )
     console.print("[bold green]✅ Чип стёрт![/]")
-
 
 @app.command()
 def monitor(

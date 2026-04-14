@@ -1,5 +1,5 @@
 {
-  description = "CH32V30x devShell — WCH MRS GCC15 (riscv32)";
+  description = "CH32V30x devShell — максимально близко к MRS 2.2.0";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -11,73 +11,70 @@
       let
         pkgs = nixpkgs.legacyPackages.${system};
 
-        # Новый путь после переименования
-        TOOLCHAIN_BIN = "/home/blank/Engineering/MCU/WCH_1/toolchain/riscv32/bin";
+        # Путь к твоему официальному WCH тулчейну
+        toolchainPath = "/home/blank/Engineering/MCU/WCH_1/toolchain/riscv32";
       in
       {
         devShells.default = pkgs.mkShell {
-          buildInputs = [
-            pkgs.cmake
-            pkgs.ninja
-            pkgs.gdb
-            pkgs.openocd
-            pkgs.minicom
-            pkgs.picocom
-            pkgs.fish
-            pkgs.wlink
-            pkgs.python3Packages.pyserial
-            pkgs.python3Packages.rich
-            pkgs.python3Packages.typer
+          name = "ch32v30x-mrs-devshell";
 
-            # Патчим toolchain автоматически
-            pkgs.autoPatchelfHook
-            pkgs.glibc
-            pkgs.zlib
+          packages = with pkgs; [
+            cmake
+            ninja
+            gdb
+            openocd
+            minicom
+            picocom
+            python3Packages.pyserial
+            python3Packages.rich
+            python3Packages.typer
+            fish
           ];
 
-          # Копируем и патчим toolchain при входе в shell
           shellHook = ''
             echo "========================================"
-            echo "CH32V30x devShell — WCH MRS GCC15 (riscv32)"
+            echo "CH32V30x devShell (MRS-style)"
             echo "========================================"
 
-            TOOLCHAIN_PATH="${TOOLCHAIN_BIN}"
+            # Основной тулчейн
+            export PATH="${toolchainPath}/bin:$PWD:$PATH"
 
-            if [ -d "$TOOLCHAIN_PATH" ]; then
-              export PATH="$TOOLCHAIN_PATH:$PATH"
-              echo "✓ Toolchain подключён из:"
-              echo "   $TOOLCHAIN_PATH"
-
-              if command -v riscv32-wch-elf-gcc >/dev/null 2>&1; then
-                echo "   Версия: $(riscv32-wch-elf-gcc --version | head -n1)"
-              else
-                echo "   ⚠ riscv32-wch-elf-gcc не найден"
-              fi
+            # Проверка тулчейна
+            if command -v riscv32-wch-elf-gcc >/dev/null 2>&1; then
+              echo "✓ GCC : $(riscv32-wch-elf-gcc --version | head -n1)"
             else
-              echo "⚠ Папка toolchain не найдена: $TOOLCHAIN_PATH"
+              echo "✗ riscv32-wch-elf-gcc не найден!"
             fi
 
-            export PATH="$PWD:$PATH"
+            echo "✓ wlink : $(command -v wlink || echo 'не найден')"
+            echo "✓ wch.py : $(command -v wch.py || echo 'не найден — сделай chmod +x')"
 
-            # CPATH для заголовков SDK
-            ROOT_DIR="$(pwd)"
-            while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
-              ROOT_DIR="$(dirname "$ROOT_DIR")"
-            done
-            if [[ -f "$ROOT_DIR/flake.nix" ]]; then
-              export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
-            fi
+            # Важные переменные для CMake
+            export CMAKE_PREFIX_PATH="${toolchainPath}"
+            export CPATH="$PWD/Inc:$PWD/Src:$CPATH"
+
+            echo ""
+            echo "→ Доступные команды:"
+            echo "   wch.py build     # собрать"
+            echo "   wch.py flash     # собрать + прошить"
+            echo "   wch.py monitor   # UART монитор"
+            echo "   wch.py clean"
+            echo "========================================"
           '';
+
+          # Эти переменные помогают CMake собирать ближе к MRS
+          env = {
+            # Можно добавить дополнительные CFLAGS, если нужно
+            CFLAGS = "-march=rv32imacxw -mabi=ilp32 -msave-restore";
+          };
         };
       });
 }
 
 
 
-
-
 # {
-#   description = "CH32V30x devShell — WCH MRS Toolchain GCC15";
+#   description = "CH32V30x devShell — официальный MounRiverStudio toolchain";
 #
 #   inputs = {
 #     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -88,11 +85,12 @@
 #     flake-utils.lib.eachDefaultSystem (system:
 #       let
 #         pkgs = nixpkgs.legacyPackages.${system};
-#         # Правильный путь к твоей папке toolchain
-#         MRS_ROOT = "$HOME/Engineering/MCU/WCH_1/toolchain";
+#         toolchainPath = "/home/blank/Engineering/MCU/WCH_1/toolchain/riscv32";
 #       in
 #       {
 #         devShells.default = pkgs.mkShell {
+#           name = "ch32v30x-mrs-devshell";
+#
 #           packages = [
 #             pkgs.cmake
 #             pkgs.ninja
@@ -100,42 +98,42 @@
 #             pkgs.openocd
 #             pkgs.minicom
 #             pkgs.picocom
-#             pkgs.fish
 #             pkgs.wlink
 #             pkgs.python3Packages.pyserial
 #             pkgs.python3Packages.rich
 #             pkgs.python3Packages.typer
+#             pkgs.fish
 #           ];
 #
 #           shellHook = ''
 #             echo "========================================"
-#             echo "CH32V30x devShell — WCH MRS Toolchain GCC15"
+#             echo "CH32V30x devShell (MounRiverStudio toolchain)"
 #             echo "========================================"
 #
-#             TOOLCHAIN_BIN="${MRS_ROOT}/riscv32/bin"
+#             # Добавляем официальный тулчейн + текущую директорию (для wch.py)
+#             export PATH="${toolchainPath}/bin:$PWD:$PATH"
 #
-#             if [ -x "$TOOLCHAIN_BIN/riscv32-wch-elf-gcc" ]; then
-#               export PATH="$TOOLCHAIN_BIN:$PATH"
-#               echo "✓ WCH GCC15 успешно подключён:"
-#               echo "   $(riscv32-wch-elf-gcc --version | head -n1)"
-#               echo "   Путь: $TOOLCHAIN_BIN"
+#             # Проверка тулчейна
+#             if command -v riscv32-wch-elf-gcc >/dev/null 2>&1; then
+#               echo "✓ GCC      : $(riscv32-wch-elf-gcc --version | head -n1)"
+#               echo "✓ objcopy  : $(riscv32-wch-elf-objcopy --version | head -n1)"
 #             else
-#               echo "⚠ Toolchain НЕ найден!"
-#               echo "   Ожидаемый путь: $TOOLCHAIN_BIN"
-#               echo "   Проверь название папок (должно быть точно 'RISC-V Embedded GCC15')"
-#               ls "${MRS_ROOT}" 2>/dev/null || echo "Папка ${MRS_ROOT} не существует"
+#               echo "✗ riscv32-wch-elf-gcc не найден!"
 #             fi
 #
-#             export PATH="$PWD:$PATH"
+#             echo "✓ wlink    : $(command -v wlink)"
+#             echo "✓ wch.py   : $(command -v wch.py || echo 'не найден — проверь chmod +x')"
+#             echo "========================================"
 #
-#             # CPATH для заголовков
-#             ROOT_DIR="$(pwd)"
-#             while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
-#               ROOT_DIR="$(dirname "$ROOT_DIR")"
-#             done
-#             if [[ -f "$ROOT_DIR/flake.nix" ]]; then
-#               export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
-#             fi
+#             export CMAKE_PREFIX_PATH="${toolchainPath}"
+#             export CPATH="$PWD/Inc:$PWD/Src:$CPATH"
+#
+#             echo "→ Доступные команды:"
+#             echo "   wch.py build          # собрать проект"
+#             echo "   wch.py flash          # собрать + прошить"
+#             echo "   wch.py monitor        # монитор UART"
+#             echo "   wch.py clean          # очистить build"
+#             echo "   wch.py size"
 #           '';
 #         };
 #       });
