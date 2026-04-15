@@ -12,14 +12,11 @@ int main(){
         SystemInit();
         USART_Printf_Init(115200);
         SystemCoreClockUpdate();
-
         I2C_init();
         OLED_init();
+
         OLED_setpos(0, 0);
-        while (1) {
-                OLED_print("Hello");
-                Delay_Ms(500);
-        }
+                OLED_print("SP_Sam");
 
         return 0;
 }

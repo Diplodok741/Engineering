@@ -57,8 +57,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_adc.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_bkp.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_bkp.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -68,8 +66,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_bkp.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_can.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_can.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -79,8 +75,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_can.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_crc.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_crc.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -90,8 +84,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_crc.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_dbgmcu.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_dbgmcu.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -101,8 +93,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_dbgmcu.c.obj: C_COMPILER__ch32_sdk_un
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_dma.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_dma.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -112,8 +102,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_dma.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_exti.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_exti.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -123,8 +111,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_exti.c.obj: C_COMPILER__ch32_sdk_unsc
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_flash.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_flash.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -134,8 +120,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_flash.c.obj: C_COMPILER__ch32_sdk_uns
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_gpio.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_gpio.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -145,8 +129,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_gpio.c.obj: C_COMPILER__ch32_sdk_unsc
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_i2c.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_i2c.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -156,8 +138,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_i2c.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_it.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_it.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -167,8 +147,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_it.c.obj: C_COMPILER__ch32_sdk_unscan
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_iwdg.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_iwdg.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -178,8 +156,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_iwdg.c.obj: C_COMPILER__ch32_sdk_unsc
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_misc.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_misc.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -189,8 +165,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_misc.c.obj: C_COMPILER__ch32_sdk_unsc
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_opa.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_opa.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -200,8 +174,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_opa.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_pwr.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_pwr.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -211,8 +183,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_pwr.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_rcc.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_rcc.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -222,8 +192,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_rcc.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_rtc.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_rtc.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -233,8 +201,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_rtc.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_spi.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_spi.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -244,8 +210,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_spi.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_tim.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_tim.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -255,8 +219,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_tim.c.obj: C_COMPILER__ch32_sdk_unsca
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_usart.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_usart.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -266,8 +228,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_usart.c.obj: C_COMPILER__ch32_sdk_uns
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_wwdg.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/ch32v30x_wwdg.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -277,8 +237,6 @@ build CMakeFiles/ch32_sdk.dir/Src/ch32v30x_wwdg.c.obj: C_COMPILER__ch32_sdk_unsc
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/core_riscv.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/core_riscv.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -288,8 +246,6 @@ build CMakeFiles/ch32_sdk.dir/Src/core_riscv.c.obj: C_COMPILER__ch32_sdk_unscann
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/system_ch32v30x.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/system_ch32v30x.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -299,8 +255,6 @@ build CMakeFiles/ch32_sdk.dir/Src/system_ch32v30x.c.obj: C_COMPILER__ch32_sdk_un
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Src/debug.c.obj: C_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Src/debug.c || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -310,8 +264,6 @@ build CMakeFiles/ch32_sdk.dir/Src/debug.c.obj: C_COMPILER__ch32_sdk_unscanned_Re
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Src
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 build CMakeFiles/ch32_sdk.dir/Inc/startup_ch32v30x_D8C.S.obj: ASM_COMPILER__ch32_sdk_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Inc/startup_ch32v30x_D8C.S || cmake_object_order_depends_target_ch32_sdk
   CONFIG = Release
@@ -321,8 +273,6 @@ build CMakeFiles/ch32_sdk.dir/Inc/startup_ch32v30x_D8C.S.obj: ASM_COMPILER__ch32
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   OBJECT_FILE_DIR = CMakeFiles/ch32_sdk.dir/Inc
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
-  TARGET_PDB = libch32_sdk.pdb
 
 
 # =============================================================================
@@ -338,9 +288,8 @@ build libch32_sdk.a: C_STATIC_LIBRARY_LINKER__ch32_sdk_Release CMakeFiles/ch32_s
   OBJECT_DIR = CMakeFiles/ch32_sdk.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/ch32_sdk.dir/ch32_sdk.pdb
   TARGET_FILE = libch32_sdk.a
-  TARGET_PDB = libch32_sdk.pdb
+  TARGET_PDB = ch32_sdk.a.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Programmator.elf
@@ -359,8 +308,6 @@ build CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj: C_COMPILE
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/Programmator.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/Programmator.elf.dir/Project/Programmator
-  TARGET_COMPILE_PDB = CMakeFiles/Programmator.elf.dir/
-  TARGET_PDB = Programmator.elf.pdb
 
 build CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj: C_COMPILER__Programmator.2eelf_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/ssd1306/oled_segment.c || cmake_object_order_depends_target_Programmator.elf
   CONFIG = Release
@@ -370,8 +317,6 @@ build CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/Programmator.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306
-  TARGET_COMPILE_PDB = CMakeFiles/Programmator.elf.dir/
-  TARGET_PDB = Programmator.elf.pdb
 
 build CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj: C_COMPILER__Programmator.2eelf_unscanned_Release /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/ssd1306/i2c_tx.c || cmake_object_order_depends_target_Programmator.elf
   CONFIG = Release
@@ -381,8 +326,6 @@ build CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj:
   INCLUDES = -I/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator -I/home/blank/Engineering/MCU/WCH/CH32V30x/Inc -I/home/blank/Engineering/MCU/WCH/CH32V30x/Src
   OBJECT_DIR = CMakeFiles/Programmator.elf.dir
   OBJECT_FILE_DIR = CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306
-  TARGET_COMPILE_PDB = CMakeFiles/Programmator.elf.dir/
-  TARGET_PDB = Programmator.elf.pdb
 
 
 # =============================================================================
@@ -400,9 +343,8 @@ build Programmator.elf: C_EXECUTABLE_LINKER__Programmator.2eelf_Release CMakeFil
   OBJECT_DIR = CMakeFiles/Programmator.elf.dir
   POST_BUILD = cd /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build && /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-objcopy -Oihex /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/Programmator.elf Programmator.hex && /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-objcopy -Obinary /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/Programmator.elf Programmator.bin && /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-objdump -S -d /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/Programmator.elf > Programmator.lst
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/Programmator.elf.dir/
   TARGET_FILE = Programmator.elf
-  TARGET_PDB = Programmator.elf.pdb
+  TARGET_PDB = Programmator.elf.dbg
 
 
 #############################################
@@ -488,14 +430,14 @@ build all: phony libch32_sdk.a Programmator.elf
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/cmake_install.cmake: RERUN_CMAKE | /home/blank/Engineering/MCU/WCH/CH32V30x/CMakeLists.txt /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/src.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMCompiler.cmake.in /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystem.cmake.in /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestASMCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectASMLinker.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
+build build.ninja /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/build/cmake_install.cmake: RERUN_CMAKE | /home/blank/Engineering/MCU/WCH/CH32V30x/CMakeLists.txt /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/src.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/blank/Engineering/MCU/WCH/CH32V30x/CMakeLists.txt /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/src.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMCompiler.cmake.in /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineASMCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeNinjaFindMake.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystem.cmake.in /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestASMCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectASMLinker.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
+build /home/blank/Engineering/MCU/WCH/CH32V30x/CMakeLists.txt /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/src.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeASMInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-ASM.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU-C.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeASMLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/Platform/Generic.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeASMCompiler.cmake CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake: phony
 
 
 #############################################
