@@ -45,7 +45,7 @@ NIX_CC='/nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=jv3s8nifdi -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=cbrw3i6a80 -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include -isystem /nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include -isystem /nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include -isystem /nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
@@ -221,10 +221,10 @@ export CPATH="$PWD/Inc:$PWD/Src:$CPATH"
 
 echo "========================================"
 echo "→ Доступные команды:"
-echo "   wch.py build          # собрать"
-echo "   wch.py flash          # собрать + прошить"
-echo "   wch.py monitor        # UART монитор"
-echo "   wch.py clean"
+echo "   wdf.py build          # собрать"
+echo "   wdf.py flash          # собрать + прошить"
+echo "   wdf.py monitor        # UART монитор"
+echo "   wdf.py clean"
 echo "========================================"
 '
 export shellHook

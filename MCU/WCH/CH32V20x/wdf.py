@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-wch.py — аналог idf.py для CH32V20x с официальным MounRiver toolchain
+wdf.py — аналог idf.py для CH32V20x с официальным MounRiver toolchain
 """
 
 import typer
@@ -16,7 +16,7 @@ from rich.panel import Panel
 
 console = Console()
 app = typer.Typer(
-    help="🔧 wch.py — утилита сборки для CH32V20x",
+    help="🔧 wdf.py — утилита сборки для CH32V20x",
     add_completion=True,
     no_args_is_help=True,
 )
@@ -27,10 +27,10 @@ TOOLCHAIN_BIN = "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin"
 def find_project_root() -> Path:
     current = Path.cwd().resolve()
     while current != current.parent:
-        if (current / "CMakeLists.txt").exists() and (current / "wch.py").exists():
+        if (current / "CMakeLists.txt").exists() and (current / "wdf.py").exists():
             return current
         current = current.parent
-    console.print(Panel("[bold red]Не найден корень проекта (CMakeLists.txt + wch.py)![/]",
+    console.print(Panel("[bold red]Не найден корень проекта (CMakeLists.txt + wdf.py)![/]",
                        border_style="red", title="Ошибка"))
     raise typer.Exit(1)
 
@@ -218,7 +218,7 @@ def monitor(
     """Монитор UART"""
     if port is None:
         ports = [p.device for p in serial.tools.list_ports.comports()
-                 if any(x in p.description.lower() for x in ["ch340", "ch341", "wch", "usb"])]
+                 if any(x in p.description.lower() for x in ["ch340", "ch341", "wdf", "usb"])]
         port = ports[0] if ports else None
         if not port:
             console.print(Panel("[red]Порт не найден. Укажите --port[/]",

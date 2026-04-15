@@ -1,7 +1,13 @@
-#include <ch32v30x_i2c.h>
-#include <stdio.h>
-#include "ssd1306/oled_segment.h"
+#include "oled.h"
 
 void Menu(){
+        OLED_setpos(0, 0);
+        OLED_clear();
+
+        while (1) {
+                OLED_print("Hello");
+                Delay_Ms(1000);
+        }
+
 
 }
