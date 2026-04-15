@@ -48,10 +48,10 @@
 
             echo "========================================"
             echo "→ Доступные команды:"
-            echo "   wch.py build     # собрать"
-            echo "   wch.py flash     # собрать + прошить"
-            echo "   wch.py monitor   # UART монитор"
-            echo "   wch.py clean"
+            echo "   wdf.py build     # собрать"
+            echo "   wdf.py flash     # собрать + прошить"
+            echo "   wdf.py monitor   # UART монитор"
+            echo "   wdf.py clean"
             echo "========================================"
           '';
 
