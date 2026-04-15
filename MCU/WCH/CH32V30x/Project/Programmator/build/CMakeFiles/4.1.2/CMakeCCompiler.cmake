@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-gcc")
+set(CMAKE_C_COMPILER "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-gcc")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "15.2.0")
@@ -23,11 +23,11 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID "riscv32")
 
 
 
-set(CMAKE_AR "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ar")
-set(CMAKE_C_COMPILER_AR "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ar")
-set(CMAKE_RANLIB "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/bin/riscv32-none-elf-gcc-ranlib")
-set(CMAKE_LINKER "/nix/store/vg1d9cx928abnvvpdzl942j6s61pfrq0-riscv32-none-elf-gcc-wrapper-15.2.0/bin/riscv32-none-elf-ld")
+set(CMAKE_AR "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-ar")
+set(CMAKE_C_COMPILER_AR "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-gcc-ar")
+set(CMAKE_RANLIB "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-ranlib")
+set(CMAKE_C_COMPILER_RANLIB "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-gcc-ranlib")
+set(CMAKE_LINKER "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_C_COMPILER_LINKER "NOTFOUND")
@@ -78,7 +78,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/blank/Engineering/MCU/WCH/CH32V30x/Inc;/home/blank/Engineering/MCU/WCH/CH32V30x/Src;/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/include;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/include;/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0/include-fixed;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/sys-include;/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/include")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "/home/blank/Engineering/MCU/WCH/CH32V30x/Inc;/home/blank/Engineering/MCU/WCH/CH32V30x/Src;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/lib/gcc/riscv32-wch-elf/15.2.0/include;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/lib/gcc/riscv32-wch-elf/15.2.0/include-fixed;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/riscv32-wch-elf/include")
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;c;gloss;gcc")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/nix/store/7npv5s0lj8l1yhwn89qzqqwzcfjj5gxn-gdb-17.1/lib;/nix/store/kfci1gnn12ip5xy492m0hd10hmgyxr6x-gettext-0.26/lib;/nix/store/pzdalg368npikvpq4ncz2saxnz19v53k-python3-3.13.12/lib;/nix/store/dp8wc795cppi3dg3qqdwcgidmrykryc6-newlib-riscv32-none-elf-4.5.0.20241231/riscv32-none-elf/lib;/nix/store/d1fd713620109fwm8lvwhha0d7w95sjd-riscv32-none-elf-gcc-15.2.0-lib/riscv32-none-elf/lib;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/lib/gcc/riscv32-none-elf/15.2.0;/nix/store/qpg0li7mppxmk6pb2kx1aigph3cyd8g8-riscv32-none-elf-gcc-15.2.0/riscv32-none-elf/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/lib/gcc/riscv32-wch-elf/15.2.0;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/lib/gcc;/home/blank/Engineering/MCU/WCH/toolchain/riscv32/riscv32-wch-elf/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

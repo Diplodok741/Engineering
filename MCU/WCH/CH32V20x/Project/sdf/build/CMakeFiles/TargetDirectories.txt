@@ -1,7 +1,7 @@
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/ch32_sdk.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/sdf.elf.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/size.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/flash.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/erase.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/edit_cache.dir
-/home/blank/Engineering/MCU/WCH_1/CH32V20x/Project/sdf/build/CMakeFiles/rebuild_cache.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/ch32_sdk.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/sdf.elf.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/size.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/flash.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/erase.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/edit_cache.dir
+/home/blank/Engineering/MCU/WCH/CH32V20x/Project/sdf/build/CMakeFiles/rebuild_cache.dir

@@ -8,21 +8,18 @@
 #include "ssd1306/oled_segment.h"
 
 int main(){
+        Delay_Init();
+        SystemInit();
         USART_Printf_Init(115200);
         SystemCoreClockUpdate();
-        SystemInit();
-        Delay_Init();
 
-        printf("Инициализация I2C");
         I2C_init();
-        printf("Инициализация Oled Дисплея");
         OLED_init();
-        OLED_setpos(10, 10);
-        OLED_clear();
-
+        OLED_setpos(0, 0);
         while (1) {
                 OLED_print("Hello");
-                Delay_Ms(1000);
+                Delay_Ms(500);
         }
+
         return 0;
 }

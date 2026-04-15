@@ -1,24 +1,37 @@
 cmake_minimum_required(VERSION 3.20)
 
-# ====================== TOOLCHAIN ======================
+# ====================== TOOLCHAIN (MounRiverStudio) ======================
 set(CMAKE_SYSTEM_NAME Generic)
 set(CMAKE_SYSTEM_PROCESSOR riscv32)
 
-set(CMAKE_C_COMPILER riscv32-none-elf-gcc)
-set(CMAKE_ASM_COMPILER riscv32-none-elf-gcc)
-set(CMAKE_OBJCOPY riscv32-none-elf-objcopy)
-set(CMAKE_OBJDUMP riscv32-none-elf-objdump)
-set(CMAKE_SIZE riscv32-none-elf-size)
+set(TOOLCHAIN_ROOT "/home/blank/Engineering/MCU/WCH/toolchain/riscv32")
+set(TOOLCHAIN_PREFIX "${TOOLCHAIN_ROOT}/bin/riscv32-wch-elf-")
+
+set(CMAKE_C_COMPILER "${TOOLCHAIN_PREFIX}gcc")
+set(CMAKE_ASM_COMPILER "${TOOLCHAIN_PREFIX}gcc")
+set(CMAKE_OBJCOPY "${TOOLCHAIN_PREFIX}objcopy")
+set(CMAKE_OBJDUMP "${TOOLCHAIN_PREFIX}objdump")
+set(CMAKE_SIZE "${TOOLCHAIN_PREFIX}size")
+set(CMAKE_AR "${TOOLCHAIN_PREFIX}ar")
+set(CMAKE_RANLIB "${TOOLCHAIN_PREFIX}ranlib")
 
 set(CMAKE_C_COMPILER_WORKS 1)
 set(CMAKE_ASM_COMPILER_WORKS 1)
 
 project(ch32v30_sdk C ASM)
 
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${COMMON_COMPILE_FLAGS}")
+set(CMAKE_ASM_FLAGS "${CMAKE_ASM_FLAGS} ${COMMON_COMPILE_FLAGS}")
+
+message(STATUS "Toolchain root: ${TOOLCHAIN_ROOT}")
+message(STATUS "Toolchain prefix: ${TOOLCHAIN_PREFIX}")
+message(STATUS "Using GCC: ${CMAKE_C_COMPILER}")
+message(STATUS "Using objcopy: ${CMAKE_OBJCOPY}")
+
 # ====================== PROJECT SELECT ======================
 if(NOT DEFINED PROJECT_DIR)
     get_filename_component(CURRENT_DIR "${CMAKE_CURRENT_SOURCE_DIR}" ABSOLUTE)
-    
+   
     if(CURRENT_DIR MATCHES "/Project/([^/]+)$")
         set(PROJECT_DIR "${CURRENT_DIR}")
         message(STATUS "PROJECT_DIR определён автоматически: ${PROJECT_DIR}")
@@ -41,17 +54,19 @@ message(STATUS "Building project: ${PROJECT_DIR}")
 
 # ====================== COMMON FLAGS (CH32V30x) ======================
 set(COMMON_COMPILE_FLAGS
-    -march=rv32imafc_zicsr
-    -mabi=ilp32f
-    -mcmodel=medany
+    -march=rv32imacxw          
+    -mabi=ilp32               
     -msmall-data-limit=8
-    -mno-save-restore
+    -msave-restore           
+    -fmessage-length=0
+    -fsigned-char
     -ffunction-sections
     -fdata-sections
     -fno-common
-    -Wall
+    -Wunused
+    -Wuninitialized
     -Os
-    -Wno-attributes
+    -g                      
 )
 
 # ====================== SDK ======================
@@ -94,17 +109,15 @@ target_compile_options(ch32_sdk PUBLIC ${COMMON_COMPILE_FLAGS})
 
 target_compile_definitions(ch32_sdk PUBLIC
     CH32V30X
-    SYSCLK_FREQ_144MHz_HSE
+    -DSYSCLK_FREQ_144MHz_HSE
 )
 
 # ====================== PROJECT SOURCES ======================
 set(PROJECT_FILE "${PROJECT_DIR}/src.cmake")
-
 if(EXISTS ${PROJECT_FILE})
     include(${PROJECT_FILE})
     message(STATUS "Используется src.cmake из проекта")
 else()
-    # Если src.cmake нет — ищем main.c
     if(EXISTS "${PROJECT_DIR}/main.c")
         set(SOURCES "main.c")
         message(STATUS "src.cmake не найден → используем main.c")
@@ -114,14 +127,12 @@ else()
 endif()
 
 list(TRANSFORM SOURCES PREPEND "${PROJECT_DIR}/")
-
 get_filename_component(PROJECT_NAME ${PROJECT_DIR} NAME)
 
 add_executable(${PROJECT_NAME}.elf ${SOURCES})
 
 target_include_directories(${PROJECT_NAME}.elf PRIVATE ${PROJECT_DIR})
 target_link_libraries(${PROJECT_NAME}.elf ch32_sdk)
-
 target_compile_options(${PROJECT_NAME}.elf PRIVATE ${COMMON_COMPILE_FLAGS})
 
 # ====================== LINK ======================
@@ -132,10 +143,10 @@ target_link_options(${PROJECT_NAME}.elf PRIVATE
     -nostartfiles
     -Wl,--gc-sections
     -Wl,--print-memory-usage
-    -mabi=ilp32f
-    -lc
-    -lgcc
-    -Wl,--no-warn-mismatch
+    -Wl,-Map=${PROJECT_NAME}.map
+    --specs=nano.specs
+    --specs=nosys.specs
+    -mabi=ilp32
 )
 
 # ====================== POST BUILD ======================

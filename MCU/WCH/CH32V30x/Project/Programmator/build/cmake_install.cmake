@@ -34,7 +34,7 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "riscv32-none-elf-objdump")
+  set(CMAKE_OBJDUMP "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/riscv32-wch-elf-objdump")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT

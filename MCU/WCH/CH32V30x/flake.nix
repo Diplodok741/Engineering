@@ -10,54 +10,54 @@
     flake-utils.lib.eachDefaultSystem (system:
       let
         pkgs = nixpkgs.legacyPackages.${system};
-
-        crossPkgs = import nixpkgs {
-          inherit system;
-          crossSystem = {
-            config = "riscv32-none-elf";
-            libc = "newlib";
-            abi = "ilp32f";           # ← важно для FPU
-            fpu = "single";           # или "none" если хочешь отключить
-            float-abi = "softfp";     # softfp — лучший компромисс
-          };
-        };
-
-        riscvGcc = crossPkgs.buildPackages.gcc;
+        toolchainPath = "/home/blank/Engineering/MCU/WCH/toolchain/riscv32";
       in
       {
         devShells.default = pkgs.mkShell {
-          packages = [
-            pkgs.cmake
-            pkgs.ninja
-            pkgs.gdb
-            pkgs.openocd
-            pkgs.minicom
-            pkgs.picocom
-            pkgs.fish
-            pkgs.wlink
-            riscvGcc
-            pkgs.python3Packages.pyserial
-            pkgs.python3Packages.rich
-            pkgs.python3Packages.typer
+          name = "ch32v30x-mrs-devshell";
+          packages = with pkgs; [
+            cmake
+            ninja
+            gdb
+            wlink
+            minicom
+            picocom
+            python3Packages.pyserial
+            python3Packages.rich
+            python3Packages.typer
+            fish
           ];
 
           shellHook = ''
             echo "========================================"
-            echo "CH32V30x devShell (Закос под ESP-IDF)"
-            echo "GCC: $(riscv32-none-elf-gcc --version | head -n1)"
+            echo "CH32V30x devShell"
             echo "Shell: Fish"
+            echo "Закос под Idf.py"
             echo "========================================"
 
-            export PATH="$PWD:$PATH"
+            export PATH="${toolchainPath}/bin:$PWD:$PATH"
 
-            ROOT_DIR="$(pwd)"
-            while [[ ! -f "$ROOT_DIR/flake.nix" && "$ROOT_DIR" != "/" ]]; do
-              ROOT_DIR="$(dirname "$ROOT_DIR")"
-            done
-            if [[ -f "$ROOT_DIR/flake.nix" ]]; then
-              export CPATH="$ROOT_DIR/Inc:$ROOT_DIR/Src:$CPATH"
+            if command -v riscv32-wch-elf-gcc >/dev/null 2>&1; then
+              echo "✓ GCC : $(riscv32-wch-elf-gcc --version | head -n1)"
+            else
+              echo "✗ riscv32-wch-elf-gcc не найден!"
             fi
+
+            export CMAKE_PREFIX_PATH="${toolchainPath}"
+            export CPATH="$PWD/Inc:$PWD/Src:$CPATH"
+
+            echo "========================================"
+            echo "→ Доступные команды:"
+            echo "   wch.py build     # собрать"
+            echo "   wch.py flash     # собрать + прошить"
+            echo "   wch.py monitor   # UART монитор"
+            echo "   wch.py clean"
+            echo "========================================"
           '';
+
+          env = {
+            CFLAGS = "-march=rv32imacxw -mabi=ilp32 -msave-restore";
+          };
         };
       });
 }

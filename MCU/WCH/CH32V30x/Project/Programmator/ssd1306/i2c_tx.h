@@ -1,3 +1,23 @@
+// ===================================================================================
+// Basic I2C Master Functions (write only) for CH32V003                       * v1.1 *
+// ===================================================================================
+//
+// Functions available:
+// --------------------
+// I2C_init()               Init I2C with defined clock rate (400kHz)
+// I2C_start(addr)          I2C start transmission, addr must contain R/W bit
+// I2C_write(b)             I2C transmit one data byte via I2C
+// I2C_stop()               I2C stop transmission
+//
+// I2C pin mapping (set below in I2C parameters):
+// ----------------------------------------------
+// I2C_MAP    0     1     2
+// SDA-pin   PC1   PD0   PC6
+// SCL-pin   PC2   PD1   PC5
+//
+// External pull-up resistors (4k7 - 10k) are mandatory!
+// 2023 by Stefan Wagner:   https://github.com/wagiminator
+
 #pragma once
 
 #ifdef __cplusplus

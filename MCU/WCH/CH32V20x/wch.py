@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-wch.py — аналог idf.py для CH32 (WCH)
-Поддерживает запуск из папки проекта (Project/xxx)
+wch.py — аналог idf.py для CH32V20x с официальным MounRiver toolchain
 """
 
 import typer
@@ -17,55 +16,66 @@ from rich.panel import Panel
 
 console = Console()
 app = typer.Typer(
-    help="🔧 wch.py — утилита сборки для CH32",
+    help="🔧 wch.py — утилита сборки для CH32V20x",
     add_completion=True,
     no_args_is_help=True,
 )
 
+TOOLCHAIN_BIN = "/home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin"
+
 
 def find_project_root() -> Path:
-    """Ищет корень репозитория (где лежит CMakeLists.txt и wch.py)"""
     current = Path.cwd().resolve()
     while current != current.parent:
         if (current / "CMakeLists.txt").exists() and (current / "wch.py").exists():
             return current
         current = current.parent
-    console.print("[bold red]❌ Не найден корень проекта (CMakeLists.txt + wch.py)![/]")
+    console.print(Panel("[bold red]Не найден корень проекта (CMakeLists.txt + wch.py)![/]",
+                       border_style="red", title="Ошибка"))
     raise typer.Exit(1)
 
 
 def get_current_project_dir() -> Path:
-    """Определяет папку текущего проекта (откуда запущена команда)"""
     cwd = Path.cwd().resolve()
     root = find_project_root()
-
-    # Если мы уже внутри Project/xxx — используем эту папку
     if cwd.is_relative_to(root / "Project"):
         return cwd
-    else:
-        # Если запущено из корня — используем по умолчанию blink
-        default = root / "Project" / "blink"
-        if default.exists():
-            console.print(f"[yellow]Предупреждение: Запущено из корня. Используется проект по умолчанию: blink[/]")
-            return default
-        else:
-            console.print("[bold red]❌ Папка Project/blink не найдена![/]")
-            raise typer.Exit(1)
+
+    default = root / "Project" / "blink"
+    if default.exists():
+        console.print(Panel(f"[yellow]Запущено из корня. Используется проект по умолчанию: blink[/]",
+                           border_style="yellow", title="Предупреждение"))
+        return default
+
+    console.print(Panel("[bold red]Папка Project/blink не найдена![/]", border_style="red"))
+    raise typer.Exit(1)
 
 
 def ensure_build_dir(project_dir: Path) -> Path:
-    """Создаёт build/ внутри папки проекта"""
     build_dir = project_dir / "build"
     build_dir.mkdir(exist_ok=True)
     return build_dir
 
 
-def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
-    """Конфигурация CMake"""
-    build_dir = ensure_build_dir(project_dir)
+def check_toolchain():
+    """Проверка официального тулчейна"""
+    gcc = Path(TOOLCHAIN_BIN) / "riscv32-wch-elf-gcc"
+    if not gcc.exists():
+        console.print(Panel("[bold red]Официальный тулчейн не найден![/]",
+                           border_style="red", title="Ошибка"))
+        console.print(f"   Ожидаемый путь: {gcc}")
+        raise typer.Exit(1)
+    
+    console.print(Panel(f"[green]✓ Toolchain: {gcc.name} 15.2.0[/]",
+                       border_style="green", title="Тулчейн OK"))
 
-    console.print(Panel.fit(f"[cyan]Конфигурация CMake для проекта: [bold]{project_dir.name}[/][/]", 
-                           border_style="cyan"))
+
+def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
+    build_dir = ensure_build_dir(project_dir)
+    console.print(Panel.fit(
+        f"[cyan]Конфигурация CMake для проекта: [bold]{project_dir.name}[/][/]",
+        border_style="cyan"
+    ))
 
     cmd = [
         "cmake",
@@ -74,31 +84,30 @@ def run_cmake_configure(project_dir: Path, root: Path, verbose: bool = False):
         "-G", "Ninja",
         f"-DPROJECT_DIR={project_dir}",
         "-DCMAKE_BUILD_TYPE=Release",
+        f"-DCMAKE_C_COMPILER={TOOLCHAIN_BIN}/riscv32-wch-elf-gcc",
+        f"-DCMAKE_ASM_COMPILER={TOOLCHAIN_BIN}/riscv32-wch-elf-gcc",
+        f"-DCMAKE_OBJCOPY={TOOLCHAIN_BIN}/riscv32-wch-elf-objcopy",
+        f"-DCMAKE_OBJDUMP={TOOLCHAIN_BIN}/riscv32-wch-elf-objdump",
+        f"-DCMAKE_SIZE={TOOLCHAIN_BIN}/riscv32-wch-elf-size",
     ]
-    # cmd = [
-    #     "cmake",
-    #     "-B", str(build_dir),
-    #     "-S", str(root),                    # Главный CMakeLists.txt всегда в корне
-    #     "-G", "Ninja",
-    #     "-DCMAKE_BUILD_TYPE=Release",
-    # ]
 
     if verbose:
         cmd.append("-DCMAKE_VERBOSE_MAKEFILE=ON")
 
     try:
-        subprocess.run(cmd, cwd=root, check=True, capture_output=False)
+        subprocess.run(cmd, cwd=root, check=True)
     except subprocess.CalledProcessError:
-        console.print("[bold red]❌ Ошибка конфигурации CMake[/]")
-        raise typer.Exit(1)
+        console.print(Panel("[bold red]Ошибка конфигурации CMake[/]",
+                           border_style="red", title="Ошибка"))
+        raise typer.Exit(1) from None
 
 
 def build_firmware(root: Path, verbose: bool = False):
+    check_toolchain()
     project_dir = get_current_project_dir()
     run_cmake_configure(project_dir, root, verbose)
 
     build_dir = project_dir / "build"
-
     console.print(Panel.fit("[cyan]Выполняется сборка...[/]", border_style="cyan"))
 
     cmd = ["cmake", "--build", str(build_dir)]
@@ -107,10 +116,12 @@ def build_firmware(root: Path, verbose: bool = False):
 
     try:
         subprocess.run(cmd, cwd=root, check=True)
-        console.print("[bold green]✅ Сборка завершена успешно![/]")
+        console.print(Panel("[bold green]Сборка завершена успешно![/]",
+                           border_style="green", title="Успех"))
         show_size(build_dir, root)
     except subprocess.CalledProcessError:
-        console.print("[bold red]❌ Ошибка сборки![/]")
+        console.print(Panel("[bold red]Ошибка сборки![/]",
+                           border_style="red", title="Ошибка"))
         raise typer.Exit(1)
 
 
@@ -124,7 +135,6 @@ def show_size(build_dir: Path, root: Path):
 
 
 # ====================== КОМАНДЫ ======================
-
 @app.command()
 def build(verbose: bool = typer.Option(False, "--verbose", "-v", help="Подробный вывод")):
     """Собрать текущий проект"""
@@ -148,9 +158,11 @@ def flash(verbose: bool = typer.Option(False, "--verbose", "-v", help="Подр�
             cwd=root,
             check=True,
         )
-        console.print("[bold green]✅ Прошивка завершена![/]")
+        console.print(Panel("[bold green]Прошивка завершена успешно![/]",
+                           border_style="green", title="Успех"))
     except subprocess.CalledProcessError:
-        console.print("[bold red]❌ Ошибка прошивки![/]")
+        console.print(Panel("[bold red]Ошибка прошивки![/]",
+                           border_style="red", title="Ошибка"))
 
 
 @app.command()
@@ -160,9 +172,10 @@ def clean():
     build_dir = project_dir / "build"
     if build_dir.exists():
         shutil.rmtree(build_dir)
-        console.print(f"[green]✅ build очищен в {project_dir.name}[/]")
+        console.print(Panel(f"[green]build очищен в {project_dir.name}[/]",
+                           border_style="green", title="Успех"))
     else:
-        console.print("[yellow]build уже отсутствует[/]")
+        console.print(Panel("[yellow]build уже отсутствует[/]", border_style="yellow"))
 
 
 @app.command()
@@ -172,7 +185,8 @@ def size():
     project_dir = get_current_project_dir()
     build_dir = project_dir / "build"
     if not build_dir.exists():
-        console.print("[red]Сначала выполните сборку (build)[/]")
+        console.print(Panel("[red]Сначала выполните сборку (build)[/]",
+                           border_style="red", title="Ошибка"))
         raise typer.Exit(1)
     show_size(build_dir, root)
 
@@ -183,13 +197,17 @@ def erase():
     root = find_project_root()
     project_dir = get_current_project_dir()
     build_dir = project_dir / "build"
-    console.print(Panel.fit("[red]Стираем чип...[/]", border_style="red"))
-    subprocess.run(
-        ["cmake", "--build", str(build_dir), "--target", "erase"],
-        cwd=root,
-        check=True,
-    )
-    console.print("[bold green]✅ Чип стёрт![/]")
+   
+    console.print(Panel("[red]Стираем чип...[/]", border_style="red", title="Внимание"))
+    try:
+        subprocess.run(
+            ["cmake", "--build", str(build_dir), "--target", "erase"],
+            cwd=root,
+            check=True,
+        )
+        console.print(Panel("[bold green]Чип стёрт![/]", border_style="green", title="Успех"))
+    except subprocess.CalledProcessError:
+        console.print(Panel("[bold red]Ошибка при стирании чипа[/]", border_style="red", title="Ошибка"))
 
 
 @app.command()
@@ -198,15 +216,13 @@ def monitor(
     baud: int = typer.Option(115200, "--baud", "-b"),
 ):
     """Монитор UART"""
-    # (тот же код монитора, что был раньше)
-    import serial.tools.list_ports
     if port is None:
         ports = [p.device for p in serial.tools.list_ports.comports()
                  if any(x in p.description.lower() for x in ["ch340", "ch341", "wch", "usb"])]
-        port = ports[0] if len(ports) == 1 else None
-
+        port = ports[0] if ports else None
         if not port:
-            console.print("[red]Порт не найден. Укажите --port[/]")
+            console.print(Panel("[red]Порт не найден. Укажите --port[/]",
+                               border_style="red", title="Ошибка"))
             raise typer.Exit(1)
 
     console.print(Panel.fit(
@@ -223,13 +239,12 @@ def monitor(
                 if line:
                     console.print(line)
             time.sleep(0.01)
-
     except KeyboardInterrupt:
         console.print("\n[yellow]Монитор остановлен[/]")
-
     finally:
-        if ser is not None:
+        if ser:
             ser.close()
+
 
 if __name__ == "__main__":
     app()
