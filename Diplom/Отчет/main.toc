@@ -1,0 +1,7 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Модели нестационарных каналов с Релеевскими замираниями}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Стационарные и нестационарные каналы}{2}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Математическая модель Релеевских замираний}{2}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Параметры нестационарности}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Обзор существующих моделей}{2}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Выбор модели для симуляции}{2}{subsection.1.5}%

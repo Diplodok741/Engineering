@@ -4051,8 +4051,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-s2TY7q"
-      binary: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-s2TY7q"
+      source: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-Oxmyv5"
+      binary: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-Oxmyv5"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=rv32imacxw -mabi=ilp32 -msave-restore"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -4061,13 +4061,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-s2TY7q'
+        Change Dir: '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-Oxmyv5'
         
-        Run Build Command(s): /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E env VERBOSE=1 /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make -f Makefile cmTC_45ef4/fast
-        /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_45ef4.dir/build.make CMakeFiles/cmTC_45ef4.dir/build
-        make[1]: Entering directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-s2TY7q'
-        Building C object CMakeFiles/cmTC_45ef4.dir/CMakeCCompilerABI.c.o
-        /nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/gcc   -march=rv32imacxw -mabi=ilp32 -msave-restore    -v -o CMakeFiles/cmTC_45ef4.dir/CMakeCCompilerABI.c.o -c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E env VERBOSE=1 /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make -f Makefile cmTC_f7819/fast
+        /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_f7819.dir/build.make CMakeFiles/cmTC_f7819.dir/build
+        make[1]: Entering directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-Oxmyv5'
+        Building C object CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o
+        /nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/gcc   -march=rv32imacxw -mabi=ilp32 -msave-restore    -v -o CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o -c /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         gcc: error: unrecognized argument in option '-mabi=ilp32'
         gcc: note: valid arguments to '-mabi=' are: ms sysv
         Using built-in specs.
@@ -4078,9 +4078,9 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 15.2.0 (GCC) 
-        make[1]: *** [CMakeFiles/cmTC_45ef4.dir/build.make:81: CMakeFiles/cmTC_45ef4.dir/CMakeCCompilerABI.c.o] Error 1
-        make[1]: Leaving directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-s2TY7q'
-        make: *** [Makefile:134: cmTC_45ef4/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_f7819.dir/build.make:81: CMakeFiles/cmTC_f7819.dir/CMakeCCompilerABI.c.o] Error 1
+        make[1]: Leaving directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-Oxmyv5'
+        make: *** [Makefile:134: cmTC_f7819/fast] Error 2
         
       exitCode: 2
   -
@@ -4091,8 +4091,8 @@ events:
     checks:
       - "Check for working C compiler: /nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/gcc"
     directories:
-      source: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-3MsLjZ"
-      binary: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-3MsLjZ"
+      source: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-vWhGhT"
+      binary: "/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-vWhGhT"
     cmakeVariables:
       CMAKE_C_FLAGS: "-march=rv32imacxw -mabi=ilp32 -msave-restore"
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -4101,19 +4101,19 @@ events:
       variable: "CMAKE_C_COMPILER_WORKS"
       cached: true
       stdout: |
-        Change Dir: '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-3MsLjZ'
+        Change Dir: '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-vWhGhT'
         
-        Run Build Command(s): /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E env VERBOSE=1 /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make -f Makefile cmTC_c63dd/fast
-        /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_c63dd.dir/build.make CMakeFiles/cmTC_c63dd.dir/build
-        make[1]: Entering directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-3MsLjZ'
-        Building C object CMakeFiles/cmTC_c63dd.dir/testCCompiler.c.o
-        /nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/gcc   -march=rv32imacxw -mabi=ilp32 -msave-restore  -o CMakeFiles/cmTC_c63dd.dir/testCCompiler.c.o -c /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-3MsLjZ/testCCompiler.c
+        Run Build Command(s): /nix/store/q800b7nrqa8csf2gcds2i83w1icsda5w-cmake-4.1.2/bin/cmake -E env VERBOSE=1 /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make -f Makefile cmTC_0102b/fast
+        /nix/store/1fvcxyhg3i5fvw0j4l8wmyml10dnvm7q-gnumake-4.4.1/bin/make  -f CMakeFiles/cmTC_0102b.dir/build.make CMakeFiles/cmTC_0102b.dir/build
+        make[1]: Entering directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-vWhGhT'
+        Building C object CMakeFiles/cmTC_0102b.dir/testCCompiler.c.o
+        /nix/store/hb2bs5fg5wkm04x565737qd5nh2hy5nk-gcc-wrapper-15.2.0/bin/gcc   -march=rv32imacxw -mabi=ilp32 -msave-restore  -o CMakeFiles/cmTC_0102b.dir/testCCompiler.c.o -c /home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-vWhGhT/testCCompiler.c
         gcc: error: unrecognized argument in option ‘-mabi=ilp32’
         gcc: note: valid arguments to ‘-mabi=’ are: ms sysv
         gcc: error: unrecognized command-line option ‘-msave-restore’
-        make[1]: *** [CMakeFiles/cmTC_c63dd.dir/build.make:81: CMakeFiles/cmTC_c63dd.dir/testCCompiler.c.o] Error 1
-        make[1]: Leaving directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-3MsLjZ'
-        make: *** [Makefile:134: cmTC_c63dd/fast] Error 2
+        make[1]: *** [CMakeFiles/cmTC_0102b.dir/build.make:81: CMakeFiles/cmTC_0102b.dir/testCCompiler.c.o] Error 1
+        make[1]: Leaving directory '/home/blank/Engineering/MCU/WCH/CH32V30x/Project/Programmator/__cmake_systeminformation/CMakeFiles/CMakeScratch/TryCompile-vWhGhT'
+        make: *** [Makefile:134: cmTC_0102b/fast] Error 2
         
       exitCode: 2
 ...

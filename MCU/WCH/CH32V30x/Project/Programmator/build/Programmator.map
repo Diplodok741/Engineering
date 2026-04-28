@@ -102,9 +102,32 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
  .data          0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .rodata.StartScreen.str1.4
+                0x00000000       0x18 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .text.StartScreen
+                0x00000000      0x33a CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .text.FillRect
+                0x00000000       0x5a CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .rodata.Menu.str1.4
+                0x00000000        0x6 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .text.Menu     0x00000000       0x3c CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
  .text          0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .data          0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_setline
+                0x00000000       0x54 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_clearline
+                0x00000000       0x64 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_scrollDisplay
+                0x00000000       0x68 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_plotChar
+                0x00000000       0xb4 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_write
+                0x00000000      0x11a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_printS
+                0x00000000       0x2c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .text.OLED_print
+                0x00000000        0xa CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text.OLED_println
                 0x00000000       0x2a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text.OLED_printD
@@ -123,20 +146,20 @@ Discarded input sections
                 0x00000000       0x5e CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text.OLED_DrawBitmap
                 0x00000000       0xc6 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
- .text.OLED_DrawPixel
-                0x00000000       0x38 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text.OLED_DrawLine
                 0x00000000       0x68 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text.OLED_DrawMultipleLines
                 0x00000000       0x44 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
- .text.OLED_DisplayBuffer
-                0x00000000       0x5e CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text.OLED_DrawLogo
                 0x00000000       0xb2 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .rodata.DIVIDER
                 0x00000000       0x28 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .sbss.column   0x00000000        0x1 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .sbss.line     0x00000000        0x1 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .rodata.OLED_INIT_CMD
                 0x00000000        0xb CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .rodata.font5x8
+                0x00000000      0x1e0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .rodata.logo_bmp
                 0x00000000      0x400 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .text          0x00000000        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
@@ -344,6 +367,8 @@ Discarded input sections
  .data          0x00000000        0x0 libch32_sdk.a(debug.c.obj)
  .bss           0x00000000        0x0 libch32_sdk.a(debug.c.obj)
  .text.Delay_Us
+                0x00000000       0x3a libch32_sdk.a(debug.c.obj)
+ .text.Delay_Ms
                 0x00000000       0x3a libch32_sdk.a(debug.c.obj)
  .text          0x00000000        0x0 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
  .data          0x00000000        0x0 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
@@ -615,7 +640,7 @@ END GROUP
                 0x00000200                        . = ALIGN (0x40)
  *fill*         0x000001d8       0x28 
 
-.text           0x00000200     0x2074
+.text           0x00000200     0x1cf0
                 0x00000200                        . = ALIGN (0x4)
  *(.text)
  .text          0x00000200       0x68 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
@@ -651,395 +676,373 @@ END GROUP
                 0x0000027e                memset
  *(.text.*)
  .text.startup.main
-                0x0000028e       0x38 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x0000028e       0x40 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
                 0x0000028e                main
- .text.Menu     0x000002c6       0x20 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
-                0x000002c6                Menu
- .text.OLED_setline
-                0x000002e6       0x26 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x000002e6                OLED_setline
- .text.OLED_clearline
-                0x0000030c       0x3c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x0000030c                OLED_clearline
- .text.OLED_scrollDisplay
-                0x00000348       0x36 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x00000348                OLED_scrollDisplay
- .text.OLED_plotChar
-                0x0000037e       0x82 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x0000037e                OLED_plotChar
- .text.OLED_write
-                0x00000400       0xc2 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x00000400                OLED_write
- .text.OLED_printS
-                0x000004c2       0x1c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x000004c2                OLED_printS
- .text.OLED_print
-                0x000004de        0x4 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x000004de                OLED_print
+ .text.DrawLine
+                0x000002ce       0x48 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+                0x000002ce                DrawLine
  .text.OLED_setpos
-                0x000004e2       0x3a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x000004e2                OLED_setpos
+                0x00000316       0x3a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00000316                OLED_setpos
  .text.OLED_clear
-                0x0000051c       0x34 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x0000051c                OLED_clear
+                0x00000350       0x34 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00000350                OLED_clear
  .text.OLED_init
-                0x00000550       0x3a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x00000550                OLED_init
+                0x00000384       0x3a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00000384                OLED_init
+ .text.OLED_DrawPixel
+                0x000003be       0x38 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x000003be                OLED_DrawPixel
+ .text.OLED_DisplayBuffer
+                0x000003f6       0x36 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x000003f6                OLED_DisplayBuffer
  .text.I2C_init
-                0x0000058a       0x6a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
-                0x0000058a                I2C_init
+                0x0000042c       0x6a CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+                0x0000042c                I2C_init
  .text.I2C_start
-                0x000005f4       0x44 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
-                0x000005f4                I2C_start
+                0x00000496       0x44 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+                0x00000496                I2C_start
  .text.I2C_write
-                0x00000638       0x14 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
-                0x00000638                I2C_write
+                0x000004da       0x14 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+                0x000004da                I2C_write
  .text.I2C_stop
-                0x0000064c       0x18 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
-                0x0000064c                I2C_stop
+                0x000004ee       0x18 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+                0x000004ee                I2C_stop
  .text.GPIO_Init
-                0x00000664       0xc0 libch32_sdk.a(ch32v30x_gpio.c.obj)
-                0x00000664                GPIO_Init
+                0x00000506       0xc0 libch32_sdk.a(ch32v30x_gpio.c.obj)
+                0x00000506                GPIO_Init
  .text.GPIO_SetBits
-                0x00000724        0x4 libch32_sdk.a(ch32v30x_gpio.c.obj)
-                0x00000724                GPIO_SetBits
+                0x000005c6        0x4 libch32_sdk.a(ch32v30x_gpio.c.obj)
+                0x000005c6                GPIO_SetBits
  .text.GPIO_PinRemapConfig
-                0x00000728       0xa8 libch32_sdk.a(ch32v30x_gpio.c.obj)
-                0x00000728                GPIO_PinRemapConfig
+                0x000005ca       0xa8 libch32_sdk.a(ch32v30x_gpio.c.obj)
+                0x000005ca                GPIO_PinRemapConfig
  .text.I2C_Init
-                0x000007d0       0xca libch32_sdk.a(ch32v30x_i2c.c.obj)
-                0x000007d0                I2C_Init
- .text.I2C_Cmd  0x0000089a       0x14 libch32_sdk.a(ch32v30x_i2c.c.obj)
-                0x0000089a                I2C_Cmd
+                0x00000672       0xc8 libch32_sdk.a(ch32v30x_i2c.c.obj)
+                0x00000672                I2C_Init
+ .text.I2C_Cmd  0x0000073a       0x14 libch32_sdk.a(ch32v30x_i2c.c.obj)
+                0x0000073a                I2C_Cmd
  .text.RCC_GetClocksFreq
-                0x000008ae      0x152 libch32_sdk.a(ch32v30x_rcc.c.obj)
-                0x000008ae                RCC_GetClocksFreq
+                0x0000074e      0x152 libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x0000074e                RCC_GetClocksFreq
  .text.RCC_APB2PeriphClockCmd
-                0x00000a00       0x18 libch32_sdk.a(ch32v30x_rcc.c.obj)
-                0x00000a00                RCC_APB2PeriphClockCmd
+                0x000008a0       0x18 libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x000008a0                RCC_APB2PeriphClockCmd
  .text.RCC_APB1PeriphClockCmd
-                0x00000a18       0x18 libch32_sdk.a(ch32v30x_rcc.c.obj)
-                0x00000a18                RCC_APB1PeriphClockCmd
+                0x000008b8       0x18 libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x000008b8                RCC_APB1PeriphClockCmd
  .text.SystemInit
-                0x00000a30       0xf0 libch32_sdk.a(system_ch32v30x.c.obj)
-                0x00000a30                SystemInit
+                0x000008d0       0xf0 libch32_sdk.a(system_ch32v30x.c.obj)
+                0x000008d0                SystemInit
  .text.SystemCoreClockUpdate
-                0x00000b20       0xa6 libch32_sdk.a(system_ch32v30x.c.obj)
-                0x00000b20                SystemCoreClockUpdate
+                0x000009c0       0xa6 libch32_sdk.a(system_ch32v30x.c.obj)
+                0x000009c0                SystemCoreClockUpdate
  .text.Delay_Init
-                0x00000bc6       0x2a libch32_sdk.a(debug.c.obj)
-                0x00000bc6                Delay_Init
- .text.Delay_Ms
-                0x00000bf0       0x36 libch32_sdk.a(debug.c.obj)
-                0x00000bf0                Delay_Ms
+                0x00000a66       0x2a libch32_sdk.a(debug.c.obj)
+                0x00000a66                Delay_Init
  .text.USART_Printf_Init
-                0x00000c26       0x58 libch32_sdk.a(debug.c.obj)
-                0x00000c26                USART_Printf_Init
- .text._write   0x00000c7e       0x3e libch32_sdk.a(debug.c.obj)
-                0x00000c7e                _write
- .text._sbrk    0x00000cbc       0x2e libch32_sdk.a(debug.c.obj)
-                0x00000cbc                _sbrk
- .text._fini    0x00000cea        0x2 libch32_sdk.a(debug.c.obj)
-                0x00000cea                _fini
- .text._init    0x00000cec        0x2 libch32_sdk.a(debug.c.obj)
-                0x00000cec                _init
+                0x00000a90       0x56 libch32_sdk.a(debug.c.obj)
+                0x00000a90                USART_Printf_Init
+ .text._write   0x00000ae6       0x3e libch32_sdk.a(debug.c.obj)
+                0x00000ae6                _write
+ .text._sbrk    0x00000b24       0x2e libch32_sdk.a(debug.c.obj)
+                0x00000b24                _sbrk
+ .text._fini    0x00000b52        0x2 libch32_sdk.a(debug.c.obj)
+                0x00000b52                _fini
+ .text._init    0x00000b54        0x2 libch32_sdk.a(debug.c.obj)
+                0x00000b54                _init
  .text.vector_handler
-                0x00000cee       0xbe libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
-                0x00000cee                NMI_Handler
-                0x00000cf0                HardFault_Handler
-                0x00000cf2                Ecall_M_Mode_Handler
-                0x00000cf4                Ecall_U_Mode_Handler
-                0x00000cf6                Break_Point_Handler
-                0x00000cf8                SysTick_Handler
-                0x00000cfa                SW_Handler
-                0x00000cfc                WWDG_IRQHandler
-                0x00000cfe                PVD_IRQHandler
-                0x00000d00                TAMPER_IRQHandler
-                0x00000d02                RTC_IRQHandler
-                0x00000d04                FLASH_IRQHandler
-                0x00000d06                RCC_IRQHandler
-                0x00000d08                EXTI0_IRQHandler
-                0x00000d0a                EXTI1_IRQHandler
-                0x00000d0c                EXTI2_IRQHandler
-                0x00000d0e                EXTI3_IRQHandler
-                0x00000d10                EXTI4_IRQHandler
-                0x00000d12                DMA1_Channel1_IRQHandler
-                0x00000d14                DMA1_Channel2_IRQHandler
-                0x00000d16                DMA1_Channel3_IRQHandler
-                0x00000d18                DMA1_Channel4_IRQHandler
-                0x00000d1a                DMA1_Channel5_IRQHandler
-                0x00000d1c                DMA1_Channel6_IRQHandler
-                0x00000d1e                DMA1_Channel7_IRQHandler
-                0x00000d20                ADC1_2_IRQHandler
-                0x00000d22                USB_HP_CAN1_TX_IRQHandler
-                0x00000d24                USB_LP_CAN1_RX0_IRQHandler
-                0x00000d26                CAN1_RX1_IRQHandler
-                0x00000d28                CAN1_SCE_IRQHandler
-                0x00000d2a                EXTI9_5_IRQHandler
-                0x00000d2c                TIM1_BRK_IRQHandler
-                0x00000d2e                TIM1_UP_IRQHandler
-                0x00000d30                TIM1_TRG_COM_IRQHandler
-                0x00000d32                TIM1_CC_IRQHandler
-                0x00000d34                TIM2_IRQHandler
-                0x00000d36                TIM3_IRQHandler
-                0x00000d38                TIM4_IRQHandler
-                0x00000d3a                I2C1_EV_IRQHandler
-                0x00000d3c                I2C1_ER_IRQHandler
-                0x00000d3e                I2C2_EV_IRQHandler
-                0x00000d40                I2C2_ER_IRQHandler
-                0x00000d42                SPI1_IRQHandler
-                0x00000d44                SPI2_IRQHandler
-                0x00000d46                USART1_IRQHandler
-                0x00000d48                USART2_IRQHandler
-                0x00000d4a                USART3_IRQHandler
-                0x00000d4c                EXTI15_10_IRQHandler
-                0x00000d4e                RTCAlarm_IRQHandler
-                0x00000d50                USBWakeUp_IRQHandler
-                0x00000d52                TIM8_BRK_IRQHandler
-                0x00000d54                TIM8_UP_IRQHandler
-                0x00000d56                TIM8_TRG_COM_IRQHandler
-                0x00000d58                TIM8_CC_IRQHandler
-                0x00000d5a                RNG_IRQHandler
-                0x00000d5c                FSMC_IRQHandler
-                0x00000d5e                SDIO_IRQHandler
-                0x00000d60                TIM5_IRQHandler
-                0x00000d62                SPI3_IRQHandler
-                0x00000d64                UART4_IRQHandler
-                0x00000d66                UART5_IRQHandler
-                0x00000d68                TIM6_IRQHandler
-                0x00000d6a                TIM7_IRQHandler
-                0x00000d6c                DMA2_Channel1_IRQHandler
-                0x00000d6e                DMA2_Channel2_IRQHandler
-                0x00000d70                DMA2_Channel3_IRQHandler
-                0x00000d72                DMA2_Channel4_IRQHandler
-                0x00000d74                DMA2_Channel5_IRQHandler
-                0x00000d76                ETH_IRQHandler
-                0x00000d78                ETH_WKUP_IRQHandler
-                0x00000d7a                CAN2_TX_IRQHandler
-                0x00000d7c                CAN2_RX0_IRQHandler
-                0x00000d7e                CAN2_RX1_IRQHandler
-                0x00000d80                CAN2_SCE_IRQHandler
-                0x00000d82                OTG_FS_IRQHandler
-                0x00000d84                USBHSWakeup_IRQHandler
-                0x00000d86                USBHS_IRQHandler
-                0x00000d88                DVP_IRQHandler
-                0x00000d8a                UART6_IRQHandler
-                0x00000d8c                UART7_IRQHandler
-                0x00000d8e                UART8_IRQHandler
-                0x00000d90                TIM9_BRK_IRQHandler
-                0x00000d92                TIM9_UP_IRQHandler
-                0x00000d94                TIM9_TRG_COM_IRQHandler
-                0x00000d96                TIM9_CC_IRQHandler
-                0x00000d98                TIM10_BRK_IRQHandler
-                0x00000d9a                TIM10_UP_IRQHandler
-                0x00000d9c                TIM10_TRG_COM_IRQHandler
-                0x00000d9e                TIM10_CC_IRQHandler
-                0x00000da0                DMA2_Channel6_IRQHandler
-                0x00000da2                DMA2_Channel7_IRQHandler
-                0x00000da4                DMA2_Channel8_IRQHandler
-                0x00000da6                DMA2_Channel9_IRQHandler
-                0x00000da8                DMA2_Channel10_IRQHandler
-                0x00000daa                DMA2_Channel11_IRQHandler
+                0x00000b56       0xbe libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+                0x00000b56                NMI_Handler
+                0x00000b58                HardFault_Handler
+                0x00000b5a                Ecall_M_Mode_Handler
+                0x00000b5c                Ecall_U_Mode_Handler
+                0x00000b5e                Break_Point_Handler
+                0x00000b60                SysTick_Handler
+                0x00000b62                SW_Handler
+                0x00000b64                WWDG_IRQHandler
+                0x00000b66                PVD_IRQHandler
+                0x00000b68                TAMPER_IRQHandler
+                0x00000b6a                RTC_IRQHandler
+                0x00000b6c                FLASH_IRQHandler
+                0x00000b6e                RCC_IRQHandler
+                0x00000b70                EXTI0_IRQHandler
+                0x00000b72                EXTI1_IRQHandler
+                0x00000b74                EXTI2_IRQHandler
+                0x00000b76                EXTI3_IRQHandler
+                0x00000b78                EXTI4_IRQHandler
+                0x00000b7a                DMA1_Channel1_IRQHandler
+                0x00000b7c                DMA1_Channel2_IRQHandler
+                0x00000b7e                DMA1_Channel3_IRQHandler
+                0x00000b80                DMA1_Channel4_IRQHandler
+                0x00000b82                DMA1_Channel5_IRQHandler
+                0x00000b84                DMA1_Channel6_IRQHandler
+                0x00000b86                DMA1_Channel7_IRQHandler
+                0x00000b88                ADC1_2_IRQHandler
+                0x00000b8a                USB_HP_CAN1_TX_IRQHandler
+                0x00000b8c                USB_LP_CAN1_RX0_IRQHandler
+                0x00000b8e                CAN1_RX1_IRQHandler
+                0x00000b90                CAN1_SCE_IRQHandler
+                0x00000b92                EXTI9_5_IRQHandler
+                0x00000b94                TIM1_BRK_IRQHandler
+                0x00000b96                TIM1_UP_IRQHandler
+                0x00000b98                TIM1_TRG_COM_IRQHandler
+                0x00000b9a                TIM1_CC_IRQHandler
+                0x00000b9c                TIM2_IRQHandler
+                0x00000b9e                TIM3_IRQHandler
+                0x00000ba0                TIM4_IRQHandler
+                0x00000ba2                I2C1_EV_IRQHandler
+                0x00000ba4                I2C1_ER_IRQHandler
+                0x00000ba6                I2C2_EV_IRQHandler
+                0x00000ba8                I2C2_ER_IRQHandler
+                0x00000baa                SPI1_IRQHandler
+                0x00000bac                SPI2_IRQHandler
+                0x00000bae                USART1_IRQHandler
+                0x00000bb0                USART2_IRQHandler
+                0x00000bb2                USART3_IRQHandler
+                0x00000bb4                EXTI15_10_IRQHandler
+                0x00000bb6                RTCAlarm_IRQHandler
+                0x00000bb8                USBWakeUp_IRQHandler
+                0x00000bba                TIM8_BRK_IRQHandler
+                0x00000bbc                TIM8_UP_IRQHandler
+                0x00000bbe                TIM8_TRG_COM_IRQHandler
+                0x00000bc0                TIM8_CC_IRQHandler
+                0x00000bc2                RNG_IRQHandler
+                0x00000bc4                FSMC_IRQHandler
+                0x00000bc6                SDIO_IRQHandler
+                0x00000bc8                TIM5_IRQHandler
+                0x00000bca                SPI3_IRQHandler
+                0x00000bcc                UART4_IRQHandler
+                0x00000bce                UART5_IRQHandler
+                0x00000bd0                TIM6_IRQHandler
+                0x00000bd2                TIM7_IRQHandler
+                0x00000bd4                DMA2_Channel1_IRQHandler
+                0x00000bd6                DMA2_Channel2_IRQHandler
+                0x00000bd8                DMA2_Channel3_IRQHandler
+                0x00000bda                DMA2_Channel4_IRQHandler
+                0x00000bdc                DMA2_Channel5_IRQHandler
+                0x00000bde                ETH_IRQHandler
+                0x00000be0                ETH_WKUP_IRQHandler
+                0x00000be2                CAN2_TX_IRQHandler
+                0x00000be4                CAN2_RX0_IRQHandler
+                0x00000be6                CAN2_RX1_IRQHandler
+                0x00000be8                CAN2_SCE_IRQHandler
+                0x00000bea                OTG_FS_IRQHandler
+                0x00000bec                USBHSWakeup_IRQHandler
+                0x00000bee                USBHS_IRQHandler
+                0x00000bf0                DVP_IRQHandler
+                0x00000bf2                UART6_IRQHandler
+                0x00000bf4                UART7_IRQHandler
+                0x00000bf6                UART8_IRQHandler
+                0x00000bf8                TIM9_BRK_IRQHandler
+                0x00000bfa                TIM9_UP_IRQHandler
+                0x00000bfc                TIM9_TRG_COM_IRQHandler
+                0x00000bfe                TIM9_CC_IRQHandler
+                0x00000c00                TIM10_BRK_IRQHandler
+                0x00000c02                TIM10_UP_IRQHandler
+                0x00000c04                TIM10_TRG_COM_IRQHandler
+                0x00000c06                TIM10_CC_IRQHandler
+                0x00000c08                DMA2_Channel6_IRQHandler
+                0x00000c0a                DMA2_Channel7_IRQHandler
+                0x00000c0c                DMA2_Channel8_IRQHandler
+                0x00000c0e                DMA2_Channel9_IRQHandler
+                0x00000c10                DMA2_Channel10_IRQHandler
+                0x00000c12                DMA2_Channel11_IRQHandler
  .text.handle_reset
-                0x00000dac       0x9c libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
-                0x00000dac                handle_reset
+                0x00000c14       0x9c libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+                0x00000c14                handle_reset
  .text.USART_Init
-                0x00000e48       0xae libch32_sdk.a(ch32v30x_usart.c.obj)
-                0x00000e48                USART_Init
+                0x00000cb0       0xac libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x00000cb0                USART_Init
  .text.USART_Cmd
-                0x00000ef6       0x14 libch32_sdk.a(ch32v30x_usart.c.obj)
-                0x00000ef6                USART_Cmd
+                0x00000d5c       0x14 libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x00000d5c                USART_Cmd
  .text.USART_SendData
-                0x00000f0a        0x8 libch32_sdk.a(ch32v30x_usart.c.obj)
-                0x00000f0a                USART_SendData
+                0x00000d70        0x8 libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x00000d70                USART_SendData
  .text.USART_GetFlagStatus
-                0x00000f12        0xa libch32_sdk.a(ch32v30x_usart.c.obj)
-                0x00000f12                USART_GetFlagStatus
- .text.atexit   0x00000f1c        0xa /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-atexit.o)
-                0x00000f1c                atexit
- .text.printf   0x00000f26       0x28 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-printf.o)
-                0x00000f26                printf
-                0x00000f26                iprintf
+                0x00000d78        0xa libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x00000d78                USART_GetFlagStatus
+ .text.atexit   0x00000d82        0xa /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-atexit.o)
+                0x00000d82                atexit
+ .text.printf   0x00000d8c       0x28 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-printf.o)
+                0x00000d8c                printf
+                0x00000d8c                iprintf
  .text.__libc_init_array
-                0x00000f4e       0x56 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-init.o)
-                0x00000f4e                __libc_init_array
+                0x00000db4       0x56 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-init.o)
+                0x00000db4                __libc_init_array
  .text.__libc_fini_array
-                0x00000fa4       0x32 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fini.o)
-                0x00000fa4                __libc_fini_array
+                0x00000e0a       0x32 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fini.o)
+                0x00000e0a                __libc_fini_array
  .text.__register_exitproc
-                0x00000fd6       0x74 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-__atexit.o)
-                0x00000fd6                __register_exitproc
+                0x00000e3c       0x74 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-__atexit.o)
+                0x00000e3c                __register_exitproc
  .text.__sfputc_r
-                0x0000104a       0x28 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000eb0       0x28 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x00001072       0x40 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x00001072                __sfputs_r
+                0x00000ed8       0x40 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000ed8                __sfputs_r
  .text._vfprintf_r
-                0x000010b2      0x240 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
-                0x000010b2                _vfiprintf_r
-                0x000010b2                _vfprintf_r
+                0x00000f18      0x240 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00000f18                _vfiprintf_r
+                0x00000f18                _vfprintf_r
  .text._printf_common
-                0x000012f2      0x112 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x000012f2                _printf_common
+                0x00001158      0x112 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001158                _printf_common
  .text._printf_i
-                0x00001404      0x24c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
-                0x00001404                _printf_i
- .text.std      0x00001650       0x5e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+                0x0000126a      0x24c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0000126a                _printf_i
+ .text.std      0x000014b6       0x5e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
  .text.stdio_exit_handler
-                0x000016ae       0x18 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+                0x00001514       0x18 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
  .text.cleanup_stdio
-                0x000016c6       0x3e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+                0x0000152c       0x3e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
  .text.global_stdio_init.part.0
-                0x00001704       0x30 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
- .text.__sinit  0x00001734       0x16 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
-                0x00001734                __sinit
+                0x0000156a       0x30 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x0000159a       0x16 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+                0x0000159a                __sinit
  .text._fwalk_sglue
-                0x0000174a       0x5e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fwalk.o)
-                0x0000174a                _fwalk_sglue
- .text.__sread  0x000017a8       0x2c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
-                0x000017a8                __sread
+                0x000015b0       0x5e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fwalk.o)
+                0x000015b0                _fwalk_sglue
+ .text.__sread  0x0000160e       0x2c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
+                0x0000160e                __sread
  .text.__swrite
-                0x000017d4       0x48 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
-                0x000017d4                __swrite
- .text.__sseek  0x0000181c       0x36 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
-                0x0000181c                __sseek
+                0x0000163a       0x48 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
+                0x0000163a                __swrite
+ .text.__sseek  0x00001682       0x36 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
+                0x00001682                __sseek
  .text.__sclose
-                0x00001852        0x6 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
-                0x00001852                __sclose
+                0x000016b8        0x6 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-stdio.o)
+                0x000016b8                __sclose
  .text.__swbuf_r
-                0x00001858       0x8a /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-wbuf.o)
-                0x00001858                __swbuf_r
+                0x000016be       0x8a /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-wbuf.o)
+                0x000016be                __swbuf_r
  .text.__swsetup_r
-                0x000018e2       0xb6 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-wsetup.o)
-                0x000018e2                __swsetup_r
- .text.memchr   0x00001998       0x18 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-memchr.o)
-                0x00001998                memchr
+                0x00001748       0xb6 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-wsetup.o)
+                0x00001748                __swsetup_r
+ .text.memchr   0x000017fe       0x18 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-memchr.o)
+                0x000017fe                memchr
  .text._close_r
-                0x000019b0       0x2a /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-closer.o)
-                0x000019b0                _close_r
+                0x00001816       0x2a /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-closer.o)
+                0x00001816                _close_r
  .text._lseek_r
-                0x000019da       0x2e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-lseekr.o)
-                0x000019da                _lseek_r
- .text._read_r  0x00001a08       0x2e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-readr.o)
-                0x00001a08                _read_r
+                0x00001840       0x2e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-lseekr.o)
+                0x00001840                _lseek_r
+ .text._read_r  0x0000186e       0x2e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-readr.o)
+                0x0000186e                _read_r
  .text._write_r
-                0x00001a36       0x30 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-writer.o)
-                0x00001a36                _write_r
- .text._free_r  0x00001a66       0x9e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-freer.o)
-                0x00001a66                _free_r
+                0x0000189c       0x30 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-writer.o)
+                0x0000189c                _write_r
+ .text._free_r  0x000018cc       0x9e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-freer.o)
+                0x000018cc                _free_r
  .text.sbrk_aligned
-                0x00001b04       0x50 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
+                0x0000196a       0x50 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
  .text._malloc_r
-                0x00001b54      0x112 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
-                0x00001b54                _malloc_r
+                0x000019ba      0x112 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
+                0x000019ba                _malloc_r
  .text.__malloc_lock
-                0x00001c66        0x2 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mlock.o)
-                0x00001c66                __malloc_lock
+                0x00001acc        0x2 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mlock.o)
+                0x00001acc                __malloc_lock
  .text.__malloc_unlock
-                0x00001c68        0x2 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mlock.o)
-                0x00001c68                __malloc_unlock
+                0x00001ace        0x2 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mlock.o)
+                0x00001ace                __malloc_unlock
  .text.__sflush_r
-                0x00001c6a      0x11e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fflush.o)
-                0x00001c6a                __sflush_r
+                0x00001ad0      0x11e /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fflush.o)
+                0x00001ad0                __sflush_r
  .text._fflush_r
-                0x00001d88       0x38 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fflush.o)
-                0x00001d88                _fflush_r
+                0x00001bee       0x38 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fflush.o)
+                0x00001bee                _fflush_r
  .text.__swhatbuf_r
-                0x00001dc0       0x54 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-makebuf.o)
-                0x00001dc0                __swhatbuf_r
+                0x00001c26       0x54 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-makebuf.o)
+                0x00001c26                __swhatbuf_r
  .text.__smakebuf_r
-                0x00001e14       0x74 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-makebuf.o)
-                0x00001e14                __smakebuf_r
+                0x00001c7a       0x74 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-makebuf.o)
+                0x00001c7a                __smakebuf_r
  .text._fstat_r
-                0x00001e88       0x2c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fstatr.o)
-                0x00001e88                _fstat_r
+                0x00001cee       0x2c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-fstatr.o)
+                0x00001cee                _fstat_r
  .text._isatty_r
-                0x00001eb4       0x2a /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-isattyr.o)
-                0x00001eb4                _isatty_r
- .text._sbrk_r  0x00001ede       0x2c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-sbrkr.o)
-                0x00001ede                _sbrk_r
- .text._close   0x00001f0a        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(close.o)
-                0x00001f0a                _close
- .text._fstat   0x00001f16        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(fstat.o)
-                0x00001f16                _fstat
- .text._isatty  0x00001f22        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(isatty.o)
-                0x00001f22                _isatty
- .text._lseek   0x00001f2e        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(lseek.o)
-                0x00001f2e                _lseek
- .text._read    0x00001f3a        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(read.o)
-                0x00001f3a                _read
+                0x00001d1a       0x2a /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-isattyr.o)
+                0x00001d1a                _isatty_r
+ .text._sbrk_r  0x00001d44       0x2c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-sbrkr.o)
+                0x00001d44                _sbrk_r
+ .text._close   0x00001d70        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(close.o)
+                0x00001d70                _close
+ .text._fstat   0x00001d7c        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(fstat.o)
+                0x00001d7c                _fstat
+ .text._isatty  0x00001d88        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(isatty.o)
+                0x00001d88                _isatty
+ .text._lseek   0x00001d94        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(lseek.o)
+                0x00001d94                _lseek
+ .text._read    0x00001da0        0xc /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(read.o)
+                0x00001da0                _read
  *(.rodata)
- *fill*         0x00001f46        0x2 
- .rodata        0x00001f48       0x1c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+ *fill*         0x00001dac        0x0 
+ .rodata        0x00001dac       0x1c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
  *(.rodata*)
  .rodata.main.str1.4
-                0x00001f64       0x95 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001dc8       0x8d CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
                                  0x4f (size before relaxing)
- .rodata.Menu.str1.4
-                0x00001ff9        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
-                                  0x6 (size before relaxing)
- *fill*         0x00001ff9        0x3 
+ *fill*         0x00001e55        0x3 
  .rodata.ssd1306_init_sequence
-                0x00001ffc       0x20 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x00001ffc                ssd1306_init_sequence
- .rodata.font5x8
-                0x0000201c      0x1e0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00001e58       0x20 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00001e58                ssd1306_init_sequence
  .rodata.APBAHBPrescTable
-                0x000021fc       0x10 libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x00001e78       0x10 libch32_sdk.a(ch32v30x_rcc.c.obj)
  .rodata.AHBPrescTable
-                0x0000220c       0x10 libch32_sdk.a(system_ch32v30x.c.obj)
-                0x0000220c                AHBPrescTable
+                0x00001e88       0x10 libch32_sdk.a(system_ch32v30x.c.obj)
+                0x00001e88                AHBPrescTable
  .rodata._vfprintf_r.str1.4
-                0x0000221c        0x0 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
+                0x00001e98        0x0 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf.o)
                                  0x13 (size before relaxing)
  .rodata._printf_i.str1.4
-                0x0000221c        0x0 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001e98        0x0 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
                                  0x25 (size before relaxing)
  .rodata._printf_i
-                0x0000221c       0x58 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00001e98       0x58 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-nano-vfprintf_i.o)
  *(.gnu.linkonce.t.*)
-                0x00002274                        . = ALIGN (0x4)
+                0x00001ef0                        . = ALIGN (0x4)
 
-.rela.dyn       0x00002274        0x0
+.rela.dyn       0x00001ef0        0x0
  .rela.text._sbrk
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .rela.sdata.curbrk.0
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
- .rela.init     0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
- .rela.vector   0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+ .rela.init     0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+ .rela.vector   0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .rela.text.handle_reset
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .rela.text.__libc_init_array
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .rela.text.__libc_fini_array
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .rela.text.__register_exitproc
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .rela.text._vfprintf_r
-                0x00002274        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                0x00001ef0        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
 
-.fini           0x00002274        0x0
+.fini           0x00001ef0        0x0
  *(SORT_NONE(.fini))
-                0x00002274                        . = ALIGN (0x4)
+                0x00001ef0                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (_etext = .)
                 [!provide]                        PROVIDE (_eitcm = .)
 
-.preinit_array  0x00002274        0x0
-                0x00002274                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x00001ef0        0x0
+                0x00001ef0                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array)
-                0x00002274                        PROVIDE (__preinit_array_end = .)
+                0x00001ef0                        PROVIDE (__preinit_array_end = .)
 
-.init_array     0x00002274        0x0
-                0x00002274                        PROVIDE (__init_array_start = .)
+.init_array     0x00001ef0        0x0
+                0x00001ef0                        PROVIDE (__init_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
  *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
-                0x00002274                        PROVIDE (__init_array_end = .)
+                0x00001ef0                        PROVIDE (__init_array_end = .)
 
-.fini_array     0x00002274        0x0
-                0x00002274                        PROVIDE (__fini_array_start = .)
+.fini_array     0x00001ef0        0x0
+                0x00001ef0                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
  *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
-                0x00002274                        PROVIDE (__fini_array_end = .)
+                0x00001ef0                        PROVIDE (__fini_array_end = .)
 
 .ctors
  *crtbegin.o(.ctors)
@@ -1055,15 +1058,15 @@ END GROUP
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
 
-.dalign         0x20000000        0x0 load address 0x00002274
+.dalign         0x20000000        0x0 load address 0x00001ef0
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        PROVIDE (_data_vma = .)
 
-.dlalign        0x00002274        0x0
-                0x00002274                        . = ALIGN (0x4)
-                0x00002274                        PROVIDE (_data_lma = .)
+.dlalign        0x00001ef0        0x0
+                0x00001ef0                        . = ALIGN (0x4)
+                0x00001ef0                        PROVIDE (_data_lma = .)
 
-.data           0x20000000       0x6c load address 0x00002274
+.data           0x20000000       0x6c load address 0x00001ef0
  *(.gnu.linkonce.r.*)
  *(.data .data.*)
  .data._impure_data
@@ -1097,7 +1100,7 @@ END GROUP
                 0x2000006c                        . = ALIGN (0x4)
                 0x2000006c                        PROVIDE (_edata = .)
 
-.bss            0x2000006c      0x5e4 load address 0x000022e0
+.bss            0x2000006c      0x5e0 load address 0x00001f5c
                 0x2000006c                        . = ALIGN (0x4)
                 0x2000006c                        PROVIDE (_sbss = .)
  *(.sbss*)
@@ -1107,42 +1110,38 @@ END GROUP
                 0x2000006d                cursorX
  .sbss.scroll   0x2000006e        0x1 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
                 0x2000006e                scroll
- .sbss.column   0x2000006f        0x1 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x2000006f                column
- .sbss.line     0x20000070        0x1 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
-                0x20000070                line
- *fill*         0x20000071        0x1 
- .sbss.p_ms     0x20000072        0x2 libch32_sdk.a(debug.c.obj)
- .sbss.p_us     0x20000074        0x1 libch32_sdk.a(debug.c.obj)
- *fill*         0x20000075        0x3 
+ *fill*         0x2000006f        0x1 
+ .sbss.p_ms     0x20000070        0x2 libch32_sdk.a(debug.c.obj)
+ .sbss.p_us     0x20000072        0x1 libch32_sdk.a(debug.c.obj)
+ *fill*         0x20000073        0x1 
  .sbss.__atexit
-                0x20000078        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-__call_atexit.o)
-                0x20000078                __atexit
+                0x20000074        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-__call_atexit.o)
+                0x20000074                __atexit
  .sbss.__stdio_exit_handler
-                0x2000007c        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
-                0x2000007c                __stdio_exit_handler
- .sbss.errno    0x20000080        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-reent.o)
-                0x20000080                errno
+                0x20000078        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+                0x20000078                __stdio_exit_handler
+ .sbss.errno    0x2000007c        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-reent.o)
+                0x2000007c                errno
  .sbss.__malloc_sbrk_start
-                0x20000084        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
-                0x20000084                __malloc_sbrk_start
+                0x20000080        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
+                0x20000080                __malloc_sbrk_start
  .sbss.__malloc_free_list
-                0x20000088        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
-                0x20000088                __malloc_free_list
+                0x20000084        0x4 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-mallocr.o)
+                0x20000084                __malloc_free_list
  *(.gnu.linkonce.sb.*)
  *(.bss*)
  .bss.SSD1306_Buffer
-                0x2000008c      0x400 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x20000088      0x400 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .bss.__atexit0
-                0x2000048c       0x8c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-__atexit.o)
-                0x2000048c                __atexit0
- .bss.__sf      0x20000518      0x138 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
-                0x20000518                __sf
+                0x20000488       0x8c /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-__atexit.o)
+                0x20000488                __atexit0
+ .bss.__sf      0x20000514      0x138 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libc_nano.a(libc_a-findfp.o)
+                0x20000514                __sf
  *(.gnu.linkonce.b.*)
  *(COMMON*)
-                0x20000650                        . = ALIGN (0x4)
-                0x20000650                        PROVIDE (_ebss = .)
-                0x20000650                        PROVIDE (_end = _ebss)
+                0x2000064c                        . = ALIGN (0x4)
+                0x2000064c                        PROVIDE (_ebss = .)
+                0x2000064c                        PROVIDE (_end = _ebss)
                 [!provide]                        PROVIDE (end = .)
 
 .stack          0x20007800      0x800
@@ -1154,123 +1153,123 @@ END GROUP
                 0x20008000                        PROVIDE (_eusrstack = .)
 OUTPUT(Programmator.elf elf32-littleriscv)
 
-.debug_info     0x00000000     0x5e4a
- .debug_info    0x00000000      0x905 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
- .debug_info    0x00000905      0x8b4 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
- .debug_info    0x000011b9     0x1020 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
- .debug_info    0x000021d9      0x5ad CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
- .debug_info    0x00002786      0x7e3 libch32_sdk.a(ch32v30x_gpio.c.obj)
- .debug_info    0x00002f69      0xbb7 libch32_sdk.a(ch32v30x_i2c.c.obj)
- .debug_info    0x00003b20      0xc88 libch32_sdk.a(ch32v30x_rcc.c.obj)
- .debug_info    0x000047a8      0x2ce libch32_sdk.a(system_ch32v30x.c.obj)
- .debug_info    0x00004a76      0x6ee libch32_sdk.a(debug.c.obj)
- .debug_info    0x00005164       0x23 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
- .debug_info    0x00005187      0xb64 libch32_sdk.a(ch32v30x_usart.c.obj)
- .debug_info    0x00005ceb      0x15f /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
+.debug_info     0x00000000     0x65cd
+ .debug_info    0x00000000      0x942 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+ .debug_info    0x00000942      0xffa CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .debug_info    0x0000193c     0x1020 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .debug_info    0x0000295c      0x5ad CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+ .debug_info    0x00002f09      0x7e3 libch32_sdk.a(ch32v30x_gpio.c.obj)
+ .debug_info    0x000036ec      0xbb7 libch32_sdk.a(ch32v30x_i2c.c.obj)
+ .debug_info    0x000042a3      0xc88 libch32_sdk.a(ch32v30x_rcc.c.obj)
+ .debug_info    0x00004f2b      0x2ce libch32_sdk.a(system_ch32v30x.c.obj)
+ .debug_info    0x000051f9      0x6ee libch32_sdk.a(debug.c.obj)
+ .debug_info    0x000058e7       0x23 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+ .debug_info    0x0000590a      0xb64 libch32_sdk.a(ch32v30x_usart.c.obj)
+ .debug_info    0x0000646e      0x15f /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
 
-.debug_abbrev   0x00000000     0x13f9
- .debug_abbrev  0x00000000       0xfe CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
- .debug_abbrev  0x000000fe       0xea CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
- .debug_abbrev  0x000001e8      0x2b5 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
- .debug_abbrev  0x0000049d      0x1a3 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
- .debug_abbrev  0x00000640      0x23d libch32_sdk.a(ch32v30x_gpio.c.obj)
- .debug_abbrev  0x0000087d      0x2a1 libch32_sdk.a(ch32v30x_i2c.c.obj)
- .debug_abbrev  0x00000b1e      0x266 libch32_sdk.a(ch32v30x_rcc.c.obj)
- .debug_abbrev  0x00000d84      0x1a1 libch32_sdk.a(system_ch32v30x.c.obj)
- .debug_abbrev  0x00000f25      0x27e libch32_sdk.a(debug.c.obj)
- .debug_abbrev  0x000011a3       0x12 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
- .debug_abbrev  0x000011b5      0x21c libch32_sdk.a(ch32v30x_usart.c.obj)
- .debug_abbrev  0x000013d1       0x28 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
+.debug_abbrev   0x00000000     0x147d
+ .debug_abbrev  0x00000000      0x108 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+ .debug_abbrev  0x00000108      0x164 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .debug_abbrev  0x0000026c      0x2b5 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .debug_abbrev  0x00000521      0x1a3 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+ .debug_abbrev  0x000006c4      0x23d libch32_sdk.a(ch32v30x_gpio.c.obj)
+ .debug_abbrev  0x00000901      0x2a1 libch32_sdk.a(ch32v30x_i2c.c.obj)
+ .debug_abbrev  0x00000ba2      0x266 libch32_sdk.a(ch32v30x_rcc.c.obj)
+ .debug_abbrev  0x00000e08      0x1a1 libch32_sdk.a(system_ch32v30x.c.obj)
+ .debug_abbrev  0x00000fa9      0x27e libch32_sdk.a(debug.c.obj)
+ .debug_abbrev  0x00001227       0x12 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+ .debug_abbrev  0x00001239      0x21c libch32_sdk.a(ch32v30x_usart.c.obj)
+ .debug_abbrev  0x00001455       0x28 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
 
-.debug_aranges  0x00000000      0x690
+.debug_aranges  0x00000000      0x6a8
  .debug_aranges
                 0x00000000       0x20 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .debug_aranges
-                0x00000020       0x20 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+                0x00000020       0x38 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
  .debug_aranges
-                0x00000040       0xd8 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00000058       0xd8 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .debug_aranges
-                0x00000118       0x38 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+                0x00000130       0x38 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
  .debug_aranges
-                0x00000150       0xa8 libch32_sdk.a(ch32v30x_gpio.c.obj)
+                0x00000168       0xa8 libch32_sdk.a(ch32v30x_gpio.c.obj)
  .debug_aranges
-                0x000001f8      0x120 libch32_sdk.a(ch32v30x_i2c.c.obj)
+                0x00000210      0x120 libch32_sdk.a(ch32v30x_i2c.c.obj)
  .debug_aranges
-                0x00000318      0x1a8 libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x00000330      0x1a8 libch32_sdk.a(ch32v30x_rcc.c.obj)
  .debug_aranges
-                0x000004c0       0x28 libch32_sdk.a(system_ch32v30x.c.obj)
+                0x000004d8       0x28 libch32_sdk.a(system_ch32v30x.c.obj)
  .debug_aranges
-                0x000004e8       0x58 libch32_sdk.a(debug.c.obj)
+                0x00000500       0x58 libch32_sdk.a(debug.c.obj)
  .debug_aranges
-                0x00000540       0x30 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+                0x00000558       0x30 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
  .debug_aranges
-                0x00000570      0x100 libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x00000588      0x100 libch32_sdk.a(ch32v30x_usart.c.obj)
  .debug_aranges
-                0x00000670       0x20 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
+                0x00000688       0x20 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
 
 .debug_rnglists
-                0x00000000      0x536
+                0x00000000      0x599
  .debug_rnglists
                 0x00000000       0x13 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
  .debug_rnglists
-                0x00000013       0x13 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+                0x00000013       0x76 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
  .debug_rnglists
-                0x00000026      0x118 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00000089      0x118 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .debug_rnglists
-                0x0000013e       0x26 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+                0x000001a1       0x26 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
  .debug_rnglists
-                0x00000164       0x7c libch32_sdk.a(ch32v30x_gpio.c.obj)
+                0x000001c7       0x7c libch32_sdk.a(ch32v30x_gpio.c.obj)
  .debug_rnglists
-                0x000001e0       0xd4 libch32_sdk.a(ch32v30x_i2c.c.obj)
+                0x00000243       0xd4 libch32_sdk.a(ch32v30x_i2c.c.obj)
  .debug_rnglists
-                0x000002b4      0x13a libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x00000317      0x13a libch32_sdk.a(ch32v30x_rcc.c.obj)
  .debug_rnglists
-                0x000003ee       0x2d libch32_sdk.a(system_ch32v30x.c.obj)
+                0x00000451       0x2d libch32_sdk.a(system_ch32v30x.c.obj)
  .debug_rnglists
-                0x0000041b       0x3d libch32_sdk.a(debug.c.obj)
+                0x0000047e       0x3d libch32_sdk.a(debug.c.obj)
  .debug_rnglists
-                0x00000458       0x21 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+                0x000004bb       0x21 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
  .debug_rnglists
-                0x00000479       0xbd libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x000004dc       0xbd libch32_sdk.a(ch32v30x_usart.c.obj)
 
-.debug_line     0x00000000     0x5be1
+.debug_line     0x00000000     0x6118
  .debug_line    0x00000000       0xd7 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
- .debug_line    0x000000d7       0xb0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
- .debug_line    0x00000187     0x10d8 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
- .debug_line    0x0000125f      0x24c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
- .debug_line    0x000014ab      0x9be libch32_sdk.a(ch32v30x_gpio.c.obj)
- .debug_line    0x00001e69      0xd5d libch32_sdk.a(ch32v30x_i2c.c.obj)
- .debug_line    0x00002bc6     0x1544 libch32_sdk.a(ch32v30x_rcc.c.obj)
- .debug_line    0x0000410a      0x4d2 libch32_sdk.a(system_ch32v30x.c.obj)
- .debug_line    0x000045dc      0x481 libch32_sdk.a(debug.c.obj)
- .debug_line    0x00004a5d      0x360 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
- .debug_line    0x00004dbd      0xcc5 libch32_sdk.a(ch32v30x_usart.c.obj)
- .debug_line    0x00005a82      0x15f /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
+ .debug_line    0x000000d7      0x5e7 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .debug_line    0x000006be     0x10d8 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .debug_line    0x00001796      0x24c CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+ .debug_line    0x000019e2      0x9be libch32_sdk.a(ch32v30x_gpio.c.obj)
+ .debug_line    0x000023a0      0xd5d libch32_sdk.a(ch32v30x_i2c.c.obj)
+ .debug_line    0x000030fd     0x1544 libch32_sdk.a(ch32v30x_rcc.c.obj)
+ .debug_line    0x00004641      0x4d2 libch32_sdk.a(system_ch32v30x.c.obj)
+ .debug_line    0x00004b13      0x481 libch32_sdk.a(debug.c.obj)
+ .debug_line    0x00004f94      0x360 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+ .debug_line    0x000052f4      0xcc5 libch32_sdk.a(ch32v30x_usart.c.obj)
+ .debug_line    0x00005fb9      0x15f /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
 
-.debug_str      0x00000000     0x199d
- .debug_str     0x00000000     0x199d CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
-                                0x20b (size before relaxing)
- .debug_str     0x0000199d        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
-                                0x1d9 (size before relaxing)
- .debug_str     0x0000199d        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+.debug_str      0x00000000     0x19b2
+ .debug_str     0x00000000     0x19b2 CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
+                                0x215 (size before relaxing)
+ .debug_str     0x000019b2        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+                                0x233 (size before relaxing)
+ .debug_str     0x000019b2        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
                                 0x3dd (size before relaxing)
- .debug_str     0x0000199d        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+ .debug_str     0x000019b2        0x0 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
                                 0x4ac (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(ch32v30x_gpio.c.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(ch32v30x_gpio.c.obj)
                                 0x54a (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(ch32v30x_i2c.c.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(ch32v30x_i2c.c.obj)
                                 0x6ba (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(ch32v30x_rcc.c.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(ch32v30x_rcc.c.obj)
                                 0x8a4 (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(system_ch32v30x.c.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(system_ch32v30x.c.obj)
                                 0x2bd (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(debug.c.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(debug.c.obj)
                                 0x527 (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(startup_ch32v30x_D8C.S.obj)
                                  0x94 (size before relaxing)
- .debug_str     0x0000199d        0x0 libch32_sdk.a(ch32v30x_usart.c.obj)
+ .debug_str     0x000019b2        0x0 libch32_sdk.a(ch32v30x_usart.c.obj)
                                 0x6ef (size before relaxing)
- .debug_str     0x0000199d        0x0 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
+ .debug_str     0x000019b2        0x0 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/rv32imac_zaamo_zalrsc_xw/ilp32/libgcc.a(save-restore.o)
                                 0x263 (size before relaxing)
 
 .debug_line_str
@@ -1578,31 +1577,33 @@ OUTPUT(Programmator.elf elf32-littleriscv)
  .riscv.attributes
                 0x00000dc8       0x54 /home/blank/Engineering/MCU/WCH/toolchain/riscv32/bin/../lib/gcc/riscv32-wch-elf/15.2.0/../../../../riscv32-wch-elf/lib/rv32imac_zaamo_zalrsc_xw/ilp32/libnosys.a(read.o)
 
-.debug_frame    0x00000000      0xdf8
+.debug_frame    0x00000000      0xea4
  .debug_frame   0x00000000       0x2c CMakeFiles/Programmator.elf.dir/Project/Programmator/main.c.obj
- .debug_frame   0x0000002c       0x28 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
- .debug_frame   0x00000054      0x368 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
- .debug_frame   0x000003bc       0x64 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
- .debug_frame   0x00000420      0x148 libch32_sdk.a(ch32v30x_gpio.c.obj)
- .debug_frame   0x00000568      0x258 libch32_sdk.a(ch32v30x_i2c.c.obj)
- .debug_frame   0x000007c0      0x340 libch32_sdk.a(ch32v30x_rcc.c.obj)
- .debug_frame   0x00000b00       0x3c libch32_sdk.a(system_ch32v30x.c.obj)
- .debug_frame   0x00000b3c       0xb8 libch32_sdk.a(debug.c.obj)
- .debug_frame   0x00000bf4      0x204 libch32_sdk.a(ch32v30x_usart.c.obj)
+ .debug_frame   0x0000002c       0xd4 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
+ .debug_frame   0x00000100      0x368 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+ .debug_frame   0x00000468       0x64 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/i2c_tx.c.obj
+ .debug_frame   0x000004cc      0x148 libch32_sdk.a(ch32v30x_gpio.c.obj)
+ .debug_frame   0x00000614      0x258 libch32_sdk.a(ch32v30x_i2c.c.obj)
+ .debug_frame   0x0000086c      0x340 libch32_sdk.a(ch32v30x_rcc.c.obj)
+ .debug_frame   0x00000bac       0x3c libch32_sdk.a(system_ch32v30x.c.obj)
+ .debug_frame   0x00000be8       0xb8 libch32_sdk.a(debug.c.obj)
+ .debug_frame   0x00000ca0      0x204 libch32_sdk.a(ch32v30x_usart.c.obj)
 
 .debug_loclists
-                0x00000000     0x2108
+                0x00000000     0x24b0
  .debug_loclists
-                0x00000000      0x783 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
+                0x00000000      0x3a8 CMakeFiles/Programmator.elf.dir/Project/Programmator/oled.c.obj
  .debug_loclists
-                0x00000783      0x4c8 libch32_sdk.a(ch32v30x_gpio.c.obj)
+                0x000003a8      0x783 CMakeFiles/Programmator.elf.dir/Project/Programmator/ssd1306/oled_segment.c.obj
  .debug_loclists
-                0x00000c4b      0x60b libch32_sdk.a(ch32v30x_i2c.c.obj)
+                0x00000b2b      0x4c8 libch32_sdk.a(ch32v30x_gpio.c.obj)
  .debug_loclists
-                0x00001256      0x6cf libch32_sdk.a(ch32v30x_rcc.c.obj)
+                0x00000ff3      0x60b libch32_sdk.a(ch32v30x_i2c.c.obj)
  .debug_loclists
-                0x00001925       0xaf libch32_sdk.a(system_ch32v30x.c.obj)
+                0x000015fe      0x6cf libch32_sdk.a(ch32v30x_rcc.c.obj)
  .debug_loclists
-                0x000019d4       0xef libch32_sdk.a(debug.c.obj)
+                0x00001ccd       0xaf libch32_sdk.a(system_ch32v30x.c.obj)
  .debug_loclists
-                0x00001ac3      0x645 libch32_sdk.a(ch32v30x_usart.c.obj)
+                0x00001d7c       0xef libch32_sdk.a(debug.c.obj)
+ .debug_loclists
+                0x00001e6b      0x645 libch32_sdk.a(ch32v30x_usart.c.obj)

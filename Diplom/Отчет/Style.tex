@@ -1,0 +1,65 @@
+\documentclass{extarticle}
+\usepackage[14pt]{extsizes}
+\usepackage[a4paper,hmargin={3cm,1.5cm},vmargin={2cm,2cm}]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{enumerate}
+\usepackage{amsmath}
+\usepackage{pdfpages}
+\usepackage[T2A]{fontenc}
+\usepackage{float}  %Использовать H в figure
+\usepackage{hyperref}
+\usepackage{graphicx} 
+\usepackage{enumitem}
+\usepackage[english,russian]{babel}
+\usepackage{textcase}
+\renewcommand{\baselinestretch}{1.25}
+\clubpenalty=10000
+\widowpenalty=10000
+
+\usepackage{section}
+\usepackage{tocloft}
+\renewcommand{\cfttoctitlefont}{\normalsize\bfseries}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
+\renewcommand{\cftsecfont}{\normalsize}
+\renewcommand{\cftsubsecfont}{\normalsize}
+\cftsetindents{sec}{0em}{1em}
+\cftsetindents{subsec}{0em}{2em}
+\cftsetindents{subsubsec}{0em}{3em}
+\setlength{\cftbeforesecskip}{1.5pt}
+\renewcommand{\cftsecpagefont}{\normalfont}
+\renewcommand{\cftsubsecpagefont}{\normalfont} 
+\renewcommand{\cftsubsubsecpagefont}{\normalfont} 
+\usepackage{titlesec}
+
+\usepackage[printonlyused]{acronym}
+
+\renewcommand\normalsize{\fontsize{14pt}{16.8pt}\selectfont}
+\titleformat{\section}{\normalsize\bfseries\centering}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries\centering}{\thesubsection}{1em}{}
+
+\setlist{noitemsep,	nosep}
+
+\righthyphenmin=2
+\parindent=0cm
+\pagestyle{empty}
+\usepackage{caption}
+\usepackage{subcaption}\DeclareCaptionLabelSeparator{colon}{ --- }
+\DeclareCaptionLabelFormat{Name}{Рисунок~#2}\captionsetup[figure]{labelformat=Name}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\hyphenchar\font=-1
+\sloppy
+
+\bibliographystyle{gost-numeric.bbx}
+\usepackage[parentracker=true,
+backend=biber,
+% hyperref=false,
+% bibencoding=utf8,
+style=gost-numeric,
+language=auto,
+autolang=other,
+% citestyle=gost-numeric,
+% defernumbers=true,
+% bibstyle=gost-numeric,
+sorting=none,
+]{biblatex}
+\addbibresource{lib.bib}

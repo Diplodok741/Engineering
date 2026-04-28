@@ -40,7 +40,6 @@ gpio_config_t gpioInput = {
         .pull_up_en = GPIO_PULLUP_DISABLE
 };
 
-
 float SensorGetDistance(){
         gpio_set_level(trigerPin, 1);
         esp_rom_delay_us(10);

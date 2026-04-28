@@ -1,0 +1,4 @@
+PWD /home/blank/Engineering/Diplom/Отчет
+INPUT /nix/store/d8rz89y2sxck80hlff5ys01w34f8biry-texlive-2025-env/share/texmf-var/web2c/texmf.cnf
+INPUT /nix/store/d8rz89y2sxck80hlff5ys01w34f8biry-texlive-2025-env/share/texmf-var/web2c/pdftex/pdflatex.fmt
+OUTPUT texput.log

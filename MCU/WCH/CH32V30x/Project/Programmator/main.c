@@ -8,7 +8,10 @@
 #include "ssd1306/oled_segment.h"
 #include "oled.h"
 
+inline void ServiceInit();
+
 int main(){
+        // ServiceInit();
         Delay_Init();
         SystemInit();
         USART_Printf_Init(115200);
@@ -18,7 +21,19 @@ int main(){
         printf("Инициализация Oled Дисплея");
         OLED_init();
 
-        Menu();
-        
+        // FillRect(10, 9, 32, 10, 1);
+        DrawLine(10, 2, 20, 4, 1);
+
         return 0;
+}
+
+inline void ServiceInit(){
+        Delay_Init();
+        SystemInit();
+        USART_Printf_Init(115200);
+        SystemCoreClockUpdate();
+        printf("Инициализация I2C");
+        I2C_init();
+        printf("Инициализация Oled Дисплея");
+        OLED_init();
 }

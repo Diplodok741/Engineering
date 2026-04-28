@@ -16,7 +16,7 @@ from rich.panel import Panel
 
 console = Console()
 app = typer.Typer(
-    help="🔧 wdf.py — утилита сборки для CH32V20x",
+    help="wdf.py — утилита сборки для CH32V20x",
     add_completion=True,
     no_args_is_help=True,
 )

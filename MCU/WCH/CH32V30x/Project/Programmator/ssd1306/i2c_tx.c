@@ -26,7 +26,7 @@ void I2C_init(void) {
   GPIO_SetBits(GPIOB, GPIO_Pin_9|GPIO_Pin_8);
 
   I2C_InitTypeDef i2c = {
-    .I2C_ClockSpeed = 80000,
+    .I2C_ClockSpeed = 400000,
     .I2C_DutyCycle = I2C_DutyCycle_16_9,
     .I2C_Ack = I2C_Ack_Enable,
     .I2C_OwnAddress1 = 0x08,
